@@ -1,0 +1,40 @@
+# Acetate fragment for ASP, GLU sidechain carboxylate interactions
+# Atom types matched to canonical amino acid params where possible
+NAME ACT
+IO_STRING ACT X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Methyl carbon - using CH3/CT3 since the methylene became a methyl
+ATOM  C1  CH3  CT3  -0.27
+# Carboxylate carbon - using COO/CC from ASP/GLU
+ATOM  C2  COO  CC    0.62
+# Carboxylate oxygens - using OOC/OC from ASP/GLU
+ATOM  O1  OOC  OC   -0.76
+ATOM  O2  OOC  OC   -0.76
+# Methyl hydrogens - using Hapo/HA from amino acids
+ATOM  H1  Hapo HA    0.09
+ATOM  H2  Hapo HA    0.09
+ATOM  H3  Hapo HA   -0.01
+
+BOND  C1   C2
+BOND_TYPE  C2   O1  CARBOXY
+BOND_TYPE  C2   O2  CARBOXY
+BOND  C1   H1
+BOND  C1   H2
+BOND  C1   H3
+
+NET_FORMAL_CHARGE -1
+
+NBR_ATOM C2
+NBR_RADIUS 3.5
+
+# Internal coordinates
+ICOOR_INTERNAL   C1     0.000    0.000    0.000   C1    C2    O1
+ICOOR_INTERNAL   C2     0.000  180.000    1.520   C1    C1    C1
+ICOOR_INTERNAL   O1     0.000  117.000    1.250   C2    C1    C1
+ICOOR_INTERNAL   O2   180.000  117.000    1.250   C2    C1    O1
+ICOOR_INTERNAL   H1   180.000  109.500    1.090   C1    C2    O1
+ICOOR_INTERNAL   H2   120.000  109.500    1.090   C1    C2    H1
+ICOOR_INTERNAL   H3   120.000  109.500    1.090   C1    C2    H2

@@ -1,0 +1,2451 @@
+# PyMOL Loader for F6_ASP (SC)
+cd candidates/F6_ASP_SC
+delete sig.ARG_NE
+load ARG_NE.pdb, sig.ARG_NE
+delete sig.ARG_NE_NH1
+load ARG_NE_NH1.pdb, sig.ARG_NE_NH1
+delete sig.ARG_NE_NH1_plus_ARG_NH1_NH2
+load ARG_NE_NH1_plus_ARG_NH1_NH2.pdb, sig.ARG_NE_NH1_plus_ARG_NH1_NH2
+delete sig.ARG_NE_NH1_plus_HIS_NE2
+load ARG_NE_NH1_plus_HIS_NE2.pdb, sig.ARG_NE_NH1_plus_HIS_NE2
+delete sig.ARG_NE_NH1_plus_HIS_wND1
+load ARG_NE_NH1_plus_HIS_wND1.pdb, sig.ARG_NE_NH1_plus_HIS_wND1
+delete sig.ARG_NE_NH1_plus_N
+load ARG_NE_NH1_plus_N.pdb, sig.ARG_NE_NH1_plus_N
+delete sig.ARG_NE_NH1_plus_N_wO
+load ARG_NE_NH1_plus_N_wO.pdb, sig.ARG_NE_NH1_plus_N_wO
+delete sig.ARG_NE_NH1_plus_SER_N_OG
+load ARG_NE_NH1_plus_SER_N_OG.pdb, sig.ARG_NE_NH1_plus_SER_N_OG
+delete sig.ARG_NE_NH1_plus_TYR_OH
+load ARG_NE_NH1_plus_TYR_OH.pdb, sig.ARG_NE_NH1_plus_TYR_OH
+delete sig.ARG_NE_NH1_plus_wO
+load ARG_NE_NH1_plus_wO.pdb, sig.ARG_NE_NH1_plus_wO
+delete sig.ARG_NE_NH1_plus_wO_plus_ASN_wOD1
+load ARG_NE_NH1_plus_wO_plus_ASN_wOD1.pdb, sig.ARG_NE_NH1_plus_wO_plus_ASN_wOD1
+delete sig.ARG_NE_NH1_wO
+load ARG_NE_NH1_wO.pdb, sig.ARG_NE_NH1_wO
+delete sig.ARG_NE_NH1_wO_plus_ARG_NE_NH2
+load ARG_NE_NH1_wO_plus_ARG_NE_NH2.pdb, sig.ARG_NE_NH1_wO_plus_ARG_NE_NH2
+delete sig.ARG_NE_NH2
+load ARG_NE_NH2.pdb, sig.ARG_NE_NH2
+delete sig.ARG_NE_NH2_plus_ARG_NE_NH2
+load ARG_NE_NH2_plus_ARG_NE_NH2.pdb, sig.ARG_NE_NH2_plus_ARG_NE_NH2
+delete sig.ARG_NE_NH2_plus_ARG_NH1_NH2
+load ARG_NE_NH2_plus_ARG_NH1_NH2.pdb, sig.ARG_NE_NH2_plus_ARG_NH1_NH2
+delete sig.ARG_NE_NH2_plus_ARG_NH1_NH2_plus_HIS_NE2
+load ARG_NE_NH2_plus_ARG_NH1_NH2_plus_HIS_NE2.pdb, sig.ARG_NE_NH2_plus_ARG_NH1_NH2_plus_HIS_NE2
+delete sig.ARG_NE_NH2_plus_ASN_ND2
+load ARG_NE_NH2_plus_ASN_ND2.pdb, sig.ARG_NE_NH2_plus_ASN_ND2
+delete sig.ARG_NE_NH2_plus_ASN_ND2_wOD1
+load ARG_NE_NH2_plus_ASN_ND2_wOD1.pdb, sig.ARG_NE_NH2_plus_ASN_ND2_wOD1
+delete sig.ARG_NE_NH2_plus_ASN_wOD1
+load ARG_NE_NH2_plus_ASN_wOD1.pdb, sig.ARG_NE_NH2_plus_ASN_wOD1
+delete sig.ARG_NE_NH2_plus_ASP_wOD1
+load ARG_NE_NH2_plus_ASP_wOD1.pdb, sig.ARG_NE_NH2_plus_ASP_wOD1
+delete sig.ARG_NE_NH2_plus_ASP_wOD2
+load ARG_NE_NH2_plus_ASP_wOD2.pdb, sig.ARG_NE_NH2_plus_ASP_wOD2
+delete sig.ARG_NE_NH2_plus_GLN_NE2
+load ARG_NE_NH2_plus_GLN_NE2.pdb, sig.ARG_NE_NH2_plus_GLN_NE2
+delete sig.ARG_NE_NH2_plus_GLN_wO_wOE1
+load ARG_NE_NH2_plus_GLN_wO_wOE1.pdb, sig.ARG_NE_NH2_plus_GLN_wO_wOE1
+delete sig.ARG_NE_NH2_plus_GLU_wOE1
+load ARG_NE_NH2_plus_GLU_wOE1.pdb, sig.ARG_NE_NH2_plus_GLU_wOE1
+delete sig.ARG_NE_NH2_plus_GLU_wOE2
+load ARG_NE_NH2_plus_GLU_wOE2.pdb, sig.ARG_NE_NH2_plus_GLU_wOE2
+delete sig.ARG_NE_NH2_plus_HIS_ND1
+load ARG_NE_NH2_plus_HIS_ND1.pdb, sig.ARG_NE_NH2_plus_HIS_ND1
+delete sig.ARG_NE_NH2_plus_HIS_NE2
+load ARG_NE_NH2_plus_HIS_NE2.pdb, sig.ARG_NE_NH2_plus_HIS_NE2
+delete sig.ARG_NE_NH2_plus_HIS_wNE2
+load ARG_NE_NH2_plus_HIS_wNE2.pdb, sig.ARG_NE_NH2_plus_HIS_wNE2
+delete sig.ARG_NE_NH2_plus_N
+load ARG_NE_NH2_plus_N.pdb, sig.ARG_NE_NH2_plus_N
+delete sig.ARG_NE_NH2_plus_N_plus_SER_wOG
+load ARG_NE_NH2_plus_N_plus_SER_wOG.pdb, sig.ARG_NE_NH2_plus_N_plus_SER_wOG
+delete sig.ARG_NE_NH2_plus_N_wO
+load ARG_NE_NH2_plus_N_wO.pdb, sig.ARG_NE_NH2_plus_N_wO
+delete sig.ARG_NE_NH2_plus_N_wO_plus_ARG_NH2
+load ARG_NE_NH2_plus_N_wO_plus_ARG_NH2.pdb, sig.ARG_NE_NH2_plus_N_wO_plus_ARG_NH2
+delete sig.ARG_NE_NH2_plus_SER_N_OG
+load ARG_NE_NH2_plus_SER_N_OG.pdb, sig.ARG_NE_NH2_plus_SER_N_OG
+delete sig.ARG_NE_NH2_plus_SER_OG
+load ARG_NE_NH2_plus_SER_OG.pdb, sig.ARG_NE_NH2_plus_SER_OG
+delete sig.ARG_NE_NH2_plus_SER_wOG
+load ARG_NE_NH2_plus_SER_wOG.pdb, sig.ARG_NE_NH2_plus_SER_wOG
+delete sig.ARG_NE_NH2_plus_THR_N_OG1
+load ARG_NE_NH2_plus_THR_N_OG1.pdb, sig.ARG_NE_NH2_plus_THR_N_OG1
+delete sig.ARG_NE_NH2_plus_THR_OG1
+load ARG_NE_NH2_plus_THR_OG1.pdb, sig.ARG_NE_NH2_plus_THR_OG1
+delete sig.ARG_NE_NH2_plus_THR_wOG1
+load ARG_NE_NH2_plus_THR_wOG1.pdb, sig.ARG_NE_NH2_plus_THR_wOG1
+delete sig.ARG_NE_NH2_plus_TRP_NE1
+load ARG_NE_NH2_plus_TRP_NE1.pdb, sig.ARG_NE_NH2_plus_TRP_NE1
+delete sig.ARG_NE_NH2_plus_TYR_OH
+load ARG_NE_NH2_plus_TYR_OH.pdb, sig.ARG_NE_NH2_plus_TYR_OH
+delete sig.ARG_NE_NH2_plus_TYR_wOH
+load ARG_NE_NH2_plus_TYR_wOH.pdb, sig.ARG_NE_NH2_plus_TYR_wOH
+delete sig.ARG_NE_NH2_plus_wO
+load ARG_NE_NH2_plus_wO.pdb, sig.ARG_NE_NH2_plus_wO
+delete sig.ARG_NE_NH2_plus_wO_plus_GLN_NE2
+load ARG_NE_NH2_plus_wO_plus_GLN_NE2.pdb, sig.ARG_NE_NH2_plus_wO_plus_GLN_NE2
+delete sig.ARG_NE_NH2_plus_wO_plus_wO
+load ARG_NE_NH2_plus_wO_plus_wO.pdb, sig.ARG_NE_NH2_plus_wO_plus_wO
+delete sig.ARG_NE_NH2_wO
+load ARG_NE_NH2_wO.pdb, sig.ARG_NE_NH2_wO
+delete sig.ARG_NE_NH2_wO_plus_ARG_NH1_NH2
+load ARG_NE_NH2_wO_plus_ARG_NH1_NH2.pdb, sig.ARG_NE_NH2_wO_plus_ARG_NH1_NH2
+delete sig.ARG_NE_NH2_wO_plus_ARG_NH2
+load ARG_NE_NH2_wO_plus_ARG_NH2.pdb, sig.ARG_NE_NH2_wO_plus_ARG_NH2
+delete sig.ARG_NE_NH2_wO_plus_ASN_ND2
+load ARG_NE_NH2_wO_plus_ASN_ND2.pdb, sig.ARG_NE_NH2_wO_plus_ASN_ND2
+delete sig.ARG_NE_NH2_wO_plus_ASP_wOD1
+load ARG_NE_NH2_wO_plus_ASP_wOD1.pdb, sig.ARG_NE_NH2_wO_plus_ASP_wOD1
+delete sig.ARG_NE_NH2_wO_plus_SER_wOG
+load ARG_NE_NH2_wO_plus_SER_wOG.pdb, sig.ARG_NE_NH2_wO_plus_SER_wOG
+delete sig.ARG_NE_NH2_wO_plus_TRP_NE1
+load ARG_NE_NH2_wO_plus_TRP_NE1.pdb, sig.ARG_NE_NH2_wO_plus_TRP_NE1
+delete sig.ARG_NE_plus_ASP_wOD1
+load ARG_NE_plus_ASP_wOD1.pdb, sig.ARG_NE_plus_ASP_wOD1
+delete sig.ARG_NE_plus_HIS_wND1
+load ARG_NE_plus_HIS_wND1.pdb, sig.ARG_NE_plus_HIS_wND1
+delete sig.ARG_NE_plus_N_plus_N
+load ARG_NE_plus_N_plus_N.pdb, sig.ARG_NE_plus_N_plus_N
+delete sig.ARG_NE_plus_N_plus_wO
+load ARG_NE_plus_N_plus_wO.pdb, sig.ARG_NE_plus_N_plus_wO
+delete sig.ARG_NE_plus_N_wO
+load ARG_NE_plus_N_wO.pdb, sig.ARG_NE_plus_N_wO
+delete sig.ARG_NE_plus_SER_N_OG
+load ARG_NE_plus_SER_N_OG.pdb, sig.ARG_NE_plus_SER_N_OG
+delete sig.ARG_NE_plus_SER_N_wO_OG
+load ARG_NE_plus_SER_N_wO_OG.pdb, sig.ARG_NE_plus_SER_N_wO_OG
+delete sig.ARG_NE_plus_THR_wOG1
+load ARG_NE_plus_THR_wOG1.pdb, sig.ARG_NE_plus_THR_wOG1
+delete sig.ARG_NE_wO
+load ARG_NE_wO.pdb, sig.ARG_NE_wO
+delete sig.ARG_NH1
+load ARG_NH1.pdb, sig.ARG_NH1
+delete sig.ARG_NH1_NH2
+load ARG_NH1_NH2.pdb, sig.ARG_NH1_NH2
+delete sig.ARG_NH1_NH2_plus_ARG_NE_NH2
+load ARG_NH1_NH2_plus_ARG_NE_NH2.pdb, sig.ARG_NH1_NH2_plus_ARG_NE_NH2
+delete sig.ARG_NH1_NH2_plus_ARG_NE_wO
+load ARG_NH1_NH2_plus_ARG_NE_wO.pdb, sig.ARG_NH1_NH2_plus_ARG_NE_wO
+delete sig.ARG_NH1_NH2_plus_ASN_wOD1
+load ARG_NH1_NH2_plus_ASN_wOD1.pdb, sig.ARG_NH1_NH2_plus_ASN_wOD1
+delete sig.ARG_NH1_NH2_plus_ASP_wOD1
+load ARG_NH1_NH2_plus_ASP_wOD1.pdb, sig.ARG_NH1_NH2_plus_ASP_wOD1
+delete sig.ARG_NH1_NH2_plus_ASP_wOD2
+load ARG_NH1_NH2_plus_ASP_wOD2.pdb, sig.ARG_NH1_NH2_plus_ASP_wOD2
+delete sig.ARG_NH1_NH2_plus_GLN_NE2_wOE1
+load ARG_NH1_NH2_plus_GLN_NE2_wOE1.pdb, sig.ARG_NH1_NH2_plus_GLN_NE2_wOE1
+delete sig.ARG_NH1_NH2_plus_GLU_wOE1
+load ARG_NH1_NH2_plus_GLU_wOE1.pdb, sig.ARG_NH1_NH2_plus_GLU_wOE1
+delete sig.ARG_NH1_NH2_plus_GLU_wOE2
+load ARG_NH1_NH2_plus_GLU_wOE2.pdb, sig.ARG_NH1_NH2_plus_GLU_wOE2
+delete sig.ARG_NH1_NH2_plus_HIS_NE2
+load ARG_NH1_NH2_plus_HIS_NE2.pdb, sig.ARG_NH1_NH2_plus_HIS_NE2
+delete sig.ARG_NH1_NH2_plus_HIS_N_ND1
+load ARG_NH1_NH2_plus_HIS_N_ND1.pdb, sig.ARG_NH1_NH2_plus_HIS_N_ND1
+delete sig.ARG_NH1_NH2_plus_HIS_wNE2
+load ARG_NH1_NH2_plus_HIS_wNE2.pdb, sig.ARG_NH1_NH2_plus_HIS_wNE2
+delete sig.ARG_NH1_NH2_plus_N
+load ARG_NH1_NH2_plus_N.pdb, sig.ARG_NH1_NH2_plus_N
+delete sig.ARG_NH1_NH2_plus_N_wO
+load ARG_NH1_NH2_plus_N_wO.pdb, sig.ARG_NH1_NH2_plus_N_wO
+delete sig.ARG_NH1_NH2_plus_SER_N_OG
+load ARG_NH1_NH2_plus_SER_N_OG.pdb, sig.ARG_NH1_NH2_plus_SER_N_OG
+delete sig.ARG_NH1_NH2_plus_SER_wOG
+load ARG_NH1_NH2_plus_SER_wOG.pdb, sig.ARG_NH1_NH2_plus_SER_wOG
+delete sig.ARG_NH1_NH2_plus_THR_OG1_wOG1
+load ARG_NH1_NH2_plus_THR_OG1_wOG1.pdb, sig.ARG_NH1_NH2_plus_THR_OG1_wOG1
+delete sig.ARG_NH1_NH2_plus_TRP_NE1
+load ARG_NH1_NH2_plus_TRP_NE1.pdb, sig.ARG_NH1_NH2_plus_TRP_NE1
+delete sig.ARG_NH1_NH2_plus_TRP_NE1_plus_GLN_wOE1
+load ARG_NH1_NH2_plus_TRP_NE1_plus_GLN_wOE1.pdb, sig.ARG_NH1_NH2_plus_TRP_NE1_plus_GLN_wOE1
+delete sig.ARG_NH1_NH2_plus_TYR_wOH
+load ARG_NH1_NH2_plus_TYR_wOH.pdb, sig.ARG_NH1_NH2_plus_TYR_wOH
+delete sig.ARG_NH1_NH2_plus_wO
+load ARG_NH1_NH2_plus_wO.pdb, sig.ARG_NH1_NH2_plus_wO
+delete sig.ARG_NH1_NH2_plus_wO_plus_GLU_wOE1
+load ARG_NH1_NH2_plus_wO_plus_GLU_wOE1.pdb, sig.ARG_NH1_NH2_plus_wO_plus_GLU_wOE1
+delete sig.ARG_NH1_NH2_plus_wO_plus_N
+load ARG_NH1_NH2_plus_wO_plus_N.pdb, sig.ARG_NH1_NH2_plus_wO_plus_N
+delete sig.ARG_NH1_NH2_wO
+load ARG_NH1_NH2_wO.pdb, sig.ARG_NH1_NH2_wO
+delete sig.ARG_NH1_NH2_wO_plus_ARG_NH1
+load ARG_NH1_NH2_wO_plus_ARG_NH1.pdb, sig.ARG_NH1_NH2_wO_plus_ARG_NH1
+delete sig.ARG_NH1_plus_ASN_ND2_wOD1
+load ARG_NH1_plus_ASN_ND2_wOD1.pdb, sig.ARG_NH1_plus_ASN_ND2_wOD1
+delete sig.ARG_NH1_plus_HIS_ND1_plus_SER_wO_OG
+load ARG_NH1_plus_HIS_ND1_plus_SER_wO_OG.pdb, sig.ARG_NH1_plus_HIS_ND1_plus_SER_wO_OG
+delete sig.ARG_NH1_plus_N_plus_N
+load ARG_NH1_plus_N_plus_N.pdb, sig.ARG_NH1_plus_N_plus_N
+delete sig.ARG_NH1_plus_N_wO
+load ARG_NH1_plus_N_wO.pdb, sig.ARG_NH1_plus_N_wO
+delete sig.ARG_NH1_plus_SER_wOG
+load ARG_NH1_plus_SER_wOG.pdb, sig.ARG_NH1_plus_SER_wOG
+delete sig.ARG_NH1_plus_THR_N_OG1_plus_N
+load ARG_NH1_plus_THR_N_OG1_plus_N.pdb, sig.ARG_NH1_plus_THR_N_OG1_plus_N
+delete sig.ARG_NH1_plus_TYR_OH_wOH
+load ARG_NH1_plus_TYR_OH_wOH.pdb, sig.ARG_NH1_plus_TYR_OH_wOH
+delete sig.ARG_NH1_plus_TYR_wOH
+load ARG_NH1_plus_TYR_wOH.pdb, sig.ARG_NH1_plus_TYR_wOH
+delete sig.ARG_NH1_plus_wO
+load ARG_NH1_plus_wO.pdb, sig.ARG_NH1_plus_wO
+delete sig.ARG_NH1_wO
+load ARG_NH1_wO.pdb, sig.ARG_NH1_wO
+delete sig.ARG_NH2
+load ARG_NH2.pdb, sig.ARG_NH2
+delete sig.ARG_NH2_plus_ASN_ND2_wOD1
+load ARG_NH2_plus_ASN_ND2_wOD1.pdb, sig.ARG_NH2_plus_ASN_ND2_wOD1
+delete sig.ARG_NH2_plus_ASP_wOD1
+load ARG_NH2_plus_ASP_wOD1.pdb, sig.ARG_NH2_plus_ASP_wOD1
+delete sig.ARG_NH2_plus_ASP_wOD2
+load ARG_NH2_plus_ASP_wOD2.pdb, sig.ARG_NH2_plus_ASP_wOD2
+delete sig.ARG_NH2_plus_GLU_wOE2
+load ARG_NH2_plus_GLU_wOE2.pdb, sig.ARG_NH2_plus_GLU_wOE2
+delete sig.ARG_NH2_plus_THR_wOG1
+load ARG_NH2_plus_THR_wOG1.pdb, sig.ARG_NH2_plus_THR_wOG1
+delete sig.ARG_NH2_plus_wO
+load ARG_NH2_plus_wO.pdb, sig.ARG_NH2_plus_wO
+delete sig.ARG_NH2_plus_wO_plus_N
+load ARG_NH2_plus_wO_plus_N.pdb, sig.ARG_NH2_plus_wO_plus_N
+delete sig.ARG_NH2_plus_wO_plus_N_plus_N
+load ARG_NH2_plus_wO_plus_N_plus_N.pdb, sig.ARG_NH2_plus_wO_plus_N_plus_N
+delete sig.ARG_NH2_plus_wO_plus_wO
+load ARG_NH2_plus_wO_plus_wO.pdb, sig.ARG_NH2_plus_wO_plus_wO
+delete sig.ARG_NH2_wO
+load ARG_NH2_wO.pdb, sig.ARG_NH2_wO
+delete sig.ARG_NH2_wO_plus_TYR_OH
+load ARG_NH2_wO_plus_TYR_OH.pdb, sig.ARG_NH2_wO_plus_TYR_OH
+delete sig.ARG_N_NE_NH1
+load ARG_N_NE_NH1.pdb, sig.ARG_N_NE_NH1
+delete sig.ARG_N_NE_NH1_plus_wO
+load ARG_N_NE_NH1_plus_wO.pdb, sig.ARG_N_NE_NH1_plus_wO
+delete sig.ARG_N_NE_NH1_wO
+load ARG_N_NE_NH1_wO.pdb, sig.ARG_N_NE_NH1_wO
+delete sig.ARG_N_NE_NH2
+load ARG_N_NE_NH2.pdb, sig.ARG_N_NE_NH2
+delete sig.ARG_N_NE_NH2_plus_ARG_NH1_NH2
+load ARG_N_NE_NH2_plus_ARG_NH1_NH2.pdb, sig.ARG_N_NE_NH2_plus_ARG_NH1_NH2
+delete sig.ARG_N_NE_NH2_plus_ASP_wOD1
+load ARG_N_NE_NH2_plus_ASP_wOD1.pdb, sig.ARG_N_NE_NH2_plus_ASP_wOD1
+delete sig.ARG_N_NE_NH2_plus_ASP_wOD2
+load ARG_N_NE_NH2_plus_ASP_wOD2.pdb, sig.ARG_N_NE_NH2_plus_ASP_wOD2
+delete sig.ARG_N_NE_NH2_plus_GLU_wOE1
+load ARG_N_NE_NH2_plus_GLU_wOE1.pdb, sig.ARG_N_NE_NH2_plus_GLU_wOE1
+delete sig.ARG_N_NE_NH2_plus_GLU_wOE2
+load ARG_N_NE_NH2_plus_GLU_wOE2.pdb, sig.ARG_N_NE_NH2_plus_GLU_wOE2
+delete sig.ARG_N_NE_NH2_plus_HIS_ND1
+load ARG_N_NE_NH2_plus_HIS_ND1.pdb, sig.ARG_N_NE_NH2_plus_HIS_ND1
+delete sig.ARG_N_NE_NH2_plus_HIS_wND1
+load ARG_N_NE_NH2_plus_HIS_wND1.pdb, sig.ARG_N_NE_NH2_plus_HIS_wND1
+delete sig.ARG_N_NE_NH2_plus_N
+load ARG_N_NE_NH2_plus_N.pdb, sig.ARG_N_NE_NH2_plus_N
+delete sig.ARG_N_NE_NH2_plus_SER_wOG
+load ARG_N_NE_NH2_plus_SER_wOG.pdb, sig.ARG_N_NE_NH2_plus_SER_wOG
+delete sig.ARG_N_NE_NH2_plus_THR_wOG1
+load ARG_N_NE_NH2_plus_THR_wOG1.pdb, sig.ARG_N_NE_NH2_plus_THR_wOG1
+delete sig.ARG_N_NE_NH2_plus_TRP_NE1
+load ARG_N_NE_NH2_plus_TRP_NE1.pdb, sig.ARG_N_NE_NH2_plus_TRP_NE1
+delete sig.ARG_N_NE_NH2_plus_wO
+load ARG_N_NE_NH2_plus_wO.pdb, sig.ARG_N_NE_NH2_plus_wO
+delete sig.ARG_N_NE_NH2_wO
+load ARG_N_NE_NH2_wO.pdb, sig.ARG_N_NE_NH2_wO
+delete sig.ARG_N_NE_plus_wO
+load ARG_N_NE_plus_wO.pdb, sig.ARG_N_NE_plus_wO
+delete sig.ARG_N_NE_wO
+load ARG_N_NE_wO.pdb, sig.ARG_N_NE_wO
+delete sig.ARG_N_NH1_plus_N
+load ARG_N_NH1_plus_N.pdb, sig.ARG_N_NH1_plus_N
+delete sig.ARG_N_NH1_plus_wO_plus_THR_wOG1
+load ARG_N_NH1_plus_wO_plus_THR_wOG1.pdb, sig.ARG_N_NH1_plus_wO_plus_THR_wOG1
+delete sig.ARG_N_NH1_wO
+load ARG_N_NH1_wO.pdb, sig.ARG_N_NH1_wO
+delete sig.ARG_N_NH2_plus_N
+load ARG_N_NH2_plus_N.pdb, sig.ARG_N_NH2_plus_N
+delete sig.ARG_N_NH2_wO
+load ARG_N_NH2_wO.pdb, sig.ARG_N_NH2_wO
+delete sig.ASN_ND2
+load ASN_ND2.pdb, sig.ASN_ND2
+delete sig.ASN_ND2_plus_ARG_NE_NH1
+load ASN_ND2_plus_ARG_NE_NH1.pdb, sig.ASN_ND2_plus_ARG_NE_NH1
+delete sig.ASN_ND2_plus_ARG_NE_NH2
+load ASN_ND2_plus_ARG_NE_NH2.pdb, sig.ASN_ND2_plus_ARG_NE_NH2
+delete sig.ASN_ND2_plus_ARG_NH1_NH2
+load ASN_ND2_plus_ARG_NH1_NH2.pdb, sig.ASN_ND2_plus_ARG_NH1_NH2
+delete sig.ASN_ND2_plus_ASN_ND2_wO
+load ASN_ND2_plus_ASN_ND2_wO.pdb, sig.ASN_ND2_plus_ASN_ND2_wO
+delete sig.ASN_ND2_plus_ASN_ND2_wOD1
+load ASN_ND2_plus_ASN_ND2_wOD1.pdb, sig.ASN_ND2_plus_ASN_ND2_wOD1
+delete sig.ASN_ND2_plus_ASN_wOD1
+load ASN_ND2_plus_ASN_wOD1.pdb, sig.ASN_ND2_plus_ASN_wOD1
+delete sig.ASN_ND2_plus_ASP_wOD2
+load ASN_ND2_plus_ASP_wOD2.pdb, sig.ASN_ND2_plus_ASP_wOD2
+delete sig.ASN_ND2_plus_HIS_ND1_plus_wO
+load ASN_ND2_plus_HIS_ND1_plus_wO.pdb, sig.ASN_ND2_plus_HIS_ND1_plus_wO
+delete sig.ASN_ND2_plus_HIS_N_ND1
+load ASN_ND2_plus_HIS_N_ND1.pdb, sig.ASN_ND2_plus_HIS_N_ND1
+delete sig.ASN_ND2_plus_HIS_wND1_plus_GLN_NE2
+load ASN_ND2_plus_HIS_wND1_plus_GLN_NE2.pdb, sig.ASN_ND2_plus_HIS_wND1_plus_GLN_NE2
+delete sig.ASN_ND2_plus_N
+load ASN_ND2_plus_N.pdb, sig.ASN_ND2_plus_N
+delete sig.ASN_ND2_plus_N_plus_N
+load ASN_ND2_plus_N_plus_N.pdb, sig.ASN_ND2_plus_N_plus_N
+delete sig.ASN_ND2_plus_N_wO
+load ASN_ND2_plus_N_wO.pdb, sig.ASN_ND2_plus_N_wO
+delete sig.ASN_ND2_plus_SER_N_OG
+load ASN_ND2_plus_SER_N_OG.pdb, sig.ASN_ND2_plus_SER_N_OG
+delete sig.ASN_ND2_plus_SER_OG_plus_ASN_N_ND2
+load ASN_ND2_plus_SER_OG_plus_ASN_N_ND2.pdb, sig.ASN_ND2_plus_SER_OG_plus_ASN_N_ND2
+delete sig.ASN_ND2_plus_THR_N_OG1
+load ASN_ND2_plus_THR_N_OG1.pdb, sig.ASN_ND2_plus_THR_N_OG1
+delete sig.ASN_ND2_plus_THR_N_wOG1
+load ASN_ND2_plus_THR_N_wOG1.pdb, sig.ASN_ND2_plus_THR_N_wOG1
+delete sig.ASN_ND2_plus_THR_wOG1
+load ASN_ND2_plus_THR_wOG1.pdb, sig.ASN_ND2_plus_THR_wOG1
+delete sig.ASN_ND2_plus_TYR_wOH
+load ASN_ND2_plus_TYR_wOH.pdb, sig.ASN_ND2_plus_TYR_wOH
+delete sig.ASN_ND2_plus_wO
+load ASN_ND2_plus_wO.pdb, sig.ASN_ND2_plus_wO
+delete sig.ASN_ND2_plus_wO_plus_HIS_ND1
+load ASN_ND2_plus_wO_plus_HIS_ND1.pdb, sig.ASN_ND2_plus_wO_plus_HIS_ND1
+delete sig.ASN_ND2_plus_wO_plus_N
+load ASN_ND2_plus_wO_plus_N.pdb, sig.ASN_ND2_plus_wO_plus_N
+delete sig.ASN_ND2_wO
+load ASN_ND2_wO.pdb, sig.ASN_ND2_wO
+delete sig.ASN_ND2_wOD1
+load ASN_ND2_wOD1.pdb, sig.ASN_ND2_wOD1
+delete sig.ASN_ND2_wOD1_plus_ARG_NE
+load ASN_ND2_wOD1_plus_ARG_NE.pdb, sig.ASN_ND2_wOD1_plus_ARG_NE
+delete sig.ASN_ND2_wOD1_plus_ARG_NE_NH2
+load ASN_ND2_wOD1_plus_ARG_NE_NH2.pdb, sig.ASN_ND2_wOD1_plus_ARG_NE_NH2
+delete sig.ASN_ND2_wOD1_plus_ARG_NH2
+load ASN_ND2_wOD1_plus_ARG_NH2.pdb, sig.ASN_ND2_wOD1_plus_ARG_NH2
+delete sig.ASN_ND2_wOD1_plus_ASN_ND2
+load ASN_ND2_wOD1_plus_ASN_ND2.pdb, sig.ASN_ND2_wOD1_plus_ASN_ND2
+delete sig.ASN_ND2_wOD1_plus_ASP_wOD2
+load ASN_ND2_wOD1_plus_ASP_wOD2.pdb, sig.ASN_ND2_wOD1_plus_ASP_wOD2
+delete sig.ASN_ND2_wOD1_plus_GLU_wOE1
+load ASN_ND2_wOD1_plus_GLU_wOE1.pdb, sig.ASN_ND2_wOD1_plus_GLU_wOE1
+delete sig.ASN_ND2_wOD1_plus_wO
+load ASN_ND2_wOD1_plus_wO.pdb, sig.ASN_ND2_wOD1_plus_wO
+delete sig.ASN_ND2_wO_plus_HIS_ND1
+load ASN_ND2_wO_plus_HIS_ND1.pdb, sig.ASN_ND2_wO_plus_HIS_ND1
+delete sig.ASN_ND2_wO_plus_HIS_NE2
+load ASN_ND2_wO_plus_HIS_NE2.pdb, sig.ASN_ND2_wO_plus_HIS_NE2
+delete sig.ASN_ND2_wO_plus_LYS_NZ
+load ASN_ND2_wO_plus_LYS_NZ.pdb, sig.ASN_ND2_wO_plus_LYS_NZ
+delete sig.ASN_ND2_wO_plus_wO
+load ASN_ND2_wO_plus_wO.pdb, sig.ASN_ND2_wO_plus_wO
+delete sig.ASN_ND2_wO_wOD1
+load ASN_ND2_wO_wOD1.pdb, sig.ASN_ND2_wO_wOD1
+delete sig.ASN_N_ND2
+load ASN_N_ND2.pdb, sig.ASN_N_ND2
+delete sig.ASN_N_ND2_plus_ASN_ND2
+load ASN_N_ND2_plus_ASN_ND2.pdb, sig.ASN_N_ND2_plus_ASN_ND2
+delete sig.ASN_N_ND2_plus_ASN_ND2_wOD1
+load ASN_N_ND2_plus_ASN_ND2_wOD1.pdb, sig.ASN_N_ND2_plus_ASN_ND2_wOD1
+delete sig.ASN_N_ND2_plus_GLN_NE2
+load ASN_N_ND2_plus_GLN_NE2.pdb, sig.ASN_N_ND2_plus_GLN_NE2
+delete sig.ASN_N_ND2_plus_N
+load ASN_N_ND2_plus_N.pdb, sig.ASN_N_ND2_plus_N
+delete sig.ASN_N_ND2_plus_SER_OG
+load ASN_N_ND2_plus_SER_OG.pdb, sig.ASN_N_ND2_plus_SER_OG
+delete sig.ASN_N_ND2_plus_SER_wOG
+load ASN_N_ND2_plus_SER_wOG.pdb, sig.ASN_N_ND2_plus_SER_wOG
+delete sig.ASN_N_ND2_plus_THR_N_OG1
+load ASN_N_ND2_plus_THR_N_OG1.pdb, sig.ASN_N_ND2_plus_THR_N_OG1
+delete sig.ASN_N_ND2_plus_THR_wOG1
+load ASN_N_ND2_plus_THR_wOG1.pdb, sig.ASN_N_ND2_plus_THR_wOG1
+delete sig.ASN_N_ND2_plus_wO
+load ASN_N_ND2_plus_wO.pdb, sig.ASN_N_ND2_plus_wO
+delete sig.ASN_N_ND2_wO
+load ASN_N_ND2_wO.pdb, sig.ASN_N_ND2_wO
+delete sig.ASN_N_ND2_wO_plus_ARG_NH1
+load ASN_N_ND2_wO_plus_ARG_NH1.pdb, sig.ASN_N_ND2_wO_plus_ARG_NH1
+delete sig.ASN_N_wOD1
+load ASN_N_wOD1.pdb, sig.ASN_N_wOD1
+delete sig.ASN_N_wOD1_plus_ASN_N_ND2
+load ASN_N_wOD1_plus_ASN_N_ND2.pdb, sig.ASN_N_wOD1_plus_ASN_N_ND2
+delete sig.ASN_N_wOD1_plus_HIS_ND1
+load ASN_N_wOD1_plus_HIS_ND1.pdb, sig.ASN_N_wOD1_plus_HIS_ND1
+delete sig.ASN_N_wOD1_plus_N
+load ASN_N_wOD1_plus_N.pdb, sig.ASN_N_wOD1_plus_N
+delete sig.ASN_N_wOD1_plus_N_plus_N
+load ASN_N_wOD1_plus_N_plus_N.pdb, sig.ASN_N_wOD1_plus_N_plus_N
+delete sig.ASN_N_wOD1_plus_N_wO
+load ASN_N_wOD1_plus_N_wO.pdb, sig.ASN_N_wOD1_plus_N_wO
+delete sig.ASN_N_wOD1_plus_THR_N_wOG1_plus_N
+load ASN_N_wOD1_plus_THR_N_wOG1_plus_N.pdb, sig.ASN_N_wOD1_plus_THR_N_wOG1_plus_N
+delete sig.ASN_N_wOD1_plus_THR_OG1
+load ASN_N_wOD1_plus_THR_OG1.pdb, sig.ASN_N_wOD1_plus_THR_OG1
+delete sig.ASN_N_wOD1_plus_wO
+load ASN_N_wOD1_plus_wO.pdb, sig.ASN_N_wOD1_plus_wO
+delete sig.ASN_wOD1
+load ASN_wOD1.pdb, sig.ASN_wOD1
+delete sig.ASN_wOD1_plus_ARG_NE_NH2
+load ASN_wOD1_plus_ARG_NE_NH2.pdb, sig.ASN_wOD1_plus_ARG_NE_NH2
+delete sig.ASN_wOD1_plus_ARG_NE_NH2_wO
+load ASN_wOD1_plus_ARG_NE_NH2_wO.pdb, sig.ASN_wOD1_plus_ARG_NE_NH2_wO
+delete sig.ASN_wOD1_plus_ARG_NH1_NH2
+load ASN_wOD1_plus_ARG_NH1_NH2.pdb, sig.ASN_wOD1_plus_ARG_NH1_NH2
+delete sig.ASN_wOD1_plus_ARG_NH1_NH2_plus_SER_N_OG
+load ASN_wOD1_plus_ARG_NH1_NH2_plus_SER_N_OG.pdb, sig.ASN_wOD1_plus_ARG_NH1_NH2_plus_SER_N_OG
+delete sig.ASN_wOD1_plus_ARG_NH2
+load ASN_wOD1_plus_ARG_NH2.pdb, sig.ASN_wOD1_plus_ARG_NH2
+delete sig.ASN_wOD1_plus_ARG_NH2_wO
+load ASN_wOD1_plus_ARG_NH2_wO.pdb, sig.ASN_wOD1_plus_ARG_NH2_wO
+delete sig.ASN_wOD1_plus_ASN_ND2_plus_ARG_NE_NH2
+load ASN_wOD1_plus_ASN_ND2_plus_ARG_NE_NH2.pdb, sig.ASN_wOD1_plus_ASN_ND2_plus_ARG_NE_NH2
+delete sig.ASN_wOD1_plus_ASN_ND2_wOD1
+load ASN_wOD1_plus_ASN_ND2_wOD1.pdb, sig.ASN_wOD1_plus_ASN_ND2_wOD1
+delete sig.ASN_wOD1_plus_GLU_N_wOE2
+load ASN_wOD1_plus_GLU_N_wOE2.pdb, sig.ASN_wOD1_plus_GLU_N_wOE2
+delete sig.ASN_wOD1_plus_GLU_wOE1
+load ASN_wOD1_plus_GLU_wOE1.pdb, sig.ASN_wOD1_plus_GLU_wOE1
+delete sig.ASN_wOD1_plus_HIS_NE2_plus_TRP_NE1
+load ASN_wOD1_plus_HIS_NE2_plus_TRP_NE1.pdb, sig.ASN_wOD1_plus_HIS_NE2_plus_TRP_NE1
+delete sig.ASN_wOD1_plus_N
+load ASN_wOD1_plus_N.pdb, sig.ASN_wOD1_plus_N
+delete sig.ASN_wOD1_plus_N_plus_ASP_N_wOD2
+load ASN_wOD1_plus_N_plus_ASP_N_wOD2.pdb, sig.ASN_wOD1_plus_N_plus_ASP_N_wOD2
+delete sig.ASN_wOD1_plus_N_plus_N
+load ASN_wOD1_plus_N_plus_N.pdb, sig.ASN_wOD1_plus_N_plus_N
+delete sig.ASN_wOD1_plus_N_wO
+load ASN_wOD1_plus_N_wO.pdb, sig.ASN_wOD1_plus_N_wO
+delete sig.ASN_wOD1_plus_SER_N_OG
+load ASN_wOD1_plus_SER_N_OG.pdb, sig.ASN_wOD1_plus_SER_N_OG
+delete sig.ASN_wOD1_plus_THR_N_OG1
+load ASN_wOD1_plus_THR_N_OG1.pdb, sig.ASN_wOD1_plus_THR_N_OG1
+delete sig.ASN_wOD1_plus_THR_wOG1
+load ASN_wOD1_plus_THR_wOG1.pdb, sig.ASN_wOD1_plus_THR_wOG1
+delete sig.ASN_wOD1_plus_TRP_NE1
+load ASN_wOD1_plus_TRP_NE1.pdb, sig.ASN_wOD1_plus_TRP_NE1
+delete sig.ASN_wOD1_plus_wO
+load ASN_wOD1_plus_wO.pdb, sig.ASN_wOD1_plus_wO
+delete sig.ASN_wOD1_plus_wO_plus_TYR_wOH
+load ASN_wOD1_plus_wO_plus_TYR_wOH.pdb, sig.ASN_wOD1_plus_wO_plus_TYR_wOH
+delete sig.ASN_wO_wOD1
+load ASN_wO_wOD1.pdb, sig.ASN_wO_wOD1
+delete sig.ASN_wO_wOD1_plus_TRP_NE1
+load ASN_wO_wOD1_plus_TRP_NE1.pdb, sig.ASN_wO_wOD1_plus_TRP_NE1
+delete sig.ASP_N_wOD1
+load ASP_N_wOD1.pdb, sig.ASP_N_wOD1
+delete sig.ASP_N_wOD1_plus_ASN_ND2
+load ASP_N_wOD1_plus_ASN_ND2.pdb, sig.ASP_N_wOD1_plus_ASN_ND2
+delete sig.ASP_N_wOD1_plus_ASN_N_ND2
+load ASP_N_wOD1_plus_ASN_N_ND2.pdb, sig.ASP_N_wOD1_plus_ASN_N_ND2
+delete sig.ASP_N_wOD1_plus_N
+load ASP_N_wOD1_plus_N.pdb, sig.ASP_N_wOD1_plus_N
+delete sig.ASP_N_wOD1_wOD2
+load ASP_N_wOD1_wOD2.pdb, sig.ASP_N_wOD1_wOD2
+delete sig.ASP_N_wOD2
+load ASP_N_wOD2.pdb, sig.ASP_N_wOD2
+delete sig.ASP_N_wOD2_plus_ARG_N_NE
+load ASP_N_wOD2_plus_ARG_N_NE.pdb, sig.ASP_N_wOD2_plus_ARG_N_NE
+delete sig.ASP_N_wOD2_plus_ARG_N_NE_wO
+load ASP_N_wOD2_plus_ARG_N_NE_wO.pdb, sig.ASP_N_wOD2_plus_ARG_N_NE_wO
+delete sig.ASP_N_wOD2_plus_ASN_ND2
+load ASP_N_wOD2_plus_ASN_ND2.pdb, sig.ASP_N_wOD2_plus_ASN_ND2
+delete sig.ASP_N_wOD2_plus_ASN_N_ND2
+load ASP_N_wOD2_plus_ASN_N_ND2.pdb, sig.ASP_N_wOD2_plus_ASN_N_ND2
+delete sig.ASP_N_wOD2_plus_ASP_wOD1
+load ASP_N_wOD2_plus_ASP_wOD1.pdb, sig.ASP_N_wOD2_plus_ASP_wOD1
+delete sig.ASP_N_wOD2_plus_GLN_NE2
+load ASP_N_wOD2_plus_GLN_NE2.pdb, sig.ASP_N_wOD2_plus_GLN_NE2
+delete sig.ASP_N_wOD2_plus_GLN_N_NE2
+load ASP_N_wOD2_plus_GLN_N_NE2.pdb, sig.ASP_N_wOD2_plus_GLN_N_NE2
+delete sig.ASP_N_wOD2_plus_GLU_N_wOE1
+load ASP_N_wOD2_plus_GLU_N_wOE1.pdb, sig.ASP_N_wOD2_plus_GLU_N_wOE1
+delete sig.ASP_N_wOD2_plus_GLU_N_wOE2
+load ASP_N_wOD2_plus_GLU_N_wOE2.pdb, sig.ASP_N_wOD2_plus_GLU_N_wOE2
+delete sig.ASP_N_wOD2_plus_HIS_NE2
+load ASP_N_wOD2_plus_HIS_NE2.pdb, sig.ASP_N_wOD2_plus_HIS_NE2
+delete sig.ASP_N_wOD2_plus_LYS_NZ
+load ASP_N_wOD2_plus_LYS_NZ.pdb, sig.ASP_N_wOD2_plus_LYS_NZ
+delete sig.ASP_N_wOD2_plus_N
+load ASP_N_wOD2_plus_N.pdb, sig.ASP_N_wOD2_plus_N
+delete sig.ASP_N_wOD2_plus_N_plus_N
+load ASP_N_wOD2_plus_N_plus_N.pdb, sig.ASP_N_wOD2_plus_N_plus_N
+delete sig.ASP_N_wOD2_plus_N_plus_wO
+load ASP_N_wOD2_plus_N_plus_wO.pdb, sig.ASP_N_wOD2_plus_N_plus_wO
+delete sig.ASP_N_wOD2_plus_SER_wOG
+load ASP_N_wOD2_plus_SER_wOG.pdb, sig.ASP_N_wOD2_plus_SER_wOG
+delete sig.ASP_N_wOD2_plus_THR_N_OG1
+load ASP_N_wOD2_plus_THR_N_OG1.pdb, sig.ASP_N_wOD2_plus_THR_N_OG1
+delete sig.ASP_N_wOD2_plus_THR_N_wOG1
+load ASP_N_wOD2_plus_THR_N_wOG1.pdb, sig.ASP_N_wOD2_plus_THR_N_wOG1
+delete sig.ASP_N_wOD2_plus_THR_OG1
+load ASP_N_wOD2_plus_THR_OG1.pdb, sig.ASP_N_wOD2_plus_THR_OG1
+delete sig.ASP_N_wOD2_plus_TRP_NE1
+load ASP_N_wOD2_plus_TRP_NE1.pdb, sig.ASP_N_wOD2_plus_TRP_NE1
+delete sig.ASP_N_wOD2_plus_wO
+load ASP_N_wOD2_plus_wO.pdb, sig.ASP_N_wOD2_plus_wO
+delete sig.ASP_N_wO_wOD2
+load ASP_N_wO_wOD2.pdb, sig.ASP_N_wO_wOD2
+delete sig.ASP_wOD1
+load ASP_wOD1.pdb, sig.ASP_wOD1
+delete sig.ASP_wOD1_plus_ARG_NE
+load ASP_wOD1_plus_ARG_NE.pdb, sig.ASP_wOD1_plus_ARG_NE
+delete sig.ASP_wOD1_plus_ARG_NE_NH2
+load ASP_wOD1_plus_ARG_NE_NH2.pdb, sig.ASP_wOD1_plus_ARG_NE_NH2
+delete sig.ASP_wOD1_plus_ARG_NH1_NH2
+load ASP_wOD1_plus_ARG_NH1_NH2.pdb, sig.ASP_wOD1_plus_ARG_NH1_NH2
+delete sig.ASP_wOD1_plus_ARG_N_NE_NH2
+load ASP_wOD1_plus_ARG_N_NE_NH2.pdb, sig.ASP_wOD1_plus_ARG_N_NE_NH2
+delete sig.ASP_wOD1_plus_ASN_ND2
+load ASP_wOD1_plus_ASN_ND2.pdb, sig.ASP_wOD1_plus_ASN_ND2
+delete sig.ASP_wOD1_plus_ASN_wOD1
+load ASP_wOD1_plus_ASN_wOD1.pdb, sig.ASP_wOD1_plus_ASN_wOD1
+delete sig.ASP_wOD1_plus_ASP_N_wOD1
+load ASP_wOD1_plus_ASP_N_wOD1.pdb, sig.ASP_wOD1_plus_ASP_N_wOD1
+delete sig.ASP_wOD1_plus_ASP_N_wOD2
+load ASP_wOD1_plus_ASP_N_wOD2.pdb, sig.ASP_wOD1_plus_ASP_N_wOD2
+delete sig.ASP_wOD1_plus_GLN_NE2_wOE1
+load ASP_wOD1_plus_GLN_NE2_wOE1.pdb, sig.ASP_wOD1_plus_GLN_NE2_wOE1
+delete sig.ASP_wOD1_plus_GLN_N_NE2
+load ASP_wOD1_plus_GLN_N_NE2.pdb, sig.ASP_wOD1_plus_GLN_N_NE2
+delete sig.ASP_wOD1_plus_GLU_wOE1
+load ASP_wOD1_plus_GLU_wOE1.pdb, sig.ASP_wOD1_plus_GLU_wOE1
+delete sig.ASP_wOD1_plus_GLU_wOE2
+load ASP_wOD1_plus_GLU_wOE2.pdb, sig.ASP_wOD1_plus_GLU_wOE2
+delete sig.ASP_wOD1_plus_HIS_NE2
+load ASP_wOD1_plus_HIS_NE2.pdb, sig.ASP_wOD1_plus_HIS_NE2
+delete sig.ASP_wOD1_plus_HIS_N_ND1
+load ASP_wOD1_plus_HIS_N_ND1.pdb, sig.ASP_wOD1_plus_HIS_N_ND1
+delete sig.ASP_wOD1_plus_LYS_NZ
+load ASP_wOD1_plus_LYS_NZ.pdb, sig.ASP_wOD1_plus_LYS_NZ
+delete sig.ASP_wOD1_plus_LYS_N_NZ
+load ASP_wOD1_plus_LYS_N_NZ.pdb, sig.ASP_wOD1_plus_LYS_N_NZ
+delete sig.ASP_wOD1_plus_N
+load ASP_wOD1_plus_N.pdb, sig.ASP_wOD1_plus_N
+delete sig.ASP_wOD1_plus_N_plus_ARG_NE_NH2
+load ASP_wOD1_plus_N_plus_ARG_NE_NH2.pdb, sig.ASP_wOD1_plus_N_plus_ARG_NE_NH2
+delete sig.ASP_wOD1_plus_N_plus_ARG_N_NH1
+load ASP_wOD1_plus_N_plus_ARG_N_NH1.pdb, sig.ASP_wOD1_plus_N_plus_ARG_N_NH1
+delete sig.ASP_wOD1_plus_N_plus_ASN_N_ND2
+load ASP_wOD1_plus_N_plus_ASN_N_ND2.pdb, sig.ASP_wOD1_plus_N_plus_ASN_N_ND2
+delete sig.ASP_wOD1_plus_N_plus_ASN_N_wOD1
+load ASP_wOD1_plus_N_plus_ASN_N_wOD1.pdb, sig.ASP_wOD1_plus_N_plus_ASN_N_wOD1
+delete sig.ASP_wOD1_plus_N_plus_ASN_wOD1
+load ASP_wOD1_plus_N_plus_ASN_wOD1.pdb, sig.ASP_wOD1_plus_N_plus_ASN_wOD1
+delete sig.ASP_wOD1_plus_N_plus_GLU_wOE1
+load ASP_wOD1_plus_N_plus_GLU_wOE1.pdb, sig.ASP_wOD1_plus_N_plus_GLU_wOE1
+delete sig.ASP_wOD1_plus_N_plus_N
+load ASP_wOD1_plus_N_plus_N.pdb, sig.ASP_wOD1_plus_N_plus_N
+delete sig.ASP_wOD1_plus_N_plus_SER_OG
+load ASP_wOD1_plus_N_plus_SER_OG.pdb, sig.ASP_wOD1_plus_N_plus_SER_OG
+delete sig.ASP_wOD1_plus_N_plus_wO
+load ASP_wOD1_plus_N_plus_wO.pdb, sig.ASP_wOD1_plus_N_plus_wO
+delete sig.ASP_wOD1_plus_N_wO
+load ASP_wOD1_plus_N_wO.pdb, sig.ASP_wOD1_plus_N_wO
+delete sig.ASP_wOD1_plus_SER_N_OG
+load ASP_wOD1_plus_SER_N_OG.pdb, sig.ASP_wOD1_plus_SER_N_OG
+delete sig.ASP_wOD1_plus_SER_N_wOG_plus_wO
+load ASP_wOD1_plus_SER_N_wOG_plus_wO.pdb, sig.ASP_wOD1_plus_SER_N_wOG_plus_wO
+delete sig.ASP_wOD1_plus_SER_wOG
+load ASP_wOD1_plus_SER_wOG.pdb, sig.ASP_wOD1_plus_SER_wOG
+delete sig.ASP_wOD1_plus_THR_N_OG1
+load ASP_wOD1_plus_THR_N_OG1.pdb, sig.ASP_wOD1_plus_THR_N_OG1
+delete sig.ASP_wOD1_plus_wO
+load ASP_wOD1_plus_wO.pdb, sig.ASP_wOD1_plus_wO
+delete sig.ASP_wOD1_plus_wO_plus_ARG_NE_NH2
+load ASP_wOD1_plus_wO_plus_ARG_NE_NH2.pdb, sig.ASP_wOD1_plus_wO_plus_ARG_NE_NH2
+delete sig.ASP_wOD1_wOD2
+load ASP_wOD1_wOD2.pdb, sig.ASP_wOD1_wOD2
+delete sig.ASP_wOD1_wOD2_plus_ARG_NH1_NH2
+load ASP_wOD1_wOD2_plus_ARG_NH1_NH2.pdb, sig.ASP_wOD1_wOD2_plus_ARG_NH1_NH2
+delete sig.ASP_wOD1_wOD2_plus_HIS_NE2
+load ASP_wOD1_wOD2_plus_HIS_NE2.pdb, sig.ASP_wOD1_wOD2_plus_HIS_NE2
+delete sig.ASP_wOD2
+load ASP_wOD2.pdb, sig.ASP_wOD2
+delete sig.ASP_wOD2_plus_ARG_NE
+load ASP_wOD2_plus_ARG_NE.pdb, sig.ASP_wOD2_plus_ARG_NE
+delete sig.ASP_wOD2_plus_ARG_NE_NH1
+load ASP_wOD2_plus_ARG_NE_NH1.pdb, sig.ASP_wOD2_plus_ARG_NE_NH1
+delete sig.ASP_wOD2_plus_ARG_NE_NH2
+load ASP_wOD2_plus_ARG_NE_NH2.pdb, sig.ASP_wOD2_plus_ARG_NE_NH2
+delete sig.ASP_wOD2_plus_ARG_NH1
+load ASP_wOD2_plus_ARG_NH1.pdb, sig.ASP_wOD2_plus_ARG_NH1
+delete sig.ASP_wOD2_plus_ARG_NH1_NH2
+load ASP_wOD2_plus_ARG_NH1_NH2.pdb, sig.ASP_wOD2_plus_ARG_NH1_NH2
+delete sig.ASP_wOD2_plus_ARG_NH2
+load ASP_wOD2_plus_ARG_NH2.pdb, sig.ASP_wOD2_plus_ARG_NH2
+delete sig.ASP_wOD2_plus_ASN_ND2
+load ASP_wOD2_plus_ASN_ND2.pdb, sig.ASP_wOD2_plus_ASN_ND2
+delete sig.ASP_wOD2_plus_ASN_N_ND2
+load ASP_wOD2_plus_ASN_N_ND2.pdb, sig.ASP_wOD2_plus_ASN_N_ND2
+delete sig.ASP_wOD2_plus_ASN_wOD1
+load ASP_wOD2_plus_ASN_wOD1.pdb, sig.ASP_wOD2_plus_ASN_wOD1
+delete sig.ASP_wOD2_plus_ASP_N_wOD1
+load ASP_wOD2_plus_ASP_N_wOD1.pdb, sig.ASP_wOD2_plus_ASP_N_wOD1
+delete sig.ASP_wOD2_plus_ASP_wOD1
+load ASP_wOD2_plus_ASP_wOD1.pdb, sig.ASP_wOD2_plus_ASP_wOD1
+delete sig.ASP_wOD2_plus_ASP_wOD2
+load ASP_wOD2_plus_ASP_wOD2.pdb, sig.ASP_wOD2_plus_ASP_wOD2
+delete sig.ASP_wOD2_plus_GLN_NE2
+load ASP_wOD2_plus_GLN_NE2.pdb, sig.ASP_wOD2_plus_GLN_NE2
+delete sig.ASP_wOD2_plus_GLN_wOE1
+load ASP_wOD2_plus_GLN_wOE1.pdb, sig.ASP_wOD2_plus_GLN_wOE1
+delete sig.ASP_wOD2_plus_GLU_wOE1
+load ASP_wOD2_plus_GLU_wOE1.pdb, sig.ASP_wOD2_plus_GLU_wOE1
+delete sig.ASP_wOD2_plus_GLU_wOE2
+load ASP_wOD2_plus_GLU_wOE2.pdb, sig.ASP_wOD2_plus_GLU_wOE2
+delete sig.ASP_wOD2_plus_HIS_ND1
+load ASP_wOD2_plus_HIS_ND1.pdb, sig.ASP_wOD2_plus_HIS_ND1
+delete sig.ASP_wOD2_plus_HIS_ND1_wO
+load ASP_wOD2_plus_HIS_ND1_wO.pdb, sig.ASP_wOD2_plus_HIS_ND1_wO
+delete sig.ASP_wOD2_plus_HIS_NE2
+load ASP_wOD2_plus_HIS_NE2.pdb, sig.ASP_wOD2_plus_HIS_NE2
+delete sig.ASP_wOD2_plus_HIS_wNE2
+load ASP_wOD2_plus_HIS_wNE2.pdb, sig.ASP_wOD2_plus_HIS_wNE2
+delete sig.ASP_wOD2_plus_LYS_NZ
+load ASP_wOD2_plus_LYS_NZ.pdb, sig.ASP_wOD2_plus_LYS_NZ
+delete sig.ASP_wOD2_plus_N
+load ASP_wOD2_plus_N.pdb, sig.ASP_wOD2_plus_N
+delete sig.ASP_wOD2_plus_N_plus_N
+load ASP_wOD2_plus_N_plus_N.pdb, sig.ASP_wOD2_plus_N_plus_N
+delete sig.ASP_wOD2_plus_N_plus_wO
+load ASP_wOD2_plus_N_plus_wO.pdb, sig.ASP_wOD2_plus_N_plus_wO
+delete sig.ASP_wOD2_plus_SER_N_OG
+load ASP_wOD2_plus_SER_N_OG.pdb, sig.ASP_wOD2_plus_SER_N_OG
+delete sig.ASP_wOD2_plus_SER_N_wOG
+load ASP_wOD2_plus_SER_N_wOG.pdb, sig.ASP_wOD2_plus_SER_N_wOG
+delete sig.ASP_wOD2_plus_SER_OG_plus_GLN_NE2_wOE1
+load ASP_wOD2_plus_SER_OG_plus_GLN_NE2_wOE1.pdb, sig.ASP_wOD2_plus_SER_OG_plus_GLN_NE2_wOE1
+delete sig.ASP_wOD2_plus_SER_OG_plus_N
+load ASP_wOD2_plus_SER_OG_plus_N.pdb, sig.ASP_wOD2_plus_SER_OG_plus_N
+delete sig.ASP_wOD2_plus_SER_wOG
+load ASP_wOD2_plus_SER_wOG.pdb, sig.ASP_wOD2_plus_SER_wOG
+delete sig.ASP_wOD2_plus_THR_N_OG1
+load ASP_wOD2_plus_THR_N_OG1.pdb, sig.ASP_wOD2_plus_THR_N_OG1
+delete sig.ASP_wOD2_plus_THR_wOG1
+load ASP_wOD2_plus_THR_wOG1.pdb, sig.ASP_wOD2_plus_THR_wOG1
+delete sig.ASP_wOD2_plus_TRP_NE1
+load ASP_wOD2_plus_TRP_NE1.pdb, sig.ASP_wOD2_plus_TRP_NE1
+delete sig.ASP_wOD2_plus_TYR_OH
+load ASP_wOD2_plus_TYR_OH.pdb, sig.ASP_wOD2_plus_TYR_OH
+delete sig.ASP_wOD2_plus_TYR_wOH
+load ASP_wOD2_plus_TYR_wOH.pdb, sig.ASP_wOD2_plus_TYR_wOH
+delete sig.ASP_wOD2_plus_wO
+load ASP_wOD2_plus_wO.pdb, sig.ASP_wOD2_plus_wO
+delete sig.ASP_wOD2_plus_wO_plus_N
+load ASP_wOD2_plus_wO_plus_N.pdb, sig.ASP_wOD2_plus_wO_plus_N
+delete sig.ASP_wOD2_plus_wO_plus_wO
+load ASP_wOD2_plus_wO_plus_wO.pdb, sig.ASP_wOD2_plus_wO_plus_wO
+delete sig.ASP_wO_wOD1
+load ASP_wO_wOD1.pdb, sig.ASP_wO_wOD1
+delete sig.ASP_wO_wOD1_plus_HIS_NE2
+load ASP_wO_wOD1_plus_HIS_NE2.pdb, sig.ASP_wO_wOD1_plus_HIS_NE2
+delete sig.ASP_wO_wOD2
+load ASP_wO_wOD2.pdb, sig.ASP_wO_wOD2
+delete sig.ASP_wO_wOD2_plus_ASN_ND2
+load ASP_wO_wOD2_plus_ASN_ND2.pdb, sig.ASP_wO_wOD2_plus_ASN_ND2
+delete sig.ASP_wO_wOD2_plus_ASP_wOD2
+load ASP_wO_wOD2_plus_ASP_wOD2.pdb, sig.ASP_wO_wOD2_plus_ASP_wOD2
+delete sig.ASP_wO_wOD2_plus_wO
+load ASP_wO_wOD2_plus_wO.pdb, sig.ASP_wO_wOD2_plus_wO
+delete sig.GLN_NE2
+load GLN_NE2.pdb, sig.GLN_NE2
+delete sig.GLN_NE2_plus_ARG_NH1_NH2
+load GLN_NE2_plus_ARG_NH1_NH2.pdb, sig.GLN_NE2_plus_ARG_NH1_NH2
+delete sig.GLN_NE2_plus_ARG_NH2
+load GLN_NE2_plus_ARG_NH2.pdb, sig.GLN_NE2_plus_ARG_NH2
+delete sig.GLN_NE2_plus_ASN_ND2_wOD1
+load GLN_NE2_plus_ASN_ND2_wOD1.pdb, sig.GLN_NE2_plus_ASN_ND2_wOD1
+delete sig.GLN_NE2_plus_ASN_N_ND2
+load GLN_NE2_plus_ASN_N_ND2.pdb, sig.GLN_NE2_plus_ASN_N_ND2
+delete sig.GLN_NE2_plus_ASN_wOD1
+load GLN_NE2_plus_ASN_wOD1.pdb, sig.GLN_NE2_plus_ASN_wOD1
+delete sig.GLN_NE2_plus_ASP_wOD1
+load GLN_NE2_plus_ASP_wOD1.pdb, sig.GLN_NE2_plus_ASP_wOD1
+delete sig.GLN_NE2_plus_GLN_NE2_wOE1
+load GLN_NE2_plus_GLN_NE2_wOE1.pdb, sig.GLN_NE2_plus_GLN_NE2_wOE1
+delete sig.GLN_NE2_plus_HIS_N_wND1
+load GLN_NE2_plus_HIS_N_wND1.pdb, sig.GLN_NE2_plus_HIS_N_wND1
+delete sig.GLN_NE2_plus_N_plus_N
+load GLN_NE2_plus_N_plus_N.pdb, sig.GLN_NE2_plus_N_plus_N
+delete sig.GLN_NE2_plus_SER_N_OG
+load GLN_NE2_plus_SER_N_OG.pdb, sig.GLN_NE2_plus_SER_N_OG
+delete sig.GLN_NE2_plus_SER_N_OG_plus_N
+load GLN_NE2_plus_SER_N_OG_plus_N.pdb, sig.GLN_NE2_plus_SER_N_OG_plus_N
+delete sig.GLN_NE2_plus_SER_wOG
+load GLN_NE2_plus_SER_wOG.pdb, sig.GLN_NE2_plus_SER_wOG
+delete sig.GLN_NE2_plus_THR_N_OG1
+load GLN_NE2_plus_THR_N_OG1.pdb, sig.GLN_NE2_plus_THR_N_OG1
+delete sig.GLN_NE2_plus_THR_N_OG1_plus_THR_N_OG1
+load GLN_NE2_plus_THR_N_OG1_plus_THR_N_OG1.pdb, sig.GLN_NE2_plus_THR_N_OG1_plus_THR_N_OG1
+delete sig.GLN_NE2_plus_TYR_wOH
+load GLN_NE2_plus_TYR_wOH.pdb, sig.GLN_NE2_plus_TYR_wOH
+delete sig.GLN_NE2_plus_wO
+load GLN_NE2_plus_wO.pdb, sig.GLN_NE2_plus_wO
+delete sig.GLN_NE2_plus_wO_plus_ASP_wOD1
+load GLN_NE2_plus_wO_plus_ASP_wOD1.pdb, sig.GLN_NE2_plus_wO_plus_ASP_wOD1
+delete sig.GLN_NE2_wO
+load GLN_NE2_wO.pdb, sig.GLN_NE2_wO
+delete sig.GLN_NE2_wOE1
+load GLN_NE2_wOE1.pdb, sig.GLN_NE2_wOE1
+delete sig.GLN_NE2_wOE1_plus_HIS_ND1
+load GLN_NE2_wOE1_plus_HIS_ND1.pdb, sig.GLN_NE2_wOE1_plus_HIS_ND1
+delete sig.GLN_NE2_wOE1_plus_SER_wOG
+load GLN_NE2_wOE1_plus_SER_wOG.pdb, sig.GLN_NE2_wOE1_plus_SER_wOG
+delete sig.GLN_NE2_wOE1_plus_wO
+load GLN_NE2_wOE1_plus_wO.pdb, sig.GLN_NE2_wOE1_plus_wO
+delete sig.GLN_NE2_wO_plus_ASP_wOD1
+load GLN_NE2_wO_plus_ASP_wOD1.pdb, sig.GLN_NE2_wO_plus_ASP_wOD1
+delete sig.GLN_NE2_wO_plus_N
+load GLN_NE2_wO_plus_N.pdb, sig.GLN_NE2_wO_plus_N
+delete sig.GLN_NE2_wO_plus_TYR_OH
+load GLN_NE2_wO_plus_TYR_OH.pdb, sig.GLN_NE2_wO_plus_TYR_OH
+delete sig.GLN_N_NE2
+load GLN_N_NE2.pdb, sig.GLN_N_NE2
+delete sig.GLN_N_NE2_plus_THR_OG1
+load GLN_N_NE2_plus_THR_OG1.pdb, sig.GLN_N_NE2_plus_THR_OG1
+delete sig.GLN_N_NE2_plus_THR_wOG1
+load GLN_N_NE2_plus_THR_wOG1.pdb, sig.GLN_N_NE2_plus_THR_wOG1
+delete sig.GLN_N_NE2_plus_TYR_wOH
+load GLN_N_NE2_plus_TYR_wOH.pdb, sig.GLN_N_NE2_plus_TYR_wOH
+delete sig.GLN_N_NE2_plus_wO
+load GLN_N_NE2_plus_wO.pdb, sig.GLN_N_NE2_plus_wO
+delete sig.GLN_N_NE2_wO
+load GLN_N_NE2_wO.pdb, sig.GLN_N_NE2_wO
+delete sig.GLN_N_wOE1
+load GLN_N_wOE1.pdb, sig.GLN_N_wOE1
+delete sig.GLN_N_wOE1_plus_ARG_NE_NH2
+load GLN_N_wOE1_plus_ARG_NE_NH2.pdb, sig.GLN_N_wOE1_plus_ARG_NE_NH2
+delete sig.GLN_N_wOE1_plus_ASN_ND2
+load GLN_N_wOE1_plus_ASN_ND2.pdb, sig.GLN_N_wOE1_plus_ASN_ND2
+delete sig.GLN_N_wOE1_plus_ASN_N_ND2
+load GLN_N_wOE1_plus_ASN_N_ND2.pdb, sig.GLN_N_wOE1_plus_ASN_N_ND2
+delete sig.GLN_N_wOE1_plus_HIS_ND1
+load GLN_N_wOE1_plus_HIS_ND1.pdb, sig.GLN_N_wOE1_plus_HIS_ND1
+delete sig.GLN_N_wOE1_plus_N
+load GLN_N_wOE1_plus_N.pdb, sig.GLN_N_wOE1_plus_N
+delete sig.GLN_N_wOE1_plus_N_plus_wO
+load GLN_N_wOE1_plus_N_plus_wO.pdb, sig.GLN_N_wOE1_plus_N_plus_wO
+delete sig.GLN_N_wOE1_plus_SER_N_OG
+load GLN_N_wOE1_plus_SER_N_OG.pdb, sig.GLN_N_wOE1_plus_SER_N_OG
+delete sig.GLN_N_wOE1_plus_SER_OG
+load GLN_N_wOE1_plus_SER_OG.pdb, sig.GLN_N_wOE1_plus_SER_OG
+delete sig.GLN_N_wOE1_plus_SER_wOG
+load GLN_N_wOE1_plus_SER_wOG.pdb, sig.GLN_N_wOE1_plus_SER_wOG
+delete sig.GLN_N_wOE1_plus_THR_N_OG1
+load GLN_N_wOE1_plus_THR_N_OG1.pdb, sig.GLN_N_wOE1_plus_THR_N_OG1
+delete sig.GLN_N_wOE1_plus_THR_OG1
+load GLN_N_wOE1_plus_THR_OG1.pdb, sig.GLN_N_wOE1_plus_THR_OG1
+delete sig.GLN_N_wOE1_plus_THR_OG1_wOG1
+load GLN_N_wOE1_plus_THR_OG1_wOG1.pdb, sig.GLN_N_wOE1_plus_THR_OG1_wOG1
+delete sig.GLN_N_wOE1_plus_wO
+load GLN_N_wOE1_plus_wO.pdb, sig.GLN_N_wOE1_plus_wO
+delete sig.GLN_N_wO_wOE1
+load GLN_N_wO_wOE1.pdb, sig.GLN_N_wO_wOE1
+delete sig.GLN_wOE1
+load GLN_wOE1.pdb, sig.GLN_wOE1
+delete sig.GLN_wOE1_plus_ARG_NE_NH2
+load GLN_wOE1_plus_ARG_NE_NH2.pdb, sig.GLN_wOE1_plus_ARG_NE_NH2
+delete sig.GLN_wOE1_plus_ARG_NH1_NH2
+load GLN_wOE1_plus_ARG_NH1_NH2.pdb, sig.GLN_wOE1_plus_ARG_NH1_NH2
+delete sig.GLN_wOE1_plus_ARG_NH2
+load GLN_wOE1_plus_ARG_NH2.pdb, sig.GLN_wOE1_plus_ARG_NH2
+delete sig.GLN_wOE1_plus_ASN_ND2_wOD1
+load GLN_wOE1_plus_ASN_ND2_wOD1.pdb, sig.GLN_wOE1_plus_ASN_ND2_wOD1
+delete sig.GLN_wOE1_plus_ASN_N_ND2
+load GLN_wOE1_plus_ASN_N_ND2.pdb, sig.GLN_wOE1_plus_ASN_N_ND2
+delete sig.GLN_wOE1_plus_ASP_N_wOD1
+load GLN_wOE1_plus_ASP_N_wOD1.pdb, sig.GLN_wOE1_plus_ASP_N_wOD1
+delete sig.GLN_wOE1_plus_ASP_wOD2
+load GLN_wOE1_plus_ASP_wOD2.pdb, sig.GLN_wOE1_plus_ASP_wOD2
+delete sig.GLN_wOE1_plus_GLN_N_NE2
+load GLN_wOE1_plus_GLN_N_NE2.pdb, sig.GLN_wOE1_plus_GLN_N_NE2
+delete sig.GLN_wOE1_plus_HIS_NE2
+load GLN_wOE1_plus_HIS_NE2.pdb, sig.GLN_wOE1_plus_HIS_NE2
+delete sig.GLN_wOE1_plus_HIS_N_ND1
+load GLN_wOE1_plus_HIS_N_ND1.pdb, sig.GLN_wOE1_plus_HIS_N_ND1
+delete sig.GLN_wOE1_plus_N
+load GLN_wOE1_plus_N.pdb, sig.GLN_wOE1_plus_N
+delete sig.GLN_wOE1_plus_N_plus_wO
+load GLN_wOE1_plus_N_plus_wO.pdb, sig.GLN_wOE1_plus_N_plus_wO
+delete sig.GLN_wOE1_plus_SER_N_OG
+load GLN_wOE1_plus_SER_N_OG.pdb, sig.GLN_wOE1_plus_SER_N_OG
+delete sig.GLN_wOE1_plus_SER_N_OG_wOG
+load GLN_wOE1_plus_SER_N_OG_wOG.pdb, sig.GLN_wOE1_plus_SER_N_OG_wOG
+delete sig.GLN_wOE1_plus_THR_N_OG1
+load GLN_wOE1_plus_THR_N_OG1.pdb, sig.GLN_wOE1_plus_THR_N_OG1
+delete sig.GLN_wOE1_plus_TYR_wOH
+load GLN_wOE1_plus_TYR_wOH.pdb, sig.GLN_wOE1_plus_TYR_wOH
+delete sig.GLN_wOE1_plus_wO
+load GLN_wOE1_plus_wO.pdb, sig.GLN_wOE1_plus_wO
+delete sig.GLN_wOE1_plus_wO_plus_ARG_NE_NH2
+load GLN_wOE1_plus_wO_plus_ARG_NE_NH2.pdb, sig.GLN_wOE1_plus_wO_plus_ARG_NE_NH2
+delete sig.GLN_wOE1_plus_wO_plus_TYR_OH
+load GLN_wOE1_plus_wO_plus_TYR_OH.pdb, sig.GLN_wOE1_plus_wO_plus_TYR_OH
+delete sig.GLN_wO_wOE1
+load GLN_wO_wOE1.pdb, sig.GLN_wO_wOE1
+delete sig.GLN_wO_wOE1_plus_HIS_NE2
+load GLN_wO_wOE1_plus_HIS_NE2.pdb, sig.GLN_wO_wOE1_plus_HIS_NE2
+delete sig.GLU_N_wOE1
+load GLU_N_wOE1.pdb, sig.GLU_N_wOE1
+delete sig.GLU_N_wOE1_plus_ASN_ND2
+load GLU_N_wOE1_plus_ASN_ND2.pdb, sig.GLU_N_wOE1_plus_ASN_ND2
+delete sig.GLU_N_wOE1_plus_ASN_ND2_plus_SER_wOG
+load GLU_N_wOE1_plus_ASN_ND2_plus_SER_wOG.pdb, sig.GLU_N_wOE1_plus_ASN_ND2_plus_SER_wOG
+delete sig.GLU_N_wOE1_plus_ASN_N_ND2
+load GLU_N_wOE1_plus_ASN_N_ND2.pdb, sig.GLU_N_wOE1_plus_ASN_N_ND2
+delete sig.GLU_N_wOE1_plus_HIS_ND1
+load GLU_N_wOE1_plus_HIS_ND1.pdb, sig.GLU_N_wOE1_plus_HIS_ND1
+delete sig.GLU_N_wOE1_plus_N
+load GLU_N_wOE1_plus_N.pdb, sig.GLU_N_wOE1_plus_N
+delete sig.GLU_N_wOE1_plus_N_plus_N
+load GLU_N_wOE1_plus_N_plus_N.pdb, sig.GLU_N_wOE1_plus_N_plus_N
+delete sig.GLU_N_wOE1_plus_N_plus_wO
+load GLU_N_wOE1_plus_N_plus_wO.pdb, sig.GLU_N_wOE1_plus_N_plus_wO
+delete sig.GLU_N_wOE1_plus_N_wO
+load GLU_N_wOE1_plus_N_wO.pdb, sig.GLU_N_wOE1_plus_N_wO
+delete sig.GLU_N_wOE1_plus_THR_OG1
+load GLU_N_wOE1_plus_THR_OG1.pdb, sig.GLU_N_wOE1_plus_THR_OG1
+delete sig.GLU_N_wOE1_plus_THR_wOG1
+load GLU_N_wOE1_plus_THR_wOG1.pdb, sig.GLU_N_wOE1_plus_THR_wOG1
+delete sig.GLU_N_wOE1_plus_wO
+load GLU_N_wOE1_plus_wO.pdb, sig.GLU_N_wOE1_plus_wO
+delete sig.GLU_N_wOE1_wOE2
+load GLU_N_wOE1_wOE2.pdb, sig.GLU_N_wOE1_wOE2
+delete sig.GLU_N_wOE2
+load GLU_N_wOE2.pdb, sig.GLU_N_wOE2
+delete sig.GLU_N_wOE2_plus_ASN_N_ND2
+load GLU_N_wOE2_plus_ASN_N_ND2.pdb, sig.GLU_N_wOE2_plus_ASN_N_ND2
+delete sig.GLU_N_wOE2_plus_LYS_NZ
+load GLU_N_wOE2_plus_LYS_NZ.pdb, sig.GLU_N_wOE2_plus_LYS_NZ
+delete sig.GLU_N_wOE2_plus_N
+load GLU_N_wOE2_plus_N.pdb, sig.GLU_N_wOE2_plus_N
+delete sig.GLU_N_wOE2_plus_N_wO
+load GLU_N_wOE2_plus_N_wO.pdb, sig.GLU_N_wOE2_plus_N_wO
+delete sig.GLU_N_wOE2_plus_SER_N_OG
+load GLU_N_wOE2_plus_SER_N_OG.pdb, sig.GLU_N_wOE2_plus_SER_N_OG
+delete sig.GLU_N_wOE2_plus_SER_wOG
+load GLU_N_wOE2_plus_SER_wOG.pdb, sig.GLU_N_wOE2_plus_SER_wOG
+delete sig.GLU_N_wOE2_plus_THR_N_OG1
+load GLU_N_wOE2_plus_THR_N_OG1.pdb, sig.GLU_N_wOE2_plus_THR_N_OG1
+delete sig.GLU_N_wOE2_plus_wO
+load GLU_N_wOE2_plus_wO.pdb, sig.GLU_N_wOE2_plus_wO
+delete sig.GLU_N_wO_wOE1
+load GLU_N_wO_wOE1.pdb, sig.GLU_N_wO_wOE1
+delete sig.GLU_N_wO_wOE2
+load GLU_N_wO_wOE2.pdb, sig.GLU_N_wO_wOE2
+delete sig.GLU_wOE1
+load GLU_wOE1.pdb, sig.GLU_wOE1
+delete sig.GLU_wOE1_plus_ARG_NE_NH1
+load GLU_wOE1_plus_ARG_NE_NH1.pdb, sig.GLU_wOE1_plus_ARG_NE_NH1
+delete sig.GLU_wOE1_plus_ARG_NE_NH2
+load GLU_wOE1_plus_ARG_NE_NH2.pdb, sig.GLU_wOE1_plus_ARG_NE_NH2
+delete sig.GLU_wOE1_plus_ARG_NH1_NH2
+load GLU_wOE1_plus_ARG_NH1_NH2.pdb, sig.GLU_wOE1_plus_ARG_NH1_NH2
+delete sig.GLU_wOE1_plus_ARG_NH1_NH2_plus_ASP_wOD2
+load GLU_wOE1_plus_ARG_NH1_NH2_plus_ASP_wOD2.pdb, sig.GLU_wOE1_plus_ARG_NH1_NH2_plus_ASP_wOD2
+delete sig.GLU_wOE1_plus_ARG_N_NE
+load GLU_wOE1_plus_ARG_N_NE.pdb, sig.GLU_wOE1_plus_ARG_N_NE
+delete sig.GLU_wOE1_plus_ARG_N_NE_NH2
+load GLU_wOE1_plus_ARG_N_NE_NH2.pdb, sig.GLU_wOE1_plus_ARG_N_NE_NH2
+delete sig.GLU_wOE1_plus_ARG_N_NH1
+load GLU_wOE1_plus_ARG_N_NH1.pdb, sig.GLU_wOE1_plus_ARG_N_NH1
+delete sig.GLU_wOE1_plus_ASN_ND2
+load GLU_wOE1_plus_ASN_ND2.pdb, sig.GLU_wOE1_plus_ASN_ND2
+delete sig.GLU_wOE1_plus_ASN_N_ND2
+load GLU_wOE1_plus_ASN_N_ND2.pdb, sig.GLU_wOE1_plus_ASN_N_ND2
+delete sig.GLU_wOE1_plus_ASN_wOD1_plus_N
+load GLU_wOE1_plus_ASN_wOD1_plus_N.pdb, sig.GLU_wOE1_plus_ASN_wOD1_plus_N
+delete sig.GLU_wOE1_plus_ASP_N_wOD1
+load GLU_wOE1_plus_ASP_N_wOD1.pdb, sig.GLU_wOE1_plus_ASP_N_wOD1
+delete sig.GLU_wOE1_plus_ASP_wOD1_wOD2
+load GLU_wOE1_plus_ASP_wOD1_wOD2.pdb, sig.GLU_wOE1_plus_ASP_wOD1_wOD2
+delete sig.GLU_wOE1_plus_GLN_NE2
+load GLU_wOE1_plus_GLN_NE2.pdb, sig.GLU_wOE1_plus_GLN_NE2
+delete sig.GLU_wOE1_plus_GLN_N_NE2
+load GLU_wOE1_plus_GLN_N_NE2.pdb, sig.GLU_wOE1_plus_GLN_N_NE2
+delete sig.GLU_wOE1_plus_GLU_N_wOE2
+load GLU_wOE1_plus_GLU_N_wOE2.pdb, sig.GLU_wOE1_plus_GLU_N_wOE2
+delete sig.GLU_wOE1_plus_GLU_wOE2
+load GLU_wOE1_plus_GLU_wOE2.pdb, sig.GLU_wOE1_plus_GLU_wOE2
+delete sig.GLU_wOE1_plus_HIS_NE2
+load GLU_wOE1_plus_HIS_NE2.pdb, sig.GLU_wOE1_plus_HIS_NE2
+delete sig.GLU_wOE1_plus_HIS_N_ND1
+load GLU_wOE1_plus_HIS_N_ND1.pdb, sig.GLU_wOE1_plus_HIS_N_ND1
+delete sig.GLU_wOE1_plus_N
+load GLU_wOE1_plus_N.pdb, sig.GLU_wOE1_plus_N
+delete sig.GLU_wOE1_plus_N_plus_ASN_N_ND2
+load GLU_wOE1_plus_N_plus_ASN_N_ND2.pdb, sig.GLU_wOE1_plus_N_plus_ASN_N_ND2
+delete sig.GLU_wOE1_plus_N_plus_GLU_N_wOE1
+load GLU_wOE1_plus_N_plus_GLU_N_wOE1.pdb, sig.GLU_wOE1_plus_N_plus_GLU_N_wOE1
+delete sig.GLU_wOE1_plus_N_plus_N
+load GLU_wOE1_plus_N_plus_N.pdb, sig.GLU_wOE1_plus_N_plus_N
+delete sig.GLU_wOE1_plus_SER_N_OG
+load GLU_wOE1_plus_SER_N_OG.pdb, sig.GLU_wOE1_plus_SER_N_OG
+delete sig.GLU_wOE1_plus_SER_N_OG_wOG
+load GLU_wOE1_plus_SER_N_OG_wOG.pdb, sig.GLU_wOE1_plus_SER_N_OG_wOG
+delete sig.GLU_wOE1_plus_SER_wOG
+load GLU_wOE1_plus_SER_wOG.pdb, sig.GLU_wOE1_plus_SER_wOG
+delete sig.GLU_wOE1_plus_THR_N_OG1
+load GLU_wOE1_plus_THR_N_OG1.pdb, sig.GLU_wOE1_plus_THR_N_OG1
+delete sig.GLU_wOE1_plus_THR_N_OG1_plus_N
+load GLU_wOE1_plus_THR_N_OG1_plus_N.pdb, sig.GLU_wOE1_plus_THR_N_OG1_plus_N
+delete sig.GLU_wOE1_plus_wO
+load GLU_wOE1_plus_wO.pdb, sig.GLU_wOE1_plus_wO
+delete sig.GLU_wOE1_plus_wO_plus_LYS_NZ
+load GLU_wOE1_plus_wO_plus_LYS_NZ.pdb, sig.GLU_wOE1_plus_wO_plus_LYS_NZ
+delete sig.GLU_wOE1_wOE2
+load GLU_wOE1_wOE2.pdb, sig.GLU_wOE1_wOE2
+delete sig.GLU_wOE1_wOE2_plus_SER_OG
+load GLU_wOE1_wOE2_plus_SER_OG.pdb, sig.GLU_wOE1_wOE2_plus_SER_OG
+delete sig.GLU_wOE2
+load GLU_wOE2.pdb, sig.GLU_wOE2
+delete sig.GLU_wOE2_plus_ARG_NE_NH1
+load GLU_wOE2_plus_ARG_NE_NH1.pdb, sig.GLU_wOE2_plus_ARG_NE_NH1
+delete sig.GLU_wOE2_plus_ARG_NE_NH2
+load GLU_wOE2_plus_ARG_NE_NH2.pdb, sig.GLU_wOE2_plus_ARG_NE_NH2
+delete sig.GLU_wOE2_plus_ARG_NH1_NH2
+load GLU_wOE2_plus_ARG_NH1_NH2.pdb, sig.GLU_wOE2_plus_ARG_NH1_NH2
+delete sig.GLU_wOE2_plus_ARG_N_NE_NH2
+load GLU_wOE2_plus_ARG_N_NE_NH2.pdb, sig.GLU_wOE2_plus_ARG_N_NE_NH2
+delete sig.GLU_wOE2_plus_ARG_N_NH1
+load GLU_wOE2_plus_ARG_N_NH1.pdb, sig.GLU_wOE2_plus_ARG_N_NH1
+delete sig.GLU_wOE2_plus_ASN_N_ND2
+load GLU_wOE2_plus_ASN_N_ND2.pdb, sig.GLU_wOE2_plus_ASN_N_ND2
+delete sig.GLU_wOE2_plus_ASN_wOD1
+load GLU_wOE2_plus_ASN_wOD1.pdb, sig.GLU_wOE2_plus_ASN_wOD1
+delete sig.GLU_wOE2_plus_ASP_N_wOD2
+load GLU_wOE2_plus_ASP_N_wOD2.pdb, sig.GLU_wOE2_plus_ASP_N_wOD2
+delete sig.GLU_wOE2_plus_ASP_wOD1_plus_ARG_NE_NH2
+load GLU_wOE2_plus_ASP_wOD1_plus_ARG_NE_NH2.pdb, sig.GLU_wOE2_plus_ASP_wOD1_plus_ARG_NE_NH2
+delete sig.GLU_wOE2_plus_ASP_wOD2
+load GLU_wOE2_plus_ASP_wOD2.pdb, sig.GLU_wOE2_plus_ASP_wOD2
+delete sig.GLU_wOE2_plus_GLN_N_wOE1
+load GLU_wOE2_plus_GLN_N_wOE1.pdb, sig.GLU_wOE2_plus_GLN_N_wOE1
+delete sig.GLU_wOE2_plus_GLN_wOE1
+load GLU_wOE2_plus_GLN_wOE1.pdb, sig.GLU_wOE2_plus_GLN_wOE1
+delete sig.GLU_wOE2_plus_GLU_wOE1
+load GLU_wOE2_plus_GLU_wOE1.pdb, sig.GLU_wOE2_plus_GLU_wOE1
+delete sig.GLU_wOE2_plus_HIS_N_ND1
+load GLU_wOE2_plus_HIS_N_ND1.pdb, sig.GLU_wOE2_plus_HIS_N_ND1
+delete sig.GLU_wOE2_plus_N
+load GLU_wOE2_plus_N.pdb, sig.GLU_wOE2_plus_N
+delete sig.GLU_wOE2_plus_N_plus_ASN_N_ND2
+load GLU_wOE2_plus_N_plus_ASN_N_ND2.pdb, sig.GLU_wOE2_plus_N_plus_ASN_N_ND2
+delete sig.GLU_wOE2_plus_N_plus_ASN_N_wOD1
+load GLU_wOE2_plus_N_plus_ASN_N_wOD1.pdb, sig.GLU_wOE2_plus_N_plus_ASN_N_wOD1
+delete sig.GLU_wOE2_plus_N_plus_N
+load GLU_wOE2_plus_N_plus_N.pdb, sig.GLU_wOE2_plus_N_plus_N
+delete sig.GLU_wOE2_plus_N_plus_N_plus_N_plus_N
+load GLU_wOE2_plus_N_plus_N_plus_N_plus_N.pdb, sig.GLU_wOE2_plus_N_plus_N_plus_N_plus_N
+delete sig.GLU_wOE2_plus_N_wO
+load GLU_wOE2_plus_N_wO.pdb, sig.GLU_wOE2_plus_N_wO
+delete sig.GLU_wOE2_plus_SER_N_OG
+load GLU_wOE2_plus_SER_N_OG.pdb, sig.GLU_wOE2_plus_SER_N_OG
+delete sig.GLU_wOE2_plus_SER_wOG
+load GLU_wOE2_plus_SER_wOG.pdb, sig.GLU_wOE2_plus_SER_wOG
+delete sig.GLU_wOE2_plus_THR_N_OG1
+load GLU_wOE2_plus_THR_N_OG1.pdb, sig.GLU_wOE2_plus_THR_N_OG1
+delete sig.GLU_wOE2_plus_THR_wOG1
+load GLU_wOE2_plus_THR_wOG1.pdb, sig.GLU_wOE2_plus_THR_wOG1
+delete sig.GLU_wOE2_plus_wO
+load GLU_wOE2_plus_wO.pdb, sig.GLU_wOE2_plus_wO
+delete sig.GLU_wOE2_plus_wO_plus_HIS_ND1
+load GLU_wOE2_plus_wO_plus_HIS_ND1.pdb, sig.GLU_wOE2_plus_wO_plus_HIS_ND1
+delete sig.GLU_wO_wOE1
+load GLU_wO_wOE1.pdb, sig.GLU_wO_wOE1
+delete sig.GLU_wO_wOE1_plus_ARG_NH2
+load GLU_wO_wOE1_plus_ARG_NH2.pdb, sig.GLU_wO_wOE1_plus_ARG_NH2
+delete sig.GLU_wO_wOE1_plus_HIS_NE2
+load GLU_wO_wOE1_plus_HIS_NE2.pdb, sig.GLU_wO_wOE1_plus_HIS_NE2
+delete sig.GLU_wO_wOE2
+load GLU_wO_wOE2.pdb, sig.GLU_wO_wOE2
+delete sig.GLU_wO_wOE2_plus_ARG_NE_NH2
+load GLU_wO_wOE2_plus_ARG_NE_NH2.pdb, sig.GLU_wO_wOE2_plus_ARG_NE_NH2
+delete sig.GLU_wO_wOE2_plus_wO
+load GLU_wO_wOE2_plus_wO.pdb, sig.GLU_wO_wOE2_plus_wO
+delete sig.HIS_ND1
+load HIS_ND1.pdb, sig.HIS_ND1
+delete sig.HIS_ND1_plus_ARG_N_NE_NH2
+load HIS_ND1_plus_ARG_N_NE_NH2.pdb, sig.HIS_ND1_plus_ARG_N_NE_NH2
+delete sig.HIS_ND1_plus_GLN_NE2_wOE1
+load HIS_ND1_plus_GLN_NE2_wOE1.pdb, sig.HIS_ND1_plus_GLN_NE2_wOE1
+delete sig.HIS_ND1_plus_GLU_N_wOE1
+load HIS_ND1_plus_GLU_N_wOE1.pdb, sig.HIS_ND1_plus_GLU_N_wOE1
+delete sig.HIS_ND1_plus_HIS_N_ND1
+load HIS_ND1_plus_HIS_N_ND1.pdb, sig.HIS_ND1_plus_HIS_N_ND1
+delete sig.HIS_ND1_plus_HIS_N_wND1
+load HIS_ND1_plus_HIS_N_wND1.pdb, sig.HIS_ND1_plus_HIS_N_wND1
+delete sig.HIS_ND1_plus_HIS_wND1
+load HIS_ND1_plus_HIS_wND1.pdb, sig.HIS_ND1_plus_HIS_wND1
+delete sig.HIS_ND1_plus_N
+load HIS_ND1_plus_N.pdb, sig.HIS_ND1_plus_N
+delete sig.HIS_ND1_plus_N_plus_ASN_wOD1
+load HIS_ND1_plus_N_plus_ASN_wOD1.pdb, sig.HIS_ND1_plus_N_plus_ASN_wOD1
+delete sig.HIS_ND1_plus_N_plus_N
+load HIS_ND1_plus_N_plus_N.pdb, sig.HIS_ND1_plus_N_plus_N
+delete sig.HIS_ND1_plus_N_plus_N_plus_N
+load HIS_ND1_plus_N_plus_N_plus_N.pdb, sig.HIS_ND1_plus_N_plus_N_plus_N
+delete sig.HIS_ND1_plus_N_plus_SER_N_OG
+load HIS_ND1_plus_N_plus_SER_N_OG.pdb, sig.HIS_ND1_plus_N_plus_SER_N_OG
+delete sig.HIS_ND1_plus_N_plus_SER_N_wOG
+load HIS_ND1_plus_N_plus_SER_N_wOG.pdb, sig.HIS_ND1_plus_N_plus_SER_N_wOG
+delete sig.HIS_ND1_plus_N_plus_SER_wOG
+load HIS_ND1_plus_N_plus_SER_wOG.pdb, sig.HIS_ND1_plus_N_plus_SER_wOG
+delete sig.HIS_ND1_plus_N_wO
+load HIS_ND1_plus_N_wO.pdb, sig.HIS_ND1_plus_N_wO
+delete sig.HIS_ND1_plus_SER_N_OG_plus_N
+load HIS_ND1_plus_SER_N_OG_plus_N.pdb, sig.HIS_ND1_plus_SER_N_OG_plus_N
+delete sig.HIS_ND1_plus_SER_N_wOG
+load HIS_ND1_plus_SER_N_wOG.pdb, sig.HIS_ND1_plus_SER_N_wOG
+delete sig.HIS_ND1_plus_SER_wOG
+load HIS_ND1_plus_SER_wOG.pdb, sig.HIS_ND1_plus_SER_wOG
+delete sig.HIS_ND1_plus_THR_N_OG1_plus_wO
+load HIS_ND1_plus_THR_N_OG1_plus_wO.pdb, sig.HIS_ND1_plus_THR_N_OG1_plus_wO
+delete sig.HIS_ND1_plus_THR_N_wOG1
+load HIS_ND1_plus_THR_N_wOG1.pdb, sig.HIS_ND1_plus_THR_N_wOG1
+delete sig.HIS_ND1_plus_wO
+load HIS_ND1_plus_wO.pdb, sig.HIS_ND1_plus_wO
+delete sig.HIS_ND1_wO
+load HIS_ND1_wO.pdb, sig.HIS_ND1_wO
+delete sig.HIS_ND1_wO_plus_TYR_OH
+load HIS_ND1_wO_plus_TYR_OH.pdb, sig.HIS_ND1_wO_plus_TYR_OH
+delete sig.HIS_NE2
+load HIS_NE2.pdb, sig.HIS_NE2
+delete sig.HIS_NE2_plus_ARG_NE_NH2
+load HIS_NE2_plus_ARG_NE_NH2.pdb, sig.HIS_NE2_plus_ARG_NE_NH2
+delete sig.HIS_NE2_plus_ARG_NH1
+load HIS_NE2_plus_ARG_NH1.pdb, sig.HIS_NE2_plus_ARG_NH1
+delete sig.HIS_NE2_plus_ASN_ND2_wOD1
+load HIS_NE2_plus_ASN_ND2_wOD1.pdb, sig.HIS_NE2_plus_ASN_ND2_wOD1
+delete sig.HIS_NE2_plus_ASN_wOD1
+load HIS_NE2_plus_ASN_wOD1.pdb, sig.HIS_NE2_plus_ASN_wOD1
+delete sig.HIS_NE2_plus_ASP_wOD1
+load HIS_NE2_plus_ASP_wOD1.pdb, sig.HIS_NE2_plus_ASP_wOD1
+delete sig.HIS_NE2_plus_ASP_wOD2
+load HIS_NE2_plus_ASP_wOD2.pdb, sig.HIS_NE2_plus_ASP_wOD2
+delete sig.HIS_NE2_plus_GLN_wOE1
+load HIS_NE2_plus_GLN_wOE1.pdb, sig.HIS_NE2_plus_GLN_wOE1
+delete sig.HIS_NE2_plus_GLN_wO_wOE1
+load HIS_NE2_plus_GLN_wO_wOE1.pdb, sig.HIS_NE2_plus_GLN_wO_wOE1
+delete sig.HIS_NE2_plus_GLU_wOE1_wOE2
+load HIS_NE2_plus_GLU_wOE1_wOE2.pdb, sig.HIS_NE2_plus_GLU_wOE1_wOE2
+delete sig.HIS_NE2_plus_SER_wOG
+load HIS_NE2_plus_SER_wOG.pdb, sig.HIS_NE2_plus_SER_wOG
+delete sig.HIS_NE2_plus_THR_wOG1
+load HIS_NE2_plus_THR_wOG1.pdb, sig.HIS_NE2_plus_THR_wOG1
+delete sig.HIS_NE2_plus_TYR_wOH
+load HIS_NE2_plus_TYR_wOH.pdb, sig.HIS_NE2_plus_TYR_wOH
+delete sig.HIS_NE2_plus_wO
+load HIS_NE2_plus_wO.pdb, sig.HIS_NE2_plus_wO
+delete sig.HIS_NE2_plus_wO_plus_ASN_ND2
+load HIS_NE2_plus_wO_plus_ASN_ND2.pdb, sig.HIS_NE2_plus_wO_plus_ASN_ND2
+delete sig.HIS_NE2_plus_wO_plus_N
+load HIS_NE2_plus_wO_plus_N.pdb, sig.HIS_NE2_plus_wO_plus_N
+delete sig.HIS_NE2_plus_wO_plus_THR_wOG1
+load HIS_NE2_plus_wO_plus_THR_wOG1.pdb, sig.HIS_NE2_plus_wO_plus_THR_wOG1
+delete sig.HIS_NE2_plus_wO_plus_TYR_OH
+load HIS_NE2_plus_wO_plus_TYR_OH.pdb, sig.HIS_NE2_plus_wO_plus_TYR_OH
+delete sig.HIS_NE2_plus_wO_plus_TYR_OH_wOH
+load HIS_NE2_plus_wO_plus_TYR_OH_wOH.pdb, sig.HIS_NE2_plus_wO_plus_TYR_OH_wOH
+delete sig.HIS_NE2_plus_wO_plus_TYR_wOH
+load HIS_NE2_plus_wO_plus_TYR_wOH.pdb, sig.HIS_NE2_plus_wO_plus_TYR_wOH
+delete sig.HIS_NE2_plus_wO_plus_wO
+load HIS_NE2_plus_wO_plus_wO.pdb, sig.HIS_NE2_plus_wO_plus_wO
+delete sig.HIS_NE2_wO
+load HIS_NE2_wO.pdb, sig.HIS_NE2_wO
+delete sig.HIS_N_ND1
+load HIS_N_ND1.pdb, sig.HIS_N_ND1
+delete sig.HIS_N_ND1_plus_ASP_wOD1
+load HIS_N_ND1_plus_ASP_wOD1.pdb, sig.HIS_N_ND1_plus_ASP_wOD1
+delete sig.HIS_N_ND1_plus_ASP_wOD2
+load HIS_N_ND1_plus_ASP_wOD2.pdb, sig.HIS_N_ND1_plus_ASP_wOD2
+delete sig.HIS_N_ND1_plus_HIS_ND1
+load HIS_N_ND1_plus_HIS_ND1.pdb, sig.HIS_N_ND1_plus_HIS_ND1
+delete sig.HIS_N_ND1_plus_N
+load HIS_N_ND1_plus_N.pdb, sig.HIS_N_ND1_plus_N
+delete sig.HIS_N_ND1_plus_N_plus_ASN_ND2
+load HIS_N_ND1_plus_N_plus_ASN_ND2.pdb, sig.HIS_N_ND1_plus_N_plus_ASN_ND2
+delete sig.HIS_N_ND1_plus_wO
+load HIS_N_ND1_plus_wO.pdb, sig.HIS_N_ND1_plus_wO
+delete sig.HIS_N_ND1_wO
+load HIS_N_ND1_wO.pdb, sig.HIS_N_ND1_wO
+delete sig.HIS_N_wND1
+load HIS_N_wND1.pdb, sig.HIS_N_wND1
+delete sig.HIS_N_wND1_plus_ARG_NE
+load HIS_N_wND1_plus_ARG_NE.pdb, sig.HIS_N_wND1_plus_ARG_NE
+delete sig.HIS_N_wND1_plus_ARG_N_NE
+load HIS_N_wND1_plus_ARG_N_NE.pdb, sig.HIS_N_wND1_plus_ARG_N_NE
+delete sig.HIS_N_wND1_plus_ARG_N_NE_NH2
+load HIS_N_wND1_plus_ARG_N_NE_NH2.pdb, sig.HIS_N_wND1_plus_ARG_N_NE_NH2
+delete sig.HIS_N_wND1_plus_ASP_wOD1
+load HIS_N_wND1_plus_ASP_wOD1.pdb, sig.HIS_N_wND1_plus_ASP_wOD1
+delete sig.HIS_N_wND1_plus_N
+load HIS_N_wND1_plus_N.pdb, sig.HIS_N_wND1_plus_N
+delete sig.HIS_N_wND1_plus_wO
+load HIS_N_wND1_plus_wO.pdb, sig.HIS_N_wND1_plus_wO
+delete sig.HIS_N_wND1_wO
+load HIS_N_wND1_wO.pdb, sig.HIS_N_wND1_wO
+delete sig.HIS_wND1
+load HIS_wND1.pdb, sig.HIS_wND1
+delete sig.HIS_wND1_plus_ARG_NE_NH2
+load HIS_wND1_plus_ARG_NE_NH2.pdb, sig.HIS_wND1_plus_ARG_NE_NH2
+delete sig.HIS_wND1_plus_ARG_NH1_NH2
+load HIS_wND1_plus_ARG_NH1_NH2.pdb, sig.HIS_wND1_plus_ARG_NH1_NH2
+delete sig.HIS_wND1_plus_ASP_wOD1
+load HIS_wND1_plus_ASP_wOD1.pdb, sig.HIS_wND1_plus_ASP_wOD1
+delete sig.HIS_wND1_plus_ASP_wOD2
+load HIS_wND1_plus_ASP_wOD2.pdb, sig.HIS_wND1_plus_ASP_wOD2
+delete sig.HIS_wND1_plus_HIS_NE2
+load HIS_wND1_plus_HIS_NE2.pdb, sig.HIS_wND1_plus_HIS_NE2
+delete sig.HIS_wND1_plus_HIS_N_ND1
+load HIS_wND1_plus_HIS_N_ND1.pdb, sig.HIS_wND1_plus_HIS_N_ND1
+delete sig.HIS_wND1_plus_LYS_NZ
+load HIS_wND1_plus_LYS_NZ.pdb, sig.HIS_wND1_plus_LYS_NZ
+delete sig.HIS_wND1_plus_N
+load HIS_wND1_plus_N.pdb, sig.HIS_wND1_plus_N
+delete sig.HIS_wND1_plus_N_plus_N
+load HIS_wND1_plus_N_plus_N.pdb, sig.HIS_wND1_plus_N_plus_N
+delete sig.HIS_wND1_plus_N_wO
+load HIS_wND1_plus_N_wO.pdb, sig.HIS_wND1_plus_N_wO
+delete sig.HIS_wND1_plus_THR_N_wO_OG1
+load HIS_wND1_plus_THR_N_wO_OG1.pdb, sig.HIS_wND1_plus_THR_N_wO_OG1
+delete sig.HIS_wND1_plus_THR_wOG1
+load HIS_wND1_plus_THR_wOG1.pdb, sig.HIS_wND1_plus_THR_wOG1
+delete sig.HIS_wND1_wO
+load HIS_wND1_wO.pdb, sig.HIS_wND1_wO
+delete sig.HIS_wND1_wO_plus_GLN_NE2
+load HIS_wND1_wO_plus_GLN_NE2.pdb, sig.HIS_wND1_wO_plus_GLN_NE2
+delete sig.HIS_wNE2
+load HIS_wNE2.pdb, sig.HIS_wNE2
+delete sig.HIS_wNE2_plus_ARG_NE_NH2_plus_HIS_NE2
+load HIS_wNE2_plus_ARG_NE_NH2_plus_HIS_NE2.pdb, sig.HIS_wNE2_plus_ARG_NE_NH2_plus_HIS_NE2
+delete sig.HIS_wNE2_plus_ASN_ND2_wOD1
+load HIS_wNE2_plus_ASN_ND2_wOD1.pdb, sig.HIS_wNE2_plus_ASN_ND2_wOD1
+delete sig.HIS_wNE2_plus_ASN_wOD1
+load HIS_wNE2_plus_ASN_wOD1.pdb, sig.HIS_wNE2_plus_ASN_wOD1
+delete sig.HIS_wNE2_plus_GLU_wOE2
+load HIS_wNE2_plus_GLU_wOE2.pdb, sig.HIS_wNE2_plus_GLU_wOE2
+delete sig.HIS_wNE2_plus_THR_OG1_plus_HIS_NE2
+load HIS_wNE2_plus_THR_OG1_plus_HIS_NE2.pdb, sig.HIS_wNE2_plus_THR_OG1_plus_HIS_NE2
+delete sig.HIS_wNE2_plus_TRP_NE1
+load HIS_wNE2_plus_TRP_NE1.pdb, sig.HIS_wNE2_plus_TRP_NE1
+delete sig.HIS_wNE2_plus_wO
+load HIS_wNE2_plus_wO.pdb, sig.HIS_wNE2_plus_wO
+delete sig.HIS_wNE2_wO
+load HIS_wNE2_wO.pdb, sig.HIS_wNE2_wO
+delete sig.LYS_NZ
+load LYS_NZ.pdb, sig.LYS_NZ
+delete sig.LYS_NZ_plus_ARG_N_NH1
+load LYS_NZ_plus_ARG_N_NH1.pdb, sig.LYS_NZ_plus_ARG_N_NH1
+delete sig.LYS_NZ_plus_ASN_ND2
+load LYS_NZ_plus_ASN_ND2.pdb, sig.LYS_NZ_plus_ASN_ND2
+delete sig.LYS_NZ_plus_ASN_wOD1
+load LYS_NZ_plus_ASN_wOD1.pdb, sig.LYS_NZ_plus_ASN_wOD1
+delete sig.LYS_NZ_plus_ASP_wOD1
+load LYS_NZ_plus_ASP_wOD1.pdb, sig.LYS_NZ_plus_ASP_wOD1
+delete sig.LYS_NZ_plus_ASP_wOD2
+load LYS_NZ_plus_ASP_wOD2.pdb, sig.LYS_NZ_plus_ASP_wOD2
+delete sig.LYS_NZ_plus_GLN_NE2_wOE1
+load LYS_NZ_plus_GLN_NE2_wOE1.pdb, sig.LYS_NZ_plus_GLN_NE2_wOE1
+delete sig.LYS_NZ_plus_GLN_wOE1
+load LYS_NZ_plus_GLN_wOE1.pdb, sig.LYS_NZ_plus_GLN_wOE1
+delete sig.LYS_NZ_plus_GLU_wOE1_wOE2
+load LYS_NZ_plus_GLU_wOE1_wOE2.pdb, sig.LYS_NZ_plus_GLU_wOE1_wOE2
+delete sig.LYS_NZ_plus_GLU_wOE2_plus_ASN_wOD1
+load LYS_NZ_plus_GLU_wOE2_plus_ASN_wOD1.pdb, sig.LYS_NZ_plus_GLU_wOE2_plus_ASN_wOD1
+delete sig.LYS_NZ_plus_N
+load LYS_NZ_plus_N.pdb, sig.LYS_NZ_plus_N
+delete sig.LYS_NZ_plus_N_plus_N
+load LYS_NZ_plus_N_plus_N.pdb, sig.LYS_NZ_plus_N_plus_N
+delete sig.LYS_NZ_plus_N_wO
+load LYS_NZ_plus_N_wO.pdb, sig.LYS_NZ_plus_N_wO
+delete sig.LYS_NZ_plus_SER_OG_plus_N_plus_N
+load LYS_NZ_plus_SER_OG_plus_N_plus_N.pdb, sig.LYS_NZ_plus_SER_OG_plus_N_plus_N
+delete sig.LYS_NZ_plus_TYR_OH
+load LYS_NZ_plus_TYR_OH.pdb, sig.LYS_NZ_plus_TYR_OH
+delete sig.LYS_NZ_plus_TYR_OH_wOH
+load LYS_NZ_plus_TYR_OH_wOH.pdb, sig.LYS_NZ_plus_TYR_OH_wOH
+delete sig.LYS_NZ_plus_TYR_wOH
+load LYS_NZ_plus_TYR_wOH.pdb, sig.LYS_NZ_plus_TYR_wOH
+delete sig.LYS_NZ_plus_wO
+load LYS_NZ_plus_wO.pdb, sig.LYS_NZ_plus_wO
+delete sig.LYS_NZ_plus_wO_plus_N
+load LYS_NZ_plus_wO_plus_N.pdb, sig.LYS_NZ_plus_wO_plus_N
+delete sig.LYS_NZ_plus_wO_plus_wO
+load LYS_NZ_plus_wO_plus_wO.pdb, sig.LYS_NZ_plus_wO_plus_wO
+delete sig.LYS_NZ_plus_wO_plus_wO_plus_N
+load LYS_NZ_plus_wO_plus_wO_plus_N.pdb, sig.LYS_NZ_plus_wO_plus_wO_plus_N
+delete sig.LYS_NZ_wO
+load LYS_NZ_wO.pdb, sig.LYS_NZ_wO
+delete sig.LYS_NZ_wO_plus_wO
+load LYS_NZ_wO_plus_wO.pdb, sig.LYS_NZ_wO_plus_wO
+delete sig.LYS_N_NZ_plus_GLU_wOE1
+load LYS_N_NZ_plus_GLU_wOE1.pdb, sig.LYS_N_NZ_plus_GLU_wOE1
+delete sig.LYS_N_NZ_plus_wO
+load LYS_N_NZ_plus_wO.pdb, sig.LYS_N_NZ_plus_wO
+delete sig.LYS_N_NZ_wO
+load LYS_N_NZ_wO.pdb, sig.LYS_N_NZ_wO
+delete sig.N
+load N.pdb, sig.N
+delete sig.N_plus_ARG_NE_NH1
+load N_plus_ARG_NE_NH1.pdb, sig.N_plus_ARG_NE_NH1
+delete sig.N_plus_ARG_NE_NH2
+load N_plus_ARG_NE_NH2.pdb, sig.N_plus_ARG_NE_NH2
+delete sig.N_plus_ARG_NE_NH2_plus_wO
+load N_plus_ARG_NE_NH2_plus_wO.pdb, sig.N_plus_ARG_NE_NH2_plus_wO
+delete sig.N_plus_ARG_NE_NH2_wO
+load N_plus_ARG_NE_NH2_wO.pdb, sig.N_plus_ARG_NE_NH2_wO
+delete sig.N_plus_ARG_NH1
+load N_plus_ARG_NH1.pdb, sig.N_plus_ARG_NH1
+delete sig.N_plus_ARG_NH1_NH2
+load N_plus_ARG_NH1_NH2.pdb, sig.N_plus_ARG_NH1_NH2
+delete sig.N_plus_ARG_NH1_plus_wO
+load N_plus_ARG_NH1_plus_wO.pdb, sig.N_plus_ARG_NH1_plus_wO
+delete sig.N_plus_ARG_N_NE
+load N_plus_ARG_N_NE.pdb, sig.N_plus_ARG_N_NE
+delete sig.N_plus_ARG_N_NE_NH1
+load N_plus_ARG_N_NE_NH1.pdb, sig.N_plus_ARG_N_NE_NH1
+delete sig.N_plus_ARG_N_NE_NH2
+load N_plus_ARG_N_NE_NH2.pdb, sig.N_plus_ARG_N_NE_NH2
+delete sig.N_plus_ARG_N_NE_NH2_wO
+load N_plus_ARG_N_NE_NH2_wO.pdb, sig.N_plus_ARG_N_NE_NH2_wO
+delete sig.N_plus_ARG_N_NE_wO
+load N_plus_ARG_N_NE_wO.pdb, sig.N_plus_ARG_N_NE_wO
+delete sig.N_plus_ARG_N_NH1
+load N_plus_ARG_N_NH1.pdb, sig.N_plus_ARG_N_NH1
+delete sig.N_plus_ARG_N_NH2
+load N_plus_ARG_N_NH2.pdb, sig.N_plus_ARG_N_NH2
+delete sig.N_plus_ASN_ND2_wO
+load N_plus_ASN_ND2_wO.pdb, sig.N_plus_ASN_ND2_wO
+delete sig.N_plus_ASN_ND2_wOD1
+load N_plus_ASN_ND2_wOD1.pdb, sig.N_plus_ASN_ND2_wOD1
+delete sig.N_plus_ASN_N_ND2
+load N_plus_ASN_N_ND2.pdb, sig.N_plus_ASN_N_ND2
+delete sig.N_plus_ASN_N_ND2_plus_N
+load N_plus_ASN_N_ND2_plus_N.pdb, sig.N_plus_ASN_N_ND2_plus_N
+delete sig.N_plus_ASN_N_ND2_plus_SER_OG
+load N_plus_ASN_N_ND2_plus_SER_OG.pdb, sig.N_plus_ASN_N_ND2_plus_SER_OG
+delete sig.N_plus_ASN_N_ND2_plus_wO
+load N_plus_ASN_N_ND2_plus_wO.pdb, sig.N_plus_ASN_N_ND2_plus_wO
+delete sig.N_plus_ASN_N_ND2_wO
+load N_plus_ASN_N_ND2_wO.pdb, sig.N_plus_ASN_N_ND2_wO
+delete sig.N_plus_ASN_N_wOD1
+load N_plus_ASN_N_wOD1.pdb, sig.N_plus_ASN_N_wOD1
+delete sig.N_plus_ASN_N_wOD1_plus_wO
+load N_plus_ASN_N_wOD1_plus_wO.pdb, sig.N_plus_ASN_N_wOD1_plus_wO
+delete sig.N_plus_ASN_wOD1
+load N_plus_ASN_wOD1.pdb, sig.N_plus_ASN_wOD1
+delete sig.N_plus_ASN_wOD1_plus_wO
+load N_plus_ASN_wOD1_plus_wO.pdb, sig.N_plus_ASN_wOD1_plus_wO
+delete sig.N_plus_ASP_N_wOD1
+load N_plus_ASP_N_wOD1.pdb, sig.N_plus_ASP_N_wOD1
+delete sig.N_plus_ASP_N_wOD2
+load N_plus_ASP_N_wOD2.pdb, sig.N_plus_ASP_N_wOD2
+delete sig.N_plus_ASP_N_wOD2_plus_N
+load N_plus_ASP_N_wOD2_plus_N.pdb, sig.N_plus_ASP_N_wOD2_plus_N
+delete sig.N_plus_ASP_N_wOD2_plus_wO
+load N_plus_ASP_N_wOD2_plus_wO.pdb, sig.N_plus_ASP_N_wOD2_plus_wO
+delete sig.N_plus_ASP_wOD1
+load N_plus_ASP_wOD1.pdb, sig.N_plus_ASP_wOD1
+delete sig.N_plus_ASP_wOD1_plus_THR_wOG1
+load N_plus_ASP_wOD1_plus_THR_wOG1.pdb, sig.N_plus_ASP_wOD1_plus_THR_wOG1
+delete sig.N_plus_ASP_wOD1_plus_TRP_NE1
+load N_plus_ASP_wOD1_plus_TRP_NE1.pdb, sig.N_plus_ASP_wOD1_plus_TRP_NE1
+delete sig.N_plus_ASP_wOD1_wOD2
+load N_plus_ASP_wOD1_wOD2.pdb, sig.N_plus_ASP_wOD1_wOD2
+delete sig.N_plus_ASP_wOD2
+load N_plus_ASP_wOD2.pdb, sig.N_plus_ASP_wOD2
+delete sig.N_plus_GLN_NE2_plus_N_plus_N
+load N_plus_GLN_NE2_plus_N_plus_N.pdb, sig.N_plus_GLN_NE2_plus_N_plus_N
+delete sig.N_plus_GLN_NE2_wOE1
+load N_plus_GLN_NE2_wOE1.pdb, sig.N_plus_GLN_NE2_wOE1
+delete sig.N_plus_GLN_N_NE2
+load N_plus_GLN_N_NE2.pdb, sig.N_plus_GLN_N_NE2
+delete sig.N_plus_GLN_N_NE2_plus_wO
+load N_plus_GLN_N_NE2_plus_wO.pdb, sig.N_plus_GLN_N_NE2_plus_wO
+delete sig.N_plus_GLN_N_wOE1
+load N_plus_GLN_N_wOE1.pdb, sig.N_plus_GLN_N_wOE1
+delete sig.N_plus_GLN_N_wOE1_plus_wO
+load N_plus_GLN_N_wOE1_plus_wO.pdb, sig.N_plus_GLN_N_wOE1_plus_wO
+delete sig.N_plus_GLN_wOE1
+load N_plus_GLN_wOE1.pdb, sig.N_plus_GLN_wOE1
+delete sig.N_plus_GLU_N_wOE1
+load N_plus_GLU_N_wOE1.pdb, sig.N_plus_GLU_N_wOE1
+delete sig.N_plus_GLU_N_wOE1_plus_wO
+load N_plus_GLU_N_wOE1_plus_wO.pdb, sig.N_plus_GLU_N_wOE1_plus_wO
+delete sig.N_plus_GLU_N_wOE2
+load N_plus_GLU_N_wOE2.pdb, sig.N_plus_GLU_N_wOE2
+delete sig.N_plus_GLU_wOE1
+load N_plus_GLU_wOE1.pdb, sig.N_plus_GLU_wOE1
+delete sig.N_plus_GLU_wOE2
+load N_plus_GLU_wOE2.pdb, sig.N_plus_GLU_wOE2
+delete sig.N_plus_GLU_wO_wOE1
+load N_plus_GLU_wO_wOE1.pdb, sig.N_plus_GLU_wO_wOE1
+delete sig.N_plus_GLU_wO_wOE2
+load N_plus_GLU_wO_wOE2.pdb, sig.N_plus_GLU_wO_wOE2
+delete sig.N_plus_HIS_ND1
+load N_plus_HIS_ND1.pdb, sig.N_plus_HIS_ND1
+delete sig.N_plus_HIS_N_ND1
+load N_plus_HIS_N_ND1.pdb, sig.N_plus_HIS_N_ND1
+delete sig.N_plus_HIS_N_ND1_plus_wO
+load N_plus_HIS_N_ND1_plus_wO.pdb, sig.N_plus_HIS_N_ND1_plus_wO
+delete sig.N_plus_HIS_N_wND1
+load N_plus_HIS_N_wND1.pdb, sig.N_plus_HIS_N_wND1
+delete sig.N_plus_HIS_N_wND1_plus_N
+load N_plus_HIS_N_wND1_plus_N.pdb, sig.N_plus_HIS_N_wND1_plus_N
+delete sig.N_plus_HIS_wND1
+load N_plus_HIS_wND1.pdb, sig.N_plus_HIS_wND1
+delete sig.N_plus_HIS_wND1_plus_wO
+load N_plus_HIS_wND1_plus_wO.pdb, sig.N_plus_HIS_wND1_plus_wO
+delete sig.N_plus_HIS_wNE2
+load N_plus_HIS_wNE2.pdb, sig.N_plus_HIS_wNE2
+delete sig.N_plus_LYS_N_NZ
+load N_plus_LYS_N_NZ.pdb, sig.N_plus_LYS_N_NZ
+delete sig.N_plus_N
+load N_plus_N.pdb, sig.N_plus_N
+delete sig.N_plus_N_plus_ARG_NH1
+load N_plus_N_plus_ARG_NH1.pdb, sig.N_plus_N_plus_ARG_NH1
+delete sig.N_plus_N_plus_ARG_NH1_NH2
+load N_plus_N_plus_ARG_NH1_NH2.pdb, sig.N_plus_N_plus_ARG_NH1_NH2
+delete sig.N_plus_N_plus_ARG_NH2
+load N_plus_N_plus_ARG_NH2.pdb, sig.N_plus_N_plus_ARG_NH2
+delete sig.N_plus_N_plus_ASN_ND2
+load N_plus_N_plus_ASN_ND2.pdb, sig.N_plus_N_plus_ASN_ND2
+delete sig.N_plus_N_plus_ASN_ND2_wO
+load N_plus_N_plus_ASN_ND2_wO.pdb, sig.N_plus_N_plus_ASN_ND2_wO
+delete sig.N_plus_N_plus_ASN_N_ND2
+load N_plus_N_plus_ASN_N_ND2.pdb, sig.N_plus_N_plus_ASN_N_ND2
+delete sig.N_plus_N_plus_ASP_wOD1
+load N_plus_N_plus_ASP_wOD1.pdb, sig.N_plus_N_plus_ASP_wOD1
+delete sig.N_plus_N_plus_ASP_wOD2
+load N_plus_N_plus_ASP_wOD2.pdb, sig.N_plus_N_plus_ASP_wOD2
+delete sig.N_plus_N_plus_GLN_NE2
+load N_plus_N_plus_GLN_NE2.pdb, sig.N_plus_N_plus_GLN_NE2
+delete sig.N_plus_N_plus_GLU_wOE1
+load N_plus_N_plus_GLU_wOE1.pdb, sig.N_plus_N_plus_GLU_wOE1
+delete sig.N_plus_N_plus_GLU_wOE2
+load N_plus_N_plus_GLU_wOE2.pdb, sig.N_plus_N_plus_GLU_wOE2
+delete sig.N_plus_N_plus_HIS_NE2
+load N_plus_N_plus_HIS_NE2.pdb, sig.N_plus_N_plus_HIS_NE2
+delete sig.N_plus_N_plus_HIS_N_ND1
+load N_plus_N_plus_HIS_N_ND1.pdb, sig.N_plus_N_plus_HIS_N_ND1
+delete sig.N_plus_N_plus_HIS_wND1
+load N_plus_N_plus_HIS_wND1.pdb, sig.N_plus_N_plus_HIS_wND1
+delete sig.N_plus_N_plus_N
+load N_plus_N_plus_N.pdb, sig.N_plus_N_plus_N
+delete sig.N_plus_N_plus_N_plus_ASP_N_wOD2
+load N_plus_N_plus_N_plus_ASP_N_wOD2.pdb, sig.N_plus_N_plus_N_plus_ASP_N_wOD2
+delete sig.N_plus_N_plus_N_plus_ASP_wOD1
+load N_plus_N_plus_N_plus_ASP_wOD1.pdb, sig.N_plus_N_plus_N_plus_ASP_wOD1
+delete sig.N_plus_N_plus_N_plus_N
+load N_plus_N_plus_N_plus_N.pdb, sig.N_plus_N_plus_N_plus_N
+delete sig.N_plus_N_plus_N_plus_SER_OG
+load N_plus_N_plus_N_plus_SER_OG.pdb, sig.N_plus_N_plus_N_plus_SER_OG
+delete sig.N_plus_N_plus_N_wO
+load N_plus_N_plus_N_wO.pdb, sig.N_plus_N_plus_N_wO
+delete sig.N_plus_N_plus_SER_N_OG
+load N_plus_N_plus_SER_N_OG.pdb, sig.N_plus_N_plus_SER_N_OG
+delete sig.N_plus_N_plus_SER_N_OG_plus_N
+load N_plus_N_plus_SER_N_OG_plus_N.pdb, sig.N_plus_N_plus_SER_N_OG_plus_N
+delete sig.N_plus_N_plus_SER_OG
+load N_plus_N_plus_SER_OG.pdb, sig.N_plus_N_plus_SER_OG
+delete sig.N_plus_N_plus_SER_wOG
+load N_plus_N_plus_SER_wOG.pdb, sig.N_plus_N_plus_SER_wOG
+delete sig.N_plus_N_plus_THR_N_OG1
+load N_plus_N_plus_THR_N_OG1.pdb, sig.N_plus_N_plus_THR_N_OG1
+delete sig.N_plus_N_plus_THR_OG1
+load N_plus_N_plus_THR_OG1.pdb, sig.N_plus_N_plus_THR_OG1
+delete sig.N_plus_N_plus_THR_wOG1
+load N_plus_N_plus_THR_wOG1.pdb, sig.N_plus_N_plus_THR_wOG1
+delete sig.N_plus_N_plus_TRP_NE1
+load N_plus_N_plus_TRP_NE1.pdb, sig.N_plus_N_plus_TRP_NE1
+delete sig.N_plus_N_plus_TYR_wOH
+load N_plus_N_plus_TYR_wOH.pdb, sig.N_plus_N_plus_TYR_wOH
+delete sig.N_plus_N_plus_wO
+load N_plus_N_plus_wO.pdb, sig.N_plus_N_plus_wO
+delete sig.N_plus_N_plus_wO_plus_wO
+load N_plus_N_plus_wO_plus_wO.pdb, sig.N_plus_N_plus_wO_plus_wO
+delete sig.N_plus_N_wO
+load N_plus_N_wO.pdb, sig.N_plus_N_wO
+delete sig.N_plus_N_wO_plus_ASN_ND2
+load N_plus_N_wO_plus_ASN_ND2.pdb, sig.N_plus_N_wO_plus_ASN_ND2
+delete sig.N_plus_SER_N_OG
+load N_plus_SER_N_OG.pdb, sig.N_plus_SER_N_OG
+delete sig.N_plus_SER_N_OG_plus_ASP_wOD2
+load N_plus_SER_N_OG_plus_ASP_wOD2.pdb, sig.N_plus_SER_N_OG_plus_ASP_wOD2
+delete sig.N_plus_SER_N_OG_plus_HIS_wNE2
+load N_plus_SER_N_OG_plus_HIS_wNE2.pdb, sig.N_plus_SER_N_OG_plus_HIS_wNE2
+delete sig.N_plus_SER_N_OG_plus_N
+load N_plus_SER_N_OG_plus_N.pdb, sig.N_plus_SER_N_OG_plus_N
+delete sig.N_plus_SER_N_OG_wOG
+load N_plus_SER_N_OG_wOG.pdb, sig.N_plus_SER_N_OG_wOG
+delete sig.N_plus_SER_N_wOG
+load N_plus_SER_N_wOG.pdb, sig.N_plus_SER_N_wOG
+delete sig.N_plus_SER_N_wOG_plus_N
+load N_plus_SER_N_wOG_plus_N.pdb, sig.N_plus_SER_N_wOG_plus_N
+delete sig.N_plus_SER_N_wO_OG
+load N_plus_SER_N_wO_OG.pdb, sig.N_plus_SER_N_wO_OG
+delete sig.N_plus_SER_N_wO_OG_plus_THR_OG1
+load N_plus_SER_N_wO_OG_plus_THR_OG1.pdb, sig.N_plus_SER_N_wO_OG_plus_THR_OG1
+delete sig.N_plus_SER_OG
+load N_plus_SER_OG.pdb, sig.N_plus_SER_OG
+delete sig.N_plus_SER_OG_plus_N
+load N_plus_SER_OG_plus_N.pdb, sig.N_plus_SER_OG_plus_N
+delete sig.N_plus_SER_OG_plus_SER_N_OG
+load N_plus_SER_OG_plus_SER_N_OG.pdb, sig.N_plus_SER_OG_plus_SER_N_OG
+delete sig.N_plus_SER_OG_wOG
+load N_plus_SER_OG_wOG.pdb, sig.N_plus_SER_OG_wOG
+delete sig.N_plus_SER_wOG
+load N_plus_SER_wOG.pdb, sig.N_plus_SER_wOG
+delete sig.N_plus_THR_N_OG1
+load N_plus_THR_N_OG1.pdb, sig.N_plus_THR_N_OG1
+delete sig.N_plus_THR_N_OG1_plus_GLN_wOE1
+load N_plus_THR_N_OG1_plus_GLN_wOE1.pdb, sig.N_plus_THR_N_OG1_plus_GLN_wOE1
+delete sig.N_plus_THR_N_OG1_plus_N
+load N_plus_THR_N_OG1_plus_N.pdb, sig.N_plus_THR_N_OG1_plus_N
+delete sig.N_plus_THR_N_OG1_plus_N_plus_wO
+load N_plus_THR_N_OG1_plus_N_plus_wO.pdb, sig.N_plus_THR_N_OG1_plus_N_plus_wO
+delete sig.N_plus_THR_N_OG1_plus_wO
+load N_plus_THR_N_OG1_plus_wO.pdb, sig.N_plus_THR_N_OG1_plus_wO
+delete sig.N_plus_THR_N_OG1_wOG1
+load N_plus_THR_N_OG1_wOG1.pdb, sig.N_plus_THR_N_OG1_wOG1
+delete sig.N_plus_THR_N_wOG1
+load N_plus_THR_N_wOG1.pdb, sig.N_plus_THR_N_wOG1
+delete sig.N_plus_THR_N_wO_OG1
+load N_plus_THR_N_wO_OG1.pdb, sig.N_plus_THR_N_wO_OG1
+delete sig.N_plus_THR_OG1
+load N_plus_THR_OG1.pdb, sig.N_plus_THR_OG1
+delete sig.N_plus_THR_OG1_wOG1
+load N_plus_THR_OG1_wOG1.pdb, sig.N_plus_THR_OG1_wOG1
+delete sig.N_plus_THR_wOG1
+load N_plus_THR_wOG1.pdb, sig.N_plus_THR_wOG1
+delete sig.N_plus_THR_wOG1_plus_N
+load N_plus_THR_wOG1_plus_N.pdb, sig.N_plus_THR_wOG1_plus_N
+delete sig.N_plus_THR_wO_OG1
+load N_plus_THR_wO_OG1.pdb, sig.N_plus_THR_wO_OG1
+delete sig.N_plus_TYR_OH_wOH
+load N_plus_TYR_OH_wOH.pdb, sig.N_plus_TYR_OH_wOH
+delete sig.N_plus_TYR_wOH
+load N_plus_TYR_wOH.pdb, sig.N_plus_TYR_wOH
+delete sig.N_plus_wO
+load N_plus_wO.pdb, sig.N_plus_wO
+delete sig.N_plus_wO_plus_ARG_NE_NH2
+load N_plus_wO_plus_ARG_NE_NH2.pdb, sig.N_plus_wO_plus_ARG_NE_NH2
+delete sig.N_plus_wO_plus_ARG_NH1_NH2
+load N_plus_wO_plus_ARG_NH1_NH2.pdb, sig.N_plus_wO_plus_ARG_NH1_NH2
+delete sig.N_plus_wO_plus_ARG_NH2
+load N_plus_wO_plus_ARG_NH2.pdb, sig.N_plus_wO_plus_ARG_NH2
+delete sig.N_plus_wO_plus_HIS_NE2
+load N_plus_wO_plus_HIS_NE2.pdb, sig.N_plus_wO_plus_HIS_NE2
+delete sig.N_plus_wO_plus_N
+load N_plus_wO_plus_N.pdb, sig.N_plus_wO_plus_N
+delete sig.N_plus_wO_plus_THR_wOG1
+load N_plus_wO_plus_THR_wOG1.pdb, sig.N_plus_wO_plus_THR_wOG1
+delete sig.N_plus_wO_plus_TYR_wOH
+load N_plus_wO_plus_TYR_wOH.pdb, sig.N_plus_wO_plus_TYR_wOH
+delete sig.N_plus_wO_plus_wO
+load N_plus_wO_plus_wO.pdb, sig.N_plus_wO_plus_wO
+delete sig.N_wO
+load N_wO.pdb, sig.N_wO
+delete sig.N_wO_plus_ARG_NE_NH2
+load N_wO_plus_ARG_NE_NH2.pdb, sig.N_wO_plus_ARG_NE_NH2
+delete sig.N_wO_plus_ARG_NH1
+load N_wO_plus_ARG_NH1.pdb, sig.N_wO_plus_ARG_NH1
+delete sig.N_wO_plus_ARG_NH1_NH2
+load N_wO_plus_ARG_NH1_NH2.pdb, sig.N_wO_plus_ARG_NH1_NH2
+delete sig.N_wO_plus_ARG_NH2
+load N_wO_plus_ARG_NH2.pdb, sig.N_wO_plus_ARG_NH2
+delete sig.N_wO_plus_ASN_ND2
+load N_wO_plus_ASN_ND2.pdb, sig.N_wO_plus_ASN_ND2
+delete sig.N_wO_plus_GLN_NE2
+load N_wO_plus_GLN_NE2.pdb, sig.N_wO_plus_GLN_NE2
+delete sig.N_wO_plus_HIS_NE2
+load N_wO_plus_HIS_NE2.pdb, sig.N_wO_plus_HIS_NE2
+delete sig.N_wO_plus_LYS_NZ
+load N_wO_plus_LYS_NZ.pdb, sig.N_wO_plus_LYS_NZ
+delete sig.N_wO_plus_N
+load N_wO_plus_N.pdb, sig.N_wO_plus_N
+delete sig.N_wO_plus_SER_wOG
+load N_wO_plus_SER_wOG.pdb, sig.N_wO_plus_SER_wOG
+delete sig.N_wO_plus_THR_wOG1
+load N_wO_plus_THR_wOG1.pdb, sig.N_wO_plus_THR_wOG1
+delete sig.N_wO_plus_TRP_NE1
+load N_wO_plus_TRP_NE1.pdb, sig.N_wO_plus_TRP_NE1
+delete sig.N_wO_plus_TYR_OH
+load N_wO_plus_TYR_OH.pdb, sig.N_wO_plus_TYR_OH
+delete sig.N_wO_plus_TYR_wOH
+load N_wO_plus_TYR_wOH.pdb, sig.N_wO_plus_TYR_wOH
+delete sig.N_wO_plus_wO
+load N_wO_plus_wO.pdb, sig.N_wO_plus_wO
+delete sig.SER_N_OG
+load SER_N_OG.pdb, sig.SER_N_OG
+delete sig.SER_N_OG_plus_ARG_N_NE_NH2
+load SER_N_OG_plus_ARG_N_NE_NH2.pdb, sig.SER_N_OG_plus_ARG_N_NE_NH2
+delete sig.SER_N_OG_plus_ARG_N_NH1
+load SER_N_OG_plus_ARG_N_NH1.pdb, sig.SER_N_OG_plus_ARG_N_NH1
+delete sig.SER_N_OG_plus_ASN_ND2
+load SER_N_OG_plus_ASN_ND2.pdb, sig.SER_N_OG_plus_ASN_ND2
+delete sig.SER_N_OG_plus_ASN_ND2_wOD1
+load SER_N_OG_plus_ASN_ND2_wOD1.pdb, sig.SER_N_OG_plus_ASN_ND2_wOD1
+delete sig.SER_N_OG_plus_ASN_N_ND2
+load SER_N_OG_plus_ASN_N_ND2.pdb, sig.SER_N_OG_plus_ASN_N_ND2
+delete sig.SER_N_OG_plus_ASN_wOD1
+load SER_N_OG_plus_ASN_wOD1.pdb, sig.SER_N_OG_plus_ASN_wOD1
+delete sig.SER_N_OG_plus_ASP_N_wOD2
+load SER_N_OG_plus_ASP_N_wOD2.pdb, sig.SER_N_OG_plus_ASP_N_wOD2
+delete sig.SER_N_OG_plus_ASP_wOD1
+load SER_N_OG_plus_ASP_wOD1.pdb, sig.SER_N_OG_plus_ASP_wOD1
+delete sig.SER_N_OG_plus_ASP_wOD2
+load SER_N_OG_plus_ASP_wOD2.pdb, sig.SER_N_OG_plus_ASP_wOD2
+delete sig.SER_N_OG_plus_GLN_N_NE2
+load SER_N_OG_plus_GLN_N_NE2.pdb, sig.SER_N_OG_plus_GLN_N_NE2
+delete sig.SER_N_OG_plus_GLN_wOE1
+load SER_N_OG_plus_GLN_wOE1.pdb, sig.SER_N_OG_plus_GLN_wOE1
+delete sig.SER_N_OG_plus_GLU_N_wOE1
+load SER_N_OG_plus_GLU_N_wOE1.pdb, sig.SER_N_OG_plus_GLU_N_wOE1
+delete sig.SER_N_OG_plus_GLU_wOE1
+load SER_N_OG_plus_GLU_wOE1.pdb, sig.SER_N_OG_plus_GLU_wOE1
+delete sig.SER_N_OG_plus_GLU_wOE2
+load SER_N_OG_plus_GLU_wOE2.pdb, sig.SER_N_OG_plus_GLU_wOE2
+delete sig.SER_N_OG_plus_HIS_ND1
+load SER_N_OG_plus_HIS_ND1.pdb, sig.SER_N_OG_plus_HIS_ND1
+delete sig.SER_N_OG_plus_HIS_wND1
+load SER_N_OG_plus_HIS_wND1.pdb, sig.SER_N_OG_plus_HIS_wND1
+delete sig.SER_N_OG_plus_HIS_wNE2
+load SER_N_OG_plus_HIS_wNE2.pdb, sig.SER_N_OG_plus_HIS_wNE2
+delete sig.SER_N_OG_plus_N
+load SER_N_OG_plus_N.pdb, sig.SER_N_OG_plus_N
+delete sig.SER_N_OG_plus_N_plus_N
+load SER_N_OG_plus_N_plus_N.pdb, sig.SER_N_OG_plus_N_plus_N
+delete sig.SER_N_OG_plus_N_plus_SER_N_OG
+load SER_N_OG_plus_N_plus_SER_N_OG.pdb, sig.SER_N_OG_plus_N_plus_SER_N_OG
+delete sig.SER_N_OG_plus_N_plus_wO
+load SER_N_OG_plus_N_plus_wO.pdb, sig.SER_N_OG_plus_N_plus_wO
+delete sig.SER_N_OG_plus_N_wO
+load SER_N_OG_plus_N_wO.pdb, sig.SER_N_OG_plus_N_wO
+delete sig.SER_N_OG_plus_SER_N_OG
+load SER_N_OG_plus_SER_N_OG.pdb, sig.SER_N_OG_plus_SER_N_OG
+delete sig.SER_N_OG_plus_SER_N_wOG
+load SER_N_OG_plus_SER_N_wOG.pdb, sig.SER_N_OG_plus_SER_N_wOG
+delete sig.SER_N_OG_plus_SER_wOG
+load SER_N_OG_plus_SER_wOG.pdb, sig.SER_N_OG_plus_SER_wOG
+delete sig.SER_N_OG_plus_THR_N_OG1
+load SER_N_OG_plus_THR_N_OG1.pdb, sig.SER_N_OG_plus_THR_N_OG1
+delete sig.SER_N_OG_plus_THR_OG1
+load SER_N_OG_plus_THR_OG1.pdb, sig.SER_N_OG_plus_THR_OG1
+delete sig.SER_N_OG_plus_THR_OG1_wOG1
+load SER_N_OG_plus_THR_OG1_wOG1.pdb, sig.SER_N_OG_plus_THR_OG1_wOG1
+delete sig.SER_N_OG_plus_THR_wOG1
+load SER_N_OG_plus_THR_wOG1.pdb, sig.SER_N_OG_plus_THR_wOG1
+delete sig.SER_N_OG_plus_TYR_wOH
+load SER_N_OG_plus_TYR_wOH.pdb, sig.SER_N_OG_plus_TYR_wOH
+delete sig.SER_N_OG_plus_wO
+load SER_N_OG_plus_wO.pdb, sig.SER_N_OG_plus_wO
+delete sig.SER_N_OG_wOG
+load SER_N_OG_wOG.pdb, sig.SER_N_OG_wOG
+delete sig.SER_N_OG_wOG_plus_GLU_wOE1
+load SER_N_OG_wOG_plus_GLU_wOE1.pdb, sig.SER_N_OG_wOG_plus_GLU_wOE1
+delete sig.SER_N_OG_wOG_plus_N
+load SER_N_OG_wOG_plus_N.pdb, sig.SER_N_OG_wOG_plus_N
+delete sig.SER_N_OG_wOG_plus_N_plus_ARG_NH2
+load SER_N_OG_wOG_plus_N_plus_ARG_NH2.pdb, sig.SER_N_OG_wOG_plus_N_plus_ARG_NH2
+delete sig.SER_N_OG_wOG_plus_N_plus_wO
+load SER_N_OG_wOG_plus_N_plus_wO.pdb, sig.SER_N_OG_wOG_plus_N_plus_wO
+delete sig.SER_N_OG_wOG_plus_SER_OG
+load SER_N_OG_wOG_plus_SER_OG.pdb, sig.SER_N_OG_wOG_plus_SER_OG
+delete sig.SER_N_OG_wOG_plus_THR_OG1
+load SER_N_OG_wOG_plus_THR_OG1.pdb, sig.SER_N_OG_wOG_plus_THR_OG1
+delete sig.SER_N_OG_wOG_plus_wO
+load SER_N_OG_wOG_plus_wO.pdb, sig.SER_N_OG_wOG_plus_wO
+delete sig.SER_N_wOG
+load SER_N_wOG.pdb, sig.SER_N_wOG
+delete sig.SER_N_wOG_plus_ASN_N_ND2
+load SER_N_wOG_plus_ASN_N_ND2.pdb, sig.SER_N_wOG_plus_ASN_N_ND2
+delete sig.SER_N_wOG_plus_ASP_wOD2
+load SER_N_wOG_plus_ASP_wOD2.pdb, sig.SER_N_wOG_plus_ASP_wOD2
+delete sig.SER_N_wOG_plus_LYS_NZ
+load SER_N_wOG_plus_LYS_NZ.pdb, sig.SER_N_wOG_plus_LYS_NZ
+delete sig.SER_N_wOG_plus_N
+load SER_N_wOG_plus_N.pdb, sig.SER_N_wOG_plus_N
+delete sig.SER_N_wOG_plus_N_plus_N
+load SER_N_wOG_plus_N_plus_N.pdb, sig.SER_N_wOG_plus_N_plus_N
+delete sig.SER_N_wOG_plus_N_plus_THR_N_OG1
+load SER_N_wOG_plus_N_plus_THR_N_OG1.pdb, sig.SER_N_wOG_plus_N_plus_THR_N_OG1
+delete sig.SER_N_wOG_plus_SER_N_OG
+load SER_N_wOG_plus_SER_N_OG.pdb, sig.SER_N_wOG_plus_SER_N_OG
+delete sig.SER_N_wOG_plus_THR_N_OG1
+load SER_N_wOG_plus_THR_N_OG1.pdb, sig.SER_N_wOG_plus_THR_N_OG1
+delete sig.SER_N_wOG_plus_wO
+load SER_N_wOG_plus_wO.pdb, sig.SER_N_wOG_plus_wO
+delete sig.SER_N_wO_OG
+load SER_N_wO_OG.pdb, sig.SER_N_wO_OG
+delete sig.SER_N_wO_OG_plus_THR_OG1
+load SER_N_wO_OG_plus_THR_OG1.pdb, sig.SER_N_wO_OG_plus_THR_OG1
+delete sig.SER_N_wO_OG_wOG
+load SER_N_wO_OG_wOG.pdb, sig.SER_N_wO_OG_wOG
+delete sig.SER_OG
+load SER_OG.pdb, sig.SER_OG
+delete sig.SER_OG_plus_ARG_NE_NH2
+load SER_OG_plus_ARG_NE_NH2.pdb, sig.SER_OG_plus_ARG_NE_NH2
+delete sig.SER_OG_plus_ARG_NE_NH2_plus_GLN_NE2
+load SER_OG_plus_ARG_NE_NH2_plus_GLN_NE2.pdb, sig.SER_OG_plus_ARG_NE_NH2_plus_GLN_NE2
+delete sig.SER_OG_plus_ARG_NE_plus_SER_wOG
+load SER_OG_plus_ARG_NE_plus_SER_wOG.pdb, sig.SER_OG_plus_ARG_NE_plus_SER_wOG
+delete sig.SER_OG_plus_ARG_NH1_NH2
+load SER_OG_plus_ARG_NH1_NH2.pdb, sig.SER_OG_plus_ARG_NH1_NH2
+delete sig.SER_OG_plus_ARG_N_NE_NH2
+load SER_OG_plus_ARG_N_NE_NH2.pdb, sig.SER_OG_plus_ARG_N_NE_NH2
+delete sig.SER_OG_plus_ASN_ND2_plus_ASP_wOD2
+load SER_OG_plus_ASN_ND2_plus_ASP_wOD2.pdb, sig.SER_OG_plus_ASN_ND2_plus_ASP_wOD2
+delete sig.SER_OG_plus_ASN_N_ND2
+load SER_OG_plus_ASN_N_ND2.pdb, sig.SER_OG_plus_ASN_N_ND2
+delete sig.SER_OG_plus_ASN_N_wOD1
+load SER_OG_plus_ASN_N_wOD1.pdb, sig.SER_OG_plus_ASN_N_wOD1
+delete sig.SER_OG_plus_ASN_wOD1
+load SER_OG_plus_ASN_wOD1.pdb, sig.SER_OG_plus_ASN_wOD1
+delete sig.SER_OG_plus_ASP_N_wOD2
+load SER_OG_plus_ASP_N_wOD2.pdb, sig.SER_OG_plus_ASP_N_wOD2
+delete sig.SER_OG_plus_GLU_N_wOE1
+load SER_OG_plus_GLU_N_wOE1.pdb, sig.SER_OG_plus_GLU_N_wOE1
+delete sig.SER_OG_plus_GLU_wOE2
+load SER_OG_plus_GLU_wOE2.pdb, sig.SER_OG_plus_GLU_wOE2
+delete sig.SER_OG_plus_HIS_N_ND1_plus_SER_wOG
+load SER_OG_plus_HIS_N_ND1_plus_SER_wOG.pdb, sig.SER_OG_plus_HIS_N_ND1_plus_SER_wOG
+delete sig.SER_OG_plus_N
+load SER_OG_plus_N.pdb, sig.SER_OG_plus_N
+delete sig.SER_OG_plus_N_plus_ASN_ND2
+load SER_OG_plus_N_plus_ASN_ND2.pdb, sig.SER_OG_plus_N_plus_ASN_ND2
+delete sig.SER_OG_plus_N_plus_ASP_wOD2
+load SER_OG_plus_N_plus_ASP_wOD2.pdb, sig.SER_OG_plus_N_plus_ASP_wOD2
+delete sig.SER_OG_plus_N_plus_GLN_NE2
+load SER_OG_plus_N_plus_GLN_NE2.pdb, sig.SER_OG_plus_N_plus_GLN_NE2
+delete sig.SER_OG_plus_N_plus_HIS_ND1
+load SER_OG_plus_N_plus_HIS_ND1.pdb, sig.SER_OG_plus_N_plus_HIS_ND1
+delete sig.SER_OG_plus_N_plus_N
+load SER_OG_plus_N_plus_N.pdb, sig.SER_OG_plus_N_plus_N
+delete sig.SER_OG_plus_N_plus_N_plus_N
+load SER_OG_plus_N_plus_N_plus_N.pdb, sig.SER_OG_plus_N_plus_N_plus_N
+delete sig.SER_OG_plus_N_plus_N_wO
+load SER_OG_plus_N_plus_N_wO.pdb, sig.SER_OG_plus_N_plus_N_wO
+delete sig.SER_OG_plus_N_plus_SER_N_OG
+load SER_OG_plus_N_plus_SER_N_OG.pdb, sig.SER_OG_plus_N_plus_SER_N_OG
+delete sig.SER_OG_plus_N_plus_SER_OG
+load SER_OG_plus_N_plus_SER_OG.pdb, sig.SER_OG_plus_N_plus_SER_OG
+delete sig.SER_OG_plus_N_plus_THR_N_OG1
+load SER_OG_plus_N_plus_THR_N_OG1.pdb, sig.SER_OG_plus_N_plus_THR_N_OG1
+delete sig.SER_OG_plus_N_plus_THR_OG1
+load SER_OG_plus_N_plus_THR_OG1.pdb, sig.SER_OG_plus_N_plus_THR_OG1
+delete sig.SER_OG_plus_N_plus_wO
+load SER_OG_plus_N_plus_wO.pdb, sig.SER_OG_plus_N_plus_wO
+delete sig.SER_OG_plus_N_wO
+load SER_OG_plus_N_wO.pdb, sig.SER_OG_plus_N_wO
+delete sig.SER_OG_plus_SER_N_OG
+load SER_OG_plus_SER_N_OG.pdb, sig.SER_OG_plus_SER_N_OG
+delete sig.SER_OG_plus_SER_N_wOG
+load SER_OG_plus_SER_N_wOG.pdb, sig.SER_OG_plus_SER_N_wOG
+delete sig.SER_OG_plus_SER_OG_wOG
+load SER_OG_plus_SER_OG_wOG.pdb, sig.SER_OG_plus_SER_OG_wOG
+delete sig.SER_OG_plus_THR_N_OG1
+load SER_OG_plus_THR_N_OG1.pdb, sig.SER_OG_plus_THR_N_OG1
+delete sig.SER_OG_plus_THR_N_OG1_plus_N
+load SER_OG_plus_THR_N_OG1_plus_N.pdb, sig.SER_OG_plus_THR_N_OG1_plus_N
+delete sig.SER_OG_plus_THR_N_wOG1
+load SER_OG_plus_THR_N_wOG1.pdb, sig.SER_OG_plus_THR_N_wOG1
+delete sig.SER_OG_plus_THR_OG1
+load SER_OG_plus_THR_OG1.pdb, sig.SER_OG_plus_THR_OG1
+delete sig.SER_OG_plus_THR_wOG1
+load SER_OG_plus_THR_wOG1.pdb, sig.SER_OG_plus_THR_wOG1
+delete sig.SER_OG_plus_wO
+load SER_OG_plus_wO.pdb, sig.SER_OG_plus_wO
+delete sig.SER_OG_plus_wO_plus_wO
+load SER_OG_plus_wO_plus_wO.pdb, sig.SER_OG_plus_wO_plus_wO
+delete sig.SER_OG_wOG
+load SER_OG_wOG.pdb, sig.SER_OG_wOG
+delete sig.SER_OG_wOG_plus_N
+load SER_OG_wOG_plus_N.pdb, sig.SER_OG_wOG_plus_N
+delete sig.SER_OG_wOG_plus_SER_N_OG
+load SER_OG_wOG_plus_SER_N_OG.pdb, sig.SER_OG_wOG_plus_SER_N_OG
+delete sig.SER_OG_wOG_plus_TYR_OH
+load SER_OG_wOG_plus_TYR_OH.pdb, sig.SER_OG_wOG_plus_TYR_OH
+delete sig.SER_OG_wOG_plus_wO
+load SER_OG_wOG_plus_wO.pdb, sig.SER_OG_wOG_plus_wO
+delete sig.SER_wOG
+load SER_wOG.pdb, sig.SER_wOG
+delete sig.SER_wOG_plus_ARG_NE_NH2
+load SER_wOG_plus_ARG_NE_NH2.pdb, sig.SER_wOG_plus_ARG_NE_NH2
+delete sig.SER_wOG_plus_ARG_NH1_NH2
+load SER_wOG_plus_ARG_NH1_NH2.pdb, sig.SER_wOG_plus_ARG_NH1_NH2
+delete sig.SER_wOG_plus_ARG_N_NE_NH2
+load SER_wOG_plus_ARG_N_NE_NH2.pdb, sig.SER_wOG_plus_ARG_N_NE_NH2
+delete sig.SER_wOG_plus_ARG_N_NH1
+load SER_wOG_plus_ARG_N_NH1.pdb, sig.SER_wOG_plus_ARG_N_NH1
+delete sig.SER_wOG_plus_ASN_ND2
+load SER_wOG_plus_ASN_ND2.pdb, sig.SER_wOG_plus_ASN_ND2
+delete sig.SER_wOG_plus_ASN_ND2_plus_N
+load SER_wOG_plus_ASN_ND2_plus_N.pdb, sig.SER_wOG_plus_ASN_ND2_plus_N
+delete sig.SER_wOG_plus_ASN_N_wOD1
+load SER_wOG_plus_ASN_N_wOD1.pdb, sig.SER_wOG_plus_ASN_N_wOD1
+delete sig.SER_wOG_plus_ASN_wOD1
+load SER_wOG_plus_ASN_wOD1.pdb, sig.SER_wOG_plus_ASN_wOD1
+delete sig.SER_wOG_plus_ASP_wOD2
+load SER_wOG_plus_ASP_wOD2.pdb, sig.SER_wOG_plus_ASP_wOD2
+delete sig.SER_wOG_plus_ASP_wO_wOD2
+load SER_wOG_plus_ASP_wO_wOD2.pdb, sig.SER_wOG_plus_ASP_wO_wOD2
+delete sig.SER_wOG_plus_GLN_N_wOE1
+load SER_wOG_plus_GLN_N_wOE1.pdb, sig.SER_wOG_plus_GLN_N_wOE1
+delete sig.SER_wOG_plus_GLU_wOE1
+load SER_wOG_plus_GLU_wOE1.pdb, sig.SER_wOG_plus_GLU_wOE1
+delete sig.SER_wOG_plus_GLU_wO_wOE2
+load SER_wOG_plus_GLU_wO_wOE2.pdb, sig.SER_wOG_plus_GLU_wO_wOE2
+delete sig.SER_wOG_plus_HIS_NE2
+load SER_wOG_plus_HIS_NE2.pdb, sig.SER_wOG_plus_HIS_NE2
+delete sig.SER_wOG_plus_HIS_wNE2
+load SER_wOG_plus_HIS_wNE2.pdb, sig.SER_wOG_plus_HIS_wNE2
+delete sig.SER_wOG_plus_N
+load SER_wOG_plus_N.pdb, sig.SER_wOG_plus_N
+delete sig.SER_wOG_plus_N_plus_N
+load SER_wOG_plus_N_plus_N.pdb, sig.SER_wOG_plus_N_plus_N
+delete sig.SER_wOG_plus_N_plus_wO
+load SER_wOG_plus_N_plus_wO.pdb, sig.SER_wOG_plus_N_plus_wO
+delete sig.SER_wOG_plus_SER_N_OG
+load SER_wOG_plus_SER_N_OG.pdb, sig.SER_wOG_plus_SER_N_OG
+delete sig.SER_wOG_plus_SER_OG
+load SER_wOG_plus_SER_OG.pdb, sig.SER_wOG_plus_SER_OG
+delete sig.SER_wOG_plus_SER_wOG
+load SER_wOG_plus_SER_wOG.pdb, sig.SER_wOG_plus_SER_wOG
+delete sig.SER_wOG_plus_SER_wOG_plus_TYR_OH
+load SER_wOG_plus_SER_wOG_plus_TYR_OH.pdb, sig.SER_wOG_plus_SER_wOG_plus_TYR_OH
+delete sig.SER_wOG_plus_THR_N_OG1
+load SER_wOG_plus_THR_N_OG1.pdb, sig.SER_wOG_plus_THR_N_OG1
+delete sig.SER_wOG_plus_THR_N_OG1_plus_N
+load SER_wOG_plus_THR_N_OG1_plus_N.pdb, sig.SER_wOG_plus_THR_N_OG1_plus_N
+delete sig.SER_wOG_plus_THR_wOG1
+load SER_wOG_plus_THR_wOG1.pdb, sig.SER_wOG_plus_THR_wOG1
+delete sig.SER_wOG_plus_TYR_OH
+load SER_wOG_plus_TYR_OH.pdb, sig.SER_wOG_plus_TYR_OH
+delete sig.SER_wOG_plus_TYR_OH_plus_ARG_NH2
+load SER_wOG_plus_TYR_OH_plus_ARG_NH2.pdb, sig.SER_wOG_plus_TYR_OH_plus_ARG_NH2
+delete sig.SER_wOG_plus_wO
+load SER_wOG_plus_wO.pdb, sig.SER_wOG_plus_wO
+delete sig.SER_wOG_plus_wO_plus_N
+load SER_wOG_plus_wO_plus_N.pdb, sig.SER_wOG_plus_wO_plus_N
+delete sig.SER_wOG_plus_wO_plus_SER_OG
+load SER_wOG_plus_wO_plus_SER_OG.pdb, sig.SER_wOG_plus_wO_plus_SER_OG
+delete sig.SER_wO_OG
+load SER_wO_OG.pdb, sig.SER_wO_OG
+delete sig.SER_wO_OG_plus_ARG_NE_NH2
+load SER_wO_OG_plus_ARG_NE_NH2.pdb, sig.SER_wO_OG_plus_ARG_NE_NH2
+delete sig.SER_wO_OG_plus_wO
+load SER_wO_OG_plus_wO.pdb, sig.SER_wO_OG_plus_wO
+delete sig.SER_wO_OG_wOG
+load SER_wO_OG_wOG.pdb, sig.SER_wO_OG_wOG
+delete sig.SER_wO_wOG
+load SER_wO_wOG.pdb, sig.SER_wO_wOG
+delete sig.SER_wO_wOG_plus_ARG_NE_NH2
+load SER_wO_wOG_plus_ARG_NE_NH2.pdb, sig.SER_wO_wOG_plus_ARG_NE_NH2
+delete sig.SER_wO_wOG_plus_ARG_NH2
+load SER_wO_wOG_plus_ARG_NH2.pdb, sig.SER_wO_wOG_plus_ARG_NH2
+delete sig.SER_wO_wOG_plus_wO
+load SER_wO_wOG_plus_wO.pdb, sig.SER_wO_wOG_plus_wO
+delete sig.THR_N_OG1
+load THR_N_OG1.pdb, sig.THR_N_OG1
+delete sig.THR_N_OG1_plus_ARG_N_NE
+load THR_N_OG1_plus_ARG_N_NE.pdb, sig.THR_N_OG1_plus_ARG_N_NE
+delete sig.THR_N_OG1_plus_ARG_N_NE_NH2
+load THR_N_OG1_plus_ARG_N_NE_NH2.pdb, sig.THR_N_OG1_plus_ARG_N_NE_NH2
+delete sig.THR_N_OG1_plus_ASN_ND2_wOD1
+load THR_N_OG1_plus_ASN_ND2_wOD1.pdb, sig.THR_N_OG1_plus_ASN_ND2_wOD1
+delete sig.THR_N_OG1_plus_ASN_N_ND2
+load THR_N_OG1_plus_ASN_N_ND2.pdb, sig.THR_N_OG1_plus_ASN_N_ND2
+delete sig.THR_N_OG1_plus_ASN_N_wOD1
+load THR_N_OG1_plus_ASN_N_wOD1.pdb, sig.THR_N_OG1_plus_ASN_N_wOD1
+delete sig.THR_N_OG1_plus_ASN_wOD1
+load THR_N_OG1_plus_ASN_wOD1.pdb, sig.THR_N_OG1_plus_ASN_wOD1
+delete sig.THR_N_OG1_plus_ASP_N_wOD1
+load THR_N_OG1_plus_ASP_N_wOD1.pdb, sig.THR_N_OG1_plus_ASP_N_wOD1
+delete sig.THR_N_OG1_plus_GLN_NE2
+load THR_N_OG1_plus_GLN_NE2.pdb, sig.THR_N_OG1_plus_GLN_NE2
+delete sig.THR_N_OG1_plus_GLU_N_wOE1
+load THR_N_OG1_plus_GLU_N_wOE1.pdb, sig.THR_N_OG1_plus_GLU_N_wOE1
+delete sig.THR_N_OG1_plus_GLU_wOE2
+load THR_N_OG1_plus_GLU_wOE2.pdb, sig.THR_N_OG1_plus_GLU_wOE2
+delete sig.THR_N_OG1_plus_HIS_ND1
+load THR_N_OG1_plus_HIS_ND1.pdb, sig.THR_N_OG1_plus_HIS_ND1
+delete sig.THR_N_OG1_plus_HIS_NE2
+load THR_N_OG1_plus_HIS_NE2.pdb, sig.THR_N_OG1_plus_HIS_NE2
+delete sig.THR_N_OG1_plus_HIS_N_ND1
+load THR_N_OG1_plus_HIS_N_ND1.pdb, sig.THR_N_OG1_plus_HIS_N_ND1
+delete sig.THR_N_OG1_plus_HIS_N_wND1
+load THR_N_OG1_plus_HIS_N_wND1.pdb, sig.THR_N_OG1_plus_HIS_N_wND1
+delete sig.THR_N_OG1_plus_HIS_wNE2
+load THR_N_OG1_plus_HIS_wNE2.pdb, sig.THR_N_OG1_plus_HIS_wNE2
+delete sig.THR_N_OG1_plus_N
+load THR_N_OG1_plus_N.pdb, sig.THR_N_OG1_plus_N
+delete sig.THR_N_OG1_plus_N_plus_N
+load THR_N_OG1_plus_N_plus_N.pdb, sig.THR_N_OG1_plus_N_plus_N
+delete sig.THR_N_OG1_plus_N_plus_SER_N_OG
+load THR_N_OG1_plus_N_plus_SER_N_OG.pdb, sig.THR_N_OG1_plus_N_plus_SER_N_OG
+delete sig.THR_N_OG1_plus_N_plus_TRP_NE1
+load THR_N_OG1_plus_N_plus_TRP_NE1.pdb, sig.THR_N_OG1_plus_N_plus_TRP_NE1
+delete sig.THR_N_OG1_plus_N_plus_wO
+load THR_N_OG1_plus_N_plus_wO.pdb, sig.THR_N_OG1_plus_N_plus_wO
+delete sig.THR_N_OG1_plus_N_wO
+load THR_N_OG1_plus_N_wO.pdb, sig.THR_N_OG1_plus_N_wO
+delete sig.THR_N_OG1_plus_SER_N_OG
+load THR_N_OG1_plus_SER_N_OG.pdb, sig.THR_N_OG1_plus_SER_N_OG
+delete sig.THR_N_OG1_plus_SER_OG_wOG
+load THR_N_OG1_plus_SER_OG_wOG.pdb, sig.THR_N_OG1_plus_SER_OG_wOG
+delete sig.THR_N_OG1_plus_SER_wOG
+load THR_N_OG1_plus_SER_wOG.pdb, sig.THR_N_OG1_plus_SER_wOG
+delete sig.THR_N_OG1_plus_THR_N_OG1
+load THR_N_OG1_plus_THR_N_OG1.pdb, sig.THR_N_OG1_plus_THR_N_OG1
+delete sig.THR_N_OG1_plus_THR_wOG1
+load THR_N_OG1_plus_THR_wOG1.pdb, sig.THR_N_OG1_plus_THR_wOG1
+delete sig.THR_N_OG1_plus_TYR_wOH
+load THR_N_OG1_plus_TYR_wOH.pdb, sig.THR_N_OG1_plus_TYR_wOH
+delete sig.THR_N_OG1_plus_wO
+load THR_N_OG1_plus_wO.pdb, sig.THR_N_OG1_plus_wO
+delete sig.THR_N_OG1_wOG1
+load THR_N_OG1_wOG1.pdb, sig.THR_N_OG1_wOG1
+delete sig.THR_N_OG1_wOG1_plus_ARG_NE_NH2
+load THR_N_OG1_wOG1_plus_ARG_NE_NH2.pdb, sig.THR_N_OG1_wOG1_plus_ARG_NE_NH2
+delete sig.THR_N_OG1_wOG1_plus_HIS_NE2
+load THR_N_OG1_wOG1_plus_HIS_NE2.pdb, sig.THR_N_OG1_wOG1_plus_HIS_NE2
+delete sig.THR_N_OG1_wOG1_plus_N
+load THR_N_OG1_wOG1_plus_N.pdb, sig.THR_N_OG1_wOG1_plus_N
+delete sig.THR_N_OG1_wOG1_plus_N_plus_wO
+load THR_N_OG1_wOG1_plus_N_plus_wO.pdb, sig.THR_N_OG1_wOG1_plus_N_plus_wO
+delete sig.THR_N_wOG1
+load THR_N_wOG1.pdb, sig.THR_N_wOG1
+delete sig.THR_N_wOG1_plus_ARG_N_NE
+load THR_N_wOG1_plus_ARG_N_NE.pdb, sig.THR_N_wOG1_plus_ARG_N_NE
+delete sig.THR_N_wOG1_plus_N
+load THR_N_wOG1_plus_N.pdb, sig.THR_N_wOG1_plus_N
+delete sig.THR_N_wOG1_plus_N_plus_HIS_NE2
+load THR_N_wOG1_plus_N_plus_HIS_NE2.pdb, sig.THR_N_wOG1_plus_N_plus_HIS_NE2
+delete sig.THR_N_wOG1_plus_THR_N_OG1
+load THR_N_wOG1_plus_THR_N_OG1.pdb, sig.THR_N_wOG1_plus_THR_N_OG1
+delete sig.THR_N_wOG1_plus_wO
+load THR_N_wOG1_plus_wO.pdb, sig.THR_N_wOG1_plus_wO
+delete sig.THR_N_wO_OG1
+load THR_N_wO_OG1.pdb, sig.THR_N_wO_OG1
+delete sig.THR_N_wO_OG1_wOG1
+load THR_N_wO_OG1_wOG1.pdb, sig.THR_N_wO_OG1_wOG1
+delete sig.THR_N_wO_wOG1
+load THR_N_wO_wOG1.pdb, sig.THR_N_wO_wOG1
+delete sig.THR_OG1
+load THR_OG1.pdb, sig.THR_OG1
+delete sig.THR_OG1_plus_ARG_NE_NH2
+load THR_OG1_plus_ARG_NE_NH2.pdb, sig.THR_OG1_plus_ARG_NE_NH2
+delete sig.THR_OG1_plus_ARG_N_NE_NH2
+load THR_OG1_plus_ARG_N_NE_NH2.pdb, sig.THR_OG1_plus_ARG_N_NE_NH2
+delete sig.THR_OG1_plus_ASN_ND2
+load THR_OG1_plus_ASN_ND2.pdb, sig.THR_OG1_plus_ASN_ND2
+delete sig.THR_OG1_plus_ASN_N_ND2
+load THR_OG1_plus_ASN_N_ND2.pdb, sig.THR_OG1_plus_ASN_N_ND2
+delete sig.THR_OG1_plus_ASN_N_wOD1
+load THR_OG1_plus_ASN_N_wOD1.pdb, sig.THR_OG1_plus_ASN_N_wOD1
+delete sig.THR_OG1_plus_ASP_wOD1_plus_N
+load THR_OG1_plus_ASP_wOD1_plus_N.pdb, sig.THR_OG1_plus_ASP_wOD1_plus_N
+delete sig.THR_OG1_plus_ASP_wOD1_plus_THR_OG1
+load THR_OG1_plus_ASP_wOD1_plus_THR_OG1.pdb, sig.THR_OG1_plus_ASP_wOD1_plus_THR_OG1
+delete sig.THR_OG1_plus_ASP_wOD2
+load THR_OG1_plus_ASP_wOD2.pdb, sig.THR_OG1_plus_ASP_wOD2
+delete sig.THR_OG1_plus_GLU_wOE1_plus_ASP_wOD1
+load THR_OG1_plus_GLU_wOE1_plus_ASP_wOD1.pdb, sig.THR_OG1_plus_GLU_wOE1_plus_ASP_wOD1
+delete sig.THR_OG1_plus_HIS_N_ND1
+load THR_OG1_plus_HIS_N_ND1.pdb, sig.THR_OG1_plus_HIS_N_ND1
+delete sig.THR_OG1_plus_N
+load THR_OG1_plus_N.pdb, sig.THR_OG1_plus_N
+delete sig.THR_OG1_plus_N_plus_ASN_wOD1
+load THR_OG1_plus_N_plus_ASN_wOD1.pdb, sig.THR_OG1_plus_N_plus_ASN_wOD1
+delete sig.THR_OG1_plus_N_plus_ASP_N_wOD2
+load THR_OG1_plus_N_plus_ASP_N_wOD2.pdb, sig.THR_OG1_plus_N_plus_ASP_N_wOD2
+delete sig.THR_OG1_plus_N_plus_N
+load THR_OG1_plus_N_plus_N.pdb, sig.THR_OG1_plus_N_plus_N
+delete sig.THR_OG1_plus_N_plus_N_plus_N
+load THR_OG1_plus_N_plus_N_plus_N.pdb, sig.THR_OG1_plus_N_plus_N_plus_N
+delete sig.THR_OG1_plus_N_plus_SER_N_OG
+load THR_OG1_plus_N_plus_SER_N_OG.pdb, sig.THR_OG1_plus_N_plus_SER_N_OG
+delete sig.THR_OG1_plus_N_plus_THR_N_OG1
+load THR_OG1_plus_N_plus_THR_N_OG1.pdb, sig.THR_OG1_plus_N_plus_THR_N_OG1
+delete sig.THR_OG1_plus_N_plus_wO
+load THR_OG1_plus_N_plus_wO.pdb, sig.THR_OG1_plus_N_plus_wO
+delete sig.THR_OG1_plus_N_wO
+load THR_OG1_plus_N_wO.pdb, sig.THR_OG1_plus_N_wO
+delete sig.THR_OG1_plus_SER_N_OG
+load THR_OG1_plus_SER_N_OG.pdb, sig.THR_OG1_plus_SER_N_OG
+delete sig.THR_OG1_plus_SER_N_OG_wOG
+load THR_OG1_plus_SER_N_OG_wOG.pdb, sig.THR_OG1_plus_SER_N_OG_wOG
+delete sig.THR_OG1_plus_SER_N_wO_OG
+load THR_OG1_plus_SER_N_wO_OG.pdb, sig.THR_OG1_plus_SER_N_wO_OG
+delete sig.THR_OG1_plus_SER_wOG
+load THR_OG1_plus_SER_wOG.pdb, sig.THR_OG1_plus_SER_wOG
+delete sig.THR_OG1_plus_THR_N_OG1
+load THR_OG1_plus_THR_N_OG1.pdb, sig.THR_OG1_plus_THR_N_OG1
+delete sig.THR_OG1_plus_wO
+load THR_OG1_plus_wO.pdb, sig.THR_OG1_plus_wO
+delete sig.THR_OG1_plus_wO_plus_GLN_NE2
+load THR_OG1_plus_wO_plus_GLN_NE2.pdb, sig.THR_OG1_plus_wO_plus_GLN_NE2
+delete sig.THR_OG1_plus_wO_plus_HIS_NE2
+load THR_OG1_plus_wO_plus_HIS_NE2.pdb, sig.THR_OG1_plus_wO_plus_HIS_NE2
+delete sig.THR_OG1_wOG1
+load THR_OG1_wOG1.pdb, sig.THR_OG1_wOG1
+delete sig.THR_OG1_wOG1_plus_HIS_NE2
+load THR_OG1_wOG1_plus_HIS_NE2.pdb, sig.THR_OG1_wOG1_plus_HIS_NE2
+delete sig.THR_OG1_wOG1_plus_N
+load THR_OG1_wOG1_plus_N.pdb, sig.THR_OG1_wOG1_plus_N
+delete sig.THR_OG1_wOG1_plus_N_plus_N
+load THR_OG1_wOG1_plus_N_plus_N.pdb, sig.THR_OG1_wOG1_plus_N_plus_N
+delete sig.THR_wOG1
+load THR_wOG1.pdb, sig.THR_wOG1
+delete sig.THR_wOG1_plus_ARG_NE_NH1
+load THR_wOG1_plus_ARG_NE_NH1.pdb, sig.THR_wOG1_plus_ARG_NE_NH1
+delete sig.THR_wOG1_plus_ARG_NE_NH2
+load THR_wOG1_plus_ARG_NE_NH2.pdb, sig.THR_wOG1_plus_ARG_NE_NH2
+delete sig.THR_wOG1_plus_ARG_NH1_NH2
+load THR_wOG1_plus_ARG_NH1_NH2.pdb, sig.THR_wOG1_plus_ARG_NH1_NH2
+delete sig.THR_wOG1_plus_ARG_N_NE_NH2
+load THR_wOG1_plus_ARG_N_NE_NH2.pdb, sig.THR_wOG1_plus_ARG_N_NE_NH2
+delete sig.THR_wOG1_plus_ASN_ND2
+load THR_wOG1_plus_ASN_ND2.pdb, sig.THR_wOG1_plus_ASN_ND2
+delete sig.THR_wOG1_plus_ASP_wOD1
+load THR_wOG1_plus_ASP_wOD1.pdb, sig.THR_wOG1_plus_ASP_wOD1
+delete sig.THR_wOG1_plus_ASP_wOD2
+load THR_wOG1_plus_ASP_wOD2.pdb, sig.THR_wOG1_plus_ASP_wOD2
+delete sig.THR_wOG1_plus_GLU_wOE1
+load THR_wOG1_plus_GLU_wOE1.pdb, sig.THR_wOG1_plus_GLU_wOE1
+delete sig.THR_wOG1_plus_HIS_NE2
+load THR_wOG1_plus_HIS_NE2.pdb, sig.THR_wOG1_plus_HIS_NE2
+delete sig.THR_wOG1_plus_N
+load THR_wOG1_plus_N.pdb, sig.THR_wOG1_plus_N
+delete sig.THR_wOG1_plus_N_plus_GLU_wOE1
+load THR_wOG1_plus_N_plus_GLU_wOE1.pdb, sig.THR_wOG1_plus_N_plus_GLU_wOE1
+delete sig.THR_wOG1_plus_N_plus_N
+load THR_wOG1_plus_N_plus_N.pdb, sig.THR_wOG1_plus_N_plus_N
+delete sig.THR_wOG1_plus_SER_N_OG
+load THR_wOG1_plus_SER_N_OG.pdb, sig.THR_wOG1_plus_SER_N_OG
+delete sig.THR_wOG1_plus_SER_wOG
+load THR_wOG1_plus_SER_wOG.pdb, sig.THR_wOG1_plus_SER_wOG
+delete sig.THR_wOG1_plus_THR_N_OG1
+load THR_wOG1_plus_THR_N_OG1.pdb, sig.THR_wOG1_plus_THR_N_OG1
+delete sig.THR_wOG1_plus_THR_wOG1
+load THR_wOG1_plus_THR_wOG1.pdb, sig.THR_wOG1_plus_THR_wOG1
+delete sig.THR_wOG1_plus_TYR_OH_plus_THR_wOG1
+load THR_wOG1_plus_TYR_OH_plus_THR_wOG1.pdb, sig.THR_wOG1_plus_TYR_OH_plus_THR_wOG1
+delete sig.THR_wOG1_plus_wO
+load THR_wOG1_plus_wO.pdb, sig.THR_wOG1_plus_wO
+delete sig.THR_wO_OG1
+load THR_wO_OG1.pdb, sig.THR_wO_OG1
+delete sig.THR_wO_OG1_plus_wO
+load THR_wO_OG1_plus_wO.pdb, sig.THR_wO_OG1_plus_wO
+delete sig.THR_wO_wOG1
+load THR_wO_wOG1.pdb, sig.THR_wO_wOG1
+delete sig.THR_wO_wOG1_plus_N
+load THR_wO_wOG1_plus_N.pdb, sig.THR_wO_wOG1_plus_N
+delete sig.TRP_NE1
+load TRP_NE1.pdb, sig.TRP_NE1
+delete sig.TRP_NE1_plus_ARG_NH1_NH2
+load TRP_NE1_plus_ARG_NH1_NH2.pdb, sig.TRP_NE1_plus_ARG_NH1_NH2
+delete sig.TRP_NE1_plus_GLN_wOE1_plus_ARG_NE_NH2
+load TRP_NE1_plus_GLN_wOE1_plus_ARG_NE_NH2.pdb, sig.TRP_NE1_plus_GLN_wOE1_plus_ARG_NE_NH2
+delete sig.TRP_NE1_plus_N_wO
+load TRP_NE1_plus_N_wO.pdb, sig.TRP_NE1_plus_N_wO
+delete sig.TRP_NE1_plus_SER_OG_wOG
+load TRP_NE1_plus_SER_OG_wOG.pdb, sig.TRP_NE1_plus_SER_OG_wOG
+delete sig.TRP_NE1_plus_SER_wOG
+load TRP_NE1_plus_SER_wOG.pdb, sig.TRP_NE1_plus_SER_wOG
+delete sig.TRP_NE1_plus_SER_wOG_plus_ASN_wOD1
+load TRP_NE1_plus_SER_wOG_plus_ASN_wOD1.pdb, sig.TRP_NE1_plus_SER_wOG_plus_ASN_wOD1
+delete sig.TRP_NE1_plus_SER_wOG_plus_GLU_wOE1
+load TRP_NE1_plus_SER_wOG_plus_GLU_wOE1.pdb, sig.TRP_NE1_plus_SER_wOG_plus_GLU_wOE1
+delete sig.TRP_NE1_plus_wO
+load TRP_NE1_plus_wO.pdb, sig.TRP_NE1_plus_wO
+delete sig.TRP_NE1_plus_wO_plus_ASN_ND2
+load TRP_NE1_plus_wO_plus_ASN_ND2.pdb, sig.TRP_NE1_plus_wO_plus_ASN_ND2
+delete sig.TRP_NE1_plus_wO_plus_N_plus_N
+load TRP_NE1_plus_wO_plus_N_plus_N.pdb, sig.TRP_NE1_plus_wO_plus_N_plus_N
+delete sig.TRP_NE1_plus_wO_plus_wO
+load TRP_NE1_plus_wO_plus_wO.pdb, sig.TRP_NE1_plus_wO_plus_wO
+delete sig.TYR_OH
+load TYR_OH.pdb, sig.TYR_OH
+delete sig.TYR_OH_plus_ARG_NE_NH2
+load TYR_OH_plus_ARG_NE_NH2.pdb, sig.TYR_OH_plus_ARG_NE_NH2
+delete sig.TYR_OH_plus_ARG_NH1_NH2
+load TYR_OH_plus_ARG_NH1_NH2.pdb, sig.TYR_OH_plus_ARG_NH1_NH2
+delete sig.TYR_OH_plus_ASN_ND2_plus_wO
+load TYR_OH_plus_ASN_ND2_plus_wO.pdb, sig.TYR_OH_plus_ASN_ND2_plus_wO
+delete sig.TYR_OH_plus_ASN_ND2_wOD1
+load TYR_OH_plus_ASN_ND2_wOD1.pdb, sig.TYR_OH_plus_ASN_ND2_wOD1
+delete sig.TYR_OH_plus_ASP_wOD1
+load TYR_OH_plus_ASP_wOD1.pdb, sig.TYR_OH_plus_ASP_wOD1
+delete sig.TYR_OH_plus_GLN_NE2_wOE1
+load TYR_OH_plus_GLN_NE2_wOE1.pdb, sig.TYR_OH_plus_GLN_NE2_wOE1
+delete sig.TYR_OH_plus_GLN_N_wOE1_plus_wO
+load TYR_OH_plus_GLN_N_wOE1_plus_wO.pdb, sig.TYR_OH_plus_GLN_N_wOE1_plus_wO
+delete sig.TYR_OH_plus_GLN_wOE1
+load TYR_OH_plus_GLN_wOE1.pdb, sig.TYR_OH_plus_GLN_wOE1
+delete sig.TYR_OH_plus_GLU_wOE2
+load TYR_OH_plus_GLU_wOE2.pdb, sig.TYR_OH_plus_GLU_wOE2
+delete sig.TYR_OH_plus_HIS_NE2
+load TYR_OH_plus_HIS_NE2.pdb, sig.TYR_OH_plus_HIS_NE2
+delete sig.TYR_OH_plus_N_plus_N
+load TYR_OH_plus_N_plus_N.pdb, sig.TYR_OH_plus_N_plus_N
+delete sig.TYR_OH_plus_N_plus_wO_plus_SER_wOG
+load TYR_OH_plus_N_plus_wO_plus_SER_wOG.pdb, sig.TYR_OH_plus_N_plus_wO_plus_SER_wOG
+delete sig.TYR_OH_plus_SER_N_wOG
+load TYR_OH_plus_SER_N_wOG.pdb, sig.TYR_OH_plus_SER_N_wOG
+delete sig.TYR_OH_plus_THR_wOG1
+load TYR_OH_plus_THR_wOG1.pdb, sig.TYR_OH_plus_THR_wOG1
+delete sig.TYR_OH_plus_wO
+load TYR_OH_plus_wO.pdb, sig.TYR_OH_plus_wO
+delete sig.TYR_OH_plus_wO_plus_N
+load TYR_OH_plus_wO_plus_N.pdb, sig.TYR_OH_plus_wO_plus_N
+delete sig.TYR_OH_plus_wO_plus_N_plus_N
+load TYR_OH_plus_wO_plus_N_plus_N.pdb, sig.TYR_OH_plus_wO_plus_N_plus_N
+delete sig.TYR_OH_plus_wO_plus_THR_OG1
+load TYR_OH_plus_wO_plus_THR_OG1.pdb, sig.TYR_OH_plus_wO_plus_THR_OG1
+delete sig.TYR_OH_plus_wO_plus_THR_wOG1
+load TYR_OH_plus_wO_plus_THR_wOG1.pdb, sig.TYR_OH_plus_wO_plus_THR_wOG1
+delete sig.TYR_OH_plus_wO_plus_wO
+load TYR_OH_plus_wO_plus_wO.pdb, sig.TYR_OH_plus_wO_plus_wO
+delete sig.TYR_OH_wOH
+load TYR_OH_wOH.pdb, sig.TYR_OH_wOH
+delete sig.TYR_OH_wOH_plus_ARG_NE_NH2
+load TYR_OH_wOH_plus_ARG_NE_NH2.pdb, sig.TYR_OH_wOH_plus_ARG_NE_NH2
+delete sig.TYR_OH_wOH_plus_GLN_NE2
+load TYR_OH_wOH_plus_GLN_NE2.pdb, sig.TYR_OH_wOH_plus_GLN_NE2
+delete sig.TYR_OH_wOH_plus_GLN_wOE1
+load TYR_OH_wOH_plus_GLN_wOE1.pdb, sig.TYR_OH_wOH_plus_GLN_wOE1
+delete sig.TYR_OH_wOH_plus_GLU_wOE1
+load TYR_OH_wOH_plus_GLU_wOE1.pdb, sig.TYR_OH_wOH_plus_GLU_wOE1
+delete sig.TYR_OH_wOH_plus_TYR_wOH
+load TYR_OH_wOH_plus_TYR_wOH.pdb, sig.TYR_OH_wOH_plus_TYR_wOH
+delete sig.TYR_OH_wOH_plus_wO
+load TYR_OH_wOH_plus_wO.pdb, sig.TYR_OH_wOH_plus_wO
+delete sig.TYR_wOH
+load TYR_wOH.pdb, sig.TYR_wOH
+delete sig.TYR_wOH_plus_ARG_NE_NH1_plus_TRP_NE1
+load TYR_wOH_plus_ARG_NE_NH1_plus_TRP_NE1.pdb, sig.TYR_wOH_plus_ARG_NE_NH1_plus_TRP_NE1
+delete sig.TYR_wOH_plus_ARG_NE_NH2
+load TYR_wOH_plus_ARG_NE_NH2.pdb, sig.TYR_wOH_plus_ARG_NE_NH2
+delete sig.TYR_wOH_plus_ARG_NE_NH2_plus_TYR_OH
+load TYR_wOH_plus_ARG_NE_NH2_plus_TYR_OH.pdb, sig.TYR_wOH_plus_ARG_NE_NH2_plus_TYR_OH
+delete sig.TYR_wOH_plus_ARG_NH1_NH2
+load TYR_wOH_plus_ARG_NH1_NH2.pdb, sig.TYR_wOH_plus_ARG_NH1_NH2
+delete sig.TYR_wOH_plus_ARG_NH1_plus_TRP_NE1
+load TYR_wOH_plus_ARG_NH1_plus_TRP_NE1.pdb, sig.TYR_wOH_plus_ARG_NH1_plus_TRP_NE1
+delete sig.TYR_wOH_plus_ARG_NH2
+load TYR_wOH_plus_ARG_NH2.pdb, sig.TYR_wOH_plus_ARG_NH2
+delete sig.TYR_wOH_plus_ASN_ND2
+load TYR_wOH_plus_ASN_ND2.pdb, sig.TYR_wOH_plus_ASN_ND2
+delete sig.TYR_wOH_plus_ASP_wOD2
+load TYR_wOH_plus_ASP_wOD2.pdb, sig.TYR_wOH_plus_ASP_wOD2
+delete sig.TYR_wOH_plus_HIS_NE2
+load TYR_wOH_plus_HIS_NE2.pdb, sig.TYR_wOH_plus_HIS_NE2
+delete sig.TYR_wOH_plus_LYS_NZ_plus_HIS_NE2
+load TYR_wOH_plus_LYS_NZ_plus_HIS_NE2.pdb, sig.TYR_wOH_plus_LYS_NZ_plus_HIS_NE2
+delete sig.TYR_wOH_plus_N_plus_N
+load TYR_wOH_plus_N_plus_N.pdb, sig.TYR_wOH_plus_N_plus_N
+delete sig.TYR_wOH_plus_SER_N_OG
+load TYR_wOH_plus_SER_N_OG.pdb, sig.TYR_wOH_plus_SER_N_OG
+delete sig.TYR_wOH_plus_wO
+load TYR_wOH_plus_wO.pdb, sig.TYR_wOH_plus_wO
+delete sig.TYR_wOH_plus_wO_plus_N
+load TYR_wOH_plus_wO_plus_N.pdb, sig.TYR_wOH_plus_wO_plus_N
+delete sig.TYR_wO_wOH
+load TYR_wO_wOH.pdb, sig.TYR_wO_wOH
+delete sig.wO
+load wO.pdb, sig.wO
+delete sig.wO_plus_ARG_NE
+load wO_plus_ARG_NE.pdb, sig.wO_plus_ARG_NE
+delete sig.wO_plus_ARG_NE_NH1
+load wO_plus_ARG_NE_NH1.pdb, sig.wO_plus_ARG_NE_NH1
+delete sig.wO_plus_ARG_NE_NH2
+load wO_plus_ARG_NE_NH2.pdb, sig.wO_plus_ARG_NE_NH2
+delete sig.wO_plus_ARG_NE_NH2_plus_GLN_wOE1
+load wO_plus_ARG_NE_NH2_plus_GLN_wOE1.pdb, sig.wO_plus_ARG_NE_NH2_plus_GLN_wOE1
+delete sig.wO_plus_ARG_NE_NH2_plus_GLU_N_wOE2
+load wO_plus_ARG_NE_NH2_plus_GLU_N_wOE2.pdb, sig.wO_plus_ARG_NE_NH2_plus_GLU_N_wOE2
+delete sig.wO_plus_ARG_NE_NH2_plus_N
+load wO_plus_ARG_NE_NH2_plus_N.pdb, sig.wO_plus_ARG_NE_NH2_plus_N
+delete sig.wO_plus_ARG_NE_NH2_wO
+load wO_plus_ARG_NE_NH2_wO.pdb, sig.wO_plus_ARG_NE_NH2_wO
+delete sig.wO_plus_ARG_NE_plus_GLU_wOE1
+load wO_plus_ARG_NE_plus_GLU_wOE1.pdb, sig.wO_plus_ARG_NE_plus_GLU_wOE1
+delete sig.wO_plus_ARG_NE_plus_N
+load wO_plus_ARG_NE_plus_N.pdb, sig.wO_plus_ARG_NE_plus_N
+delete sig.wO_plus_ARG_NH1
+load wO_plus_ARG_NH1.pdb, sig.wO_plus_ARG_NH1
+delete sig.wO_plus_ARG_NH1_NH2
+load wO_plus_ARG_NH1_NH2.pdb, sig.wO_plus_ARG_NH1_NH2
+delete sig.wO_plus_ARG_NH1_plus_ARG_NE_NH2
+load wO_plus_ARG_NH1_plus_ARG_NE_NH2.pdb, sig.wO_plus_ARG_NH1_plus_ARG_NE_NH2
+delete sig.wO_plus_ARG_NH1_plus_N
+load wO_plus_ARG_NH1_plus_N.pdb, sig.wO_plus_ARG_NH1_plus_N
+delete sig.wO_plus_ARG_NH1_plus_wO
+load wO_plus_ARG_NH1_plus_wO.pdb, sig.wO_plus_ARG_NH1_plus_wO
+delete sig.wO_plus_ARG_NH1_wO
+load wO_plus_ARG_NH1_wO.pdb, sig.wO_plus_ARG_NH1_wO
+delete sig.wO_plus_ARG_NH2
+load wO_plus_ARG_NH2.pdb, sig.wO_plus_ARG_NH2
+delete sig.wO_plus_ARG_NH2_plus_HIS_NE2
+load wO_plus_ARG_NH2_plus_HIS_NE2.pdb, sig.wO_plus_ARG_NH2_plus_HIS_NE2
+delete sig.wO_plus_ARG_N_NE
+load wO_plus_ARG_N_NE.pdb, sig.wO_plus_ARG_N_NE
+delete sig.wO_plus_ARG_N_NE_NH2
+load wO_plus_ARG_N_NE_NH2.pdb, sig.wO_plus_ARG_N_NE_NH2
+delete sig.wO_plus_ARG_N_NE_NH2_plus_wO
+load wO_plus_ARG_N_NE_NH2_plus_wO.pdb, sig.wO_plus_ARG_N_NE_NH2_plus_wO
+delete sig.wO_plus_ARG_N_NH1
+load wO_plus_ARG_N_NH1.pdb, sig.wO_plus_ARG_N_NH1
+delete sig.wO_plus_ARG_N_NH1_plus_wO
+load wO_plus_ARG_N_NH1_plus_wO.pdb, sig.wO_plus_ARG_N_NH1_plus_wO
+delete sig.wO_plus_ARG_N_NH2
+load wO_plus_ARG_N_NH2.pdb, sig.wO_plus_ARG_N_NH2
+delete sig.wO_plus_ASN_ND2
+load wO_plus_ASN_ND2.pdb, sig.wO_plus_ASN_ND2
+delete sig.wO_plus_ASN_ND2_plus_ARG_NH1
+load wO_plus_ASN_ND2_plus_ARG_NH1.pdb, sig.wO_plus_ASN_ND2_plus_ARG_NH1
+delete sig.wO_plus_ASN_ND2_plus_ARG_NH1_NH2
+load wO_plus_ASN_ND2_plus_ARG_NH1_NH2.pdb, sig.wO_plus_ASN_ND2_plus_ARG_NH1_NH2
+delete sig.wO_plus_ASN_ND2_plus_N
+load wO_plus_ASN_ND2_plus_N.pdb, sig.wO_plus_ASN_ND2_plus_N
+delete sig.wO_plus_ASN_ND2_plus_N_plus_N_plus_SER_wOG
+load wO_plus_ASN_ND2_plus_N_plus_N_plus_SER_wOG.pdb, sig.wO_plus_ASN_ND2_plus_N_plus_N_plus_SER_wOG
+delete sig.wO_plus_ASN_ND2_plus_N_wO
+load wO_plus_ASN_ND2_plus_N_wO.pdb, sig.wO_plus_ASN_ND2_plus_N_wO
+delete sig.wO_plus_ASN_ND2_wO
+load wO_plus_ASN_ND2_wO.pdb, sig.wO_plus_ASN_ND2_wO
+delete sig.wO_plus_ASN_ND2_wOD1
+load wO_plus_ASN_ND2_wOD1.pdb, sig.wO_plus_ASN_ND2_wOD1
+delete sig.wO_plus_ASN_ND2_wO_plus_ARG_NH1
+load wO_plus_ASN_ND2_wO_plus_ARG_NH1.pdb, sig.wO_plus_ASN_ND2_wO_plus_ARG_NH1
+delete sig.wO_plus_ASN_N_ND2
+load wO_plus_ASN_N_ND2.pdb, sig.wO_plus_ASN_N_ND2
+delete sig.wO_plus_ASN_N_ND2_plus_N
+load wO_plus_ASN_N_ND2_plus_N.pdb, sig.wO_plus_ASN_N_ND2_plus_N
+delete sig.wO_plus_ASN_N_ND2_plus_wO
+load wO_plus_ASN_N_ND2_plus_wO.pdb, sig.wO_plus_ASN_N_ND2_plus_wO
+delete sig.wO_plus_ASN_N_ND2_wO
+load wO_plus_ASN_N_ND2_wO.pdb, sig.wO_plus_ASN_N_ND2_wO
+delete sig.wO_plus_ASN_N_wOD1
+load wO_plus_ASN_N_wOD1.pdb, sig.wO_plus_ASN_N_wOD1
+delete sig.wO_plus_ASN_wOD1
+load wO_plus_ASN_wOD1.pdb, sig.wO_plus_ASN_wOD1
+delete sig.wO_plus_ASN_wOD1_plus_SER_wOG
+load wO_plus_ASN_wOD1_plus_SER_wOG.pdb, sig.wO_plus_ASN_wOD1_plus_SER_wOG
+delete sig.wO_plus_ASN_wOD1_plus_TRP_NE1
+load wO_plus_ASN_wOD1_plus_TRP_NE1.pdb, sig.wO_plus_ASN_wOD1_plus_TRP_NE1
+delete sig.wO_plus_ASN_wO_wOD1
+load wO_plus_ASN_wO_wOD1.pdb, sig.wO_plus_ASN_wO_wOD1
+delete sig.wO_plus_ASP_N_wOD1
+load wO_plus_ASP_N_wOD1.pdb, sig.wO_plus_ASP_N_wOD1
+delete sig.wO_plus_ASP_N_wOD2
+load wO_plus_ASP_N_wOD2.pdb, sig.wO_plus_ASP_N_wOD2
+delete sig.wO_plus_ASP_wOD1
+load wO_plus_ASP_wOD1.pdb, sig.wO_plus_ASP_wOD1
+delete sig.wO_plus_ASP_wOD1_plus_N
+load wO_plus_ASP_wOD1_plus_N.pdb, sig.wO_plus_ASP_wOD1_plus_N
+delete sig.wO_plus_ASP_wOD1_plus_THR_N_OG1
+load wO_plus_ASP_wOD1_plus_THR_N_OG1.pdb, sig.wO_plus_ASP_wOD1_plus_THR_N_OG1
+delete sig.wO_plus_ASP_wOD1_wOD2
+load wO_plus_ASP_wOD1_wOD2.pdb, sig.wO_plus_ASP_wOD1_wOD2
+delete sig.wO_plus_ASP_wOD2
+load wO_plus_ASP_wOD2.pdb, sig.wO_plus_ASP_wOD2
+delete sig.wO_plus_ASP_wOD2_plus_N
+load wO_plus_ASP_wOD2_plus_N.pdb, sig.wO_plus_ASP_wOD2_plus_N
+delete sig.wO_plus_GLN_NE2
+load wO_plus_GLN_NE2.pdb, sig.wO_plus_GLN_NE2
+delete sig.wO_plus_GLN_NE2_plus_N
+load wO_plus_GLN_NE2_plus_N.pdb, sig.wO_plus_GLN_NE2_plus_N
+delete sig.wO_plus_GLN_NE2_plus_SER_wOG
+load wO_plus_GLN_NE2_plus_SER_wOG.pdb, sig.wO_plus_GLN_NE2_plus_SER_wOG
+delete sig.wO_plus_GLN_NE2_plus_THR_wOG1
+load wO_plus_GLN_NE2_plus_THR_wOG1.pdb, sig.wO_plus_GLN_NE2_plus_THR_wOG1
+delete sig.wO_plus_GLN_NE2_wOE1
+load wO_plus_GLN_NE2_wOE1.pdb, sig.wO_plus_GLN_NE2_wOE1
+delete sig.wO_plus_GLN_N_NE2
+load wO_plus_GLN_N_NE2.pdb, sig.wO_plus_GLN_N_NE2
+delete sig.wO_plus_GLN_N_NE2_wO
+load wO_plus_GLN_N_NE2_wO.pdb, sig.wO_plus_GLN_N_NE2_wO
+delete sig.wO_plus_GLN_N_wOE1
+load wO_plus_GLN_N_wOE1.pdb, sig.wO_plus_GLN_N_wOE1
+delete sig.wO_plus_GLN_N_wOE1_plus_N
+load wO_plus_GLN_N_wOE1_plus_N.pdb, sig.wO_plus_GLN_N_wOE1_plus_N
+delete sig.wO_plus_GLN_wOE1
+load wO_plus_GLN_wOE1.pdb, sig.wO_plus_GLN_wOE1
+delete sig.wO_plus_GLN_wOE1_plus_ASP_N_wOD2
+load wO_plus_GLN_wOE1_plus_ASP_N_wOD2.pdb, sig.wO_plus_GLN_wOE1_plus_ASP_N_wOD2
+delete sig.wO_plus_GLN_wOE1_plus_GLU_N_wOE2
+load wO_plus_GLN_wOE1_plus_GLU_N_wOE2.pdb, sig.wO_plus_GLN_wOE1_plus_GLU_N_wOE2
+delete sig.wO_plus_GLN_wOE1_plus_N
+load wO_plus_GLN_wOE1_plus_N.pdb, sig.wO_plus_GLN_wOE1_plus_N
+delete sig.wO_plus_GLU_N_wOE1
+load wO_plus_GLU_N_wOE1.pdb, sig.wO_plus_GLU_N_wOE1
+delete sig.wO_plus_GLU_N_wOE2
+load wO_plus_GLU_N_wOE2.pdb, sig.wO_plus_GLU_N_wOE2
+delete sig.wO_plus_GLU_wOE1
+load wO_plus_GLU_wOE1.pdb, sig.wO_plus_GLU_wOE1
+delete sig.wO_plus_GLU_wOE2
+load wO_plus_GLU_wOE2.pdb, sig.wO_plus_GLU_wOE2
+delete sig.wO_plus_GLU_wOE2_plus_N
+load wO_plus_GLU_wOE2_plus_N.pdb, sig.wO_plus_GLU_wOE2_plus_N
+delete sig.wO_plus_HIS_ND1
+load wO_plus_HIS_ND1.pdb, sig.wO_plus_HIS_ND1
+delete sig.wO_plus_HIS_ND1_plus_GLN_NE2
+load wO_plus_HIS_ND1_plus_GLN_NE2.pdb, sig.wO_plus_HIS_ND1_plus_GLN_NE2
+delete sig.wO_plus_HIS_ND1_plus_HIS_NE2
+load wO_plus_HIS_ND1_plus_HIS_NE2.pdb, sig.wO_plus_HIS_ND1_plus_HIS_NE2
+delete sig.wO_plus_HIS_ND1_plus_HIS_N_ND1
+load wO_plus_HIS_ND1_plus_HIS_N_ND1.pdb, sig.wO_plus_HIS_ND1_plus_HIS_N_ND1
+delete sig.wO_plus_HIS_ND1_plus_N
+load wO_plus_HIS_ND1_plus_N.pdb, sig.wO_plus_HIS_ND1_plus_N
+delete sig.wO_plus_HIS_ND1_plus_N_plus_N
+load wO_plus_HIS_ND1_plus_N_plus_N.pdb, sig.wO_plus_HIS_ND1_plus_N_plus_N
+delete sig.wO_plus_HIS_ND1_plus_N_wO
+load wO_plus_HIS_ND1_plus_N_wO.pdb, sig.wO_plus_HIS_ND1_plus_N_wO
+delete sig.wO_plus_HIS_ND1_plus_SER_wO_OG
+load wO_plus_HIS_ND1_plus_SER_wO_OG.pdb, sig.wO_plus_HIS_ND1_plus_SER_wO_OG
+delete sig.wO_plus_HIS_ND1_plus_wO
+load wO_plus_HIS_ND1_plus_wO.pdb, sig.wO_plus_HIS_ND1_plus_wO
+delete sig.wO_plus_HIS_ND1_wO
+load wO_plus_HIS_ND1_wO.pdb, sig.wO_plus_HIS_ND1_wO
+delete sig.wO_plus_HIS_NE2
+load wO_plus_HIS_NE2.pdb, sig.wO_plus_HIS_NE2
+delete sig.wO_plus_HIS_N_ND1
+load wO_plus_HIS_N_ND1.pdb, sig.wO_plus_HIS_N_ND1
+delete sig.wO_plus_HIS_N_wND1
+load wO_plus_HIS_N_wND1.pdb, sig.wO_plus_HIS_N_wND1
+delete sig.wO_plus_HIS_wND1
+load wO_plus_HIS_wND1.pdb, sig.wO_plus_HIS_wND1
+delete sig.wO_plus_HIS_wND1_plus_N
+load wO_plus_HIS_wND1_plus_N.pdb, sig.wO_plus_HIS_wND1_plus_N
+delete sig.wO_plus_HIS_wNE2
+load wO_plus_HIS_wNE2.pdb, sig.wO_plus_HIS_wNE2
+delete sig.wO_plus_LYS_NZ
+load wO_plus_LYS_NZ.pdb, sig.wO_plus_LYS_NZ
+delete sig.wO_plus_LYS_NZ_plus_HIS_wNE2
+load wO_plus_LYS_NZ_plus_HIS_wNE2.pdb, sig.wO_plus_LYS_NZ_plus_HIS_wNE2
+delete sig.wO_plus_LYS_NZ_plus_N
+load wO_plus_LYS_NZ_plus_N.pdb, sig.wO_plus_LYS_NZ_plus_N
+delete sig.wO_plus_LYS_NZ_plus_N_wO
+load wO_plus_LYS_NZ_plus_N_wO.pdb, sig.wO_plus_LYS_NZ_plus_N_wO
+delete sig.wO_plus_LYS_NZ_plus_wO
+load wO_plus_LYS_NZ_plus_wO.pdb, sig.wO_plus_LYS_NZ_plus_wO
+delete sig.wO_plus_LYS_NZ_wO
+load wO_plus_LYS_NZ_wO.pdb, sig.wO_plus_LYS_NZ_wO
+delete sig.wO_plus_LYS_N_NZ
+load wO_plus_LYS_N_NZ.pdb, sig.wO_plus_LYS_N_NZ
+delete sig.wO_plus_LYS_N_NZ_plus_GLU_wOE1
+load wO_plus_LYS_N_NZ_plus_GLU_wOE1.pdb, sig.wO_plus_LYS_N_NZ_plus_GLU_wOE1
+delete sig.wO_plus_N
+load wO_plus_N.pdb, sig.wO_plus_N
+delete sig.wO_plus_N_plus_ARG_N_NE
+load wO_plus_N_plus_ARG_N_NE.pdb, sig.wO_plus_N_plus_ARG_N_NE
+delete sig.wO_plus_N_plus_ASN_ND2
+load wO_plus_N_plus_ASN_ND2.pdb, sig.wO_plus_N_plus_ASN_ND2
+delete sig.wO_plus_N_plus_ASN_ND2_wOD1
+load wO_plus_N_plus_ASN_ND2_wOD1.pdb, sig.wO_plus_N_plus_ASN_ND2_wOD1
+delete sig.wO_plus_N_plus_ASN_N_ND2
+load wO_plus_N_plus_ASN_N_ND2.pdb, sig.wO_plus_N_plus_ASN_N_ND2
+delete sig.wO_plus_N_plus_ASN_wOD1
+load wO_plus_N_plus_ASN_wOD1.pdb, sig.wO_plus_N_plus_ASN_wOD1
+delete sig.wO_plus_N_plus_ASP_wOD1
+load wO_plus_N_plus_ASP_wOD1.pdb, sig.wO_plus_N_plus_ASP_wOD1
+delete sig.wO_plus_N_plus_ASP_wOD2
+load wO_plus_N_plus_ASP_wOD2.pdb, sig.wO_plus_N_plus_ASP_wOD2
+delete sig.wO_plus_N_plus_GLN_N_wOE1
+load wO_plus_N_plus_GLN_N_wOE1.pdb, sig.wO_plus_N_plus_GLN_N_wOE1
+delete sig.wO_plus_N_plus_GLU_wOE1
+load wO_plus_N_plus_GLU_wOE1.pdb, sig.wO_plus_N_plus_GLU_wOE1
+delete sig.wO_plus_N_plus_HIS_NE2
+load wO_plus_N_plus_HIS_NE2.pdb, sig.wO_plus_N_plus_HIS_NE2
+delete sig.wO_plus_N_plus_HIS_wND1
+load wO_plus_N_plus_HIS_wND1.pdb, sig.wO_plus_N_plus_HIS_wND1
+delete sig.wO_plus_N_plus_N
+load wO_plus_N_plus_N.pdb, sig.wO_plus_N_plus_N
+delete sig.wO_plus_N_plus_N_plus_ASP_wOD2
+load wO_plus_N_plus_N_plus_ASP_wOD2.pdb, sig.wO_plus_N_plus_N_plus_ASP_wOD2
+delete sig.wO_plus_N_plus_N_plus_N
+load wO_plus_N_plus_N_plus_N.pdb, sig.wO_plus_N_plus_N_plus_N
+delete sig.wO_plus_N_plus_N_plus_THR_OG1
+load wO_plus_N_plus_N_plus_THR_OG1.pdb, sig.wO_plus_N_plus_N_plus_THR_OG1
+delete sig.wO_plus_N_plus_N_plus_TRP_NE1
+load wO_plus_N_plus_N_plus_TRP_NE1.pdb, sig.wO_plus_N_plus_N_plus_TRP_NE1
+delete sig.wO_plus_N_plus_N_plus_wO
+load wO_plus_N_plus_N_plus_wO.pdb, sig.wO_plus_N_plus_N_plus_wO
+delete sig.wO_plus_N_plus_N_wO
+load wO_plus_N_plus_N_wO.pdb, sig.wO_plus_N_plus_N_wO
+delete sig.wO_plus_N_plus_SER_N_OG
+load wO_plus_N_plus_SER_N_OG.pdb, sig.wO_plus_N_plus_SER_N_OG
+delete sig.wO_plus_N_plus_SER_N_OG_wOG
+load wO_plus_N_plus_SER_N_OG_wOG.pdb, sig.wO_plus_N_plus_SER_N_OG_wOG
+delete sig.wO_plus_N_plus_SER_N_wOG
+load wO_plus_N_plus_SER_N_wOG.pdb, sig.wO_plus_N_plus_SER_N_wOG
+delete sig.wO_plus_N_plus_SER_OG
+load wO_plus_N_plus_SER_OG.pdb, sig.wO_plus_N_plus_SER_OG
+delete sig.wO_plus_N_plus_SER_wOG
+load wO_plus_N_plus_SER_wOG.pdb, sig.wO_plus_N_plus_SER_wOG
+delete sig.wO_plus_N_plus_THR_N_OG1
+load wO_plus_N_plus_THR_N_OG1.pdb, sig.wO_plus_N_plus_THR_N_OG1
+delete sig.wO_plus_N_plus_THR_N_wO_wOG1
+load wO_plus_N_plus_THR_N_wO_wOG1.pdb, sig.wO_plus_N_plus_THR_N_wO_wOG1
+delete sig.wO_plus_N_plus_THR_OG1
+load wO_plus_N_plus_THR_OG1.pdb, sig.wO_plus_N_plus_THR_OG1
+delete sig.wO_plus_N_plus_THR_wOG1
+load wO_plus_N_plus_THR_wOG1.pdb, sig.wO_plus_N_plus_THR_wOG1
+delete sig.wO_plus_N_plus_TRP_NE1
+load wO_plus_N_plus_TRP_NE1.pdb, sig.wO_plus_N_plus_TRP_NE1
+delete sig.wO_plus_N_plus_wO
+load wO_plus_N_plus_wO.pdb, sig.wO_plus_N_plus_wO
+delete sig.wO_plus_N_wO
+load wO_plus_N_wO.pdb, sig.wO_plus_N_wO
+delete sig.wO_plus_SER_N_OG
+load wO_plus_SER_N_OG.pdb, sig.wO_plus_SER_N_OG
+delete sig.wO_plus_SER_N_OG_plus_ASP_wOD1
+load wO_plus_SER_N_OG_plus_ASP_wOD1.pdb, sig.wO_plus_SER_N_OG_plus_ASP_wOD1
+delete sig.wO_plus_SER_N_OG_plus_N
+load wO_plus_SER_N_OG_plus_N.pdb, sig.wO_plus_SER_N_OG_plus_N
+delete sig.wO_plus_SER_N_OG_plus_SER_N_OG
+load wO_plus_SER_N_OG_plus_SER_N_OG.pdb, sig.wO_plus_SER_N_OG_plus_SER_N_OG
+delete sig.wO_plus_SER_N_OG_plus_SER_wOG
+load wO_plus_SER_N_OG_plus_SER_wOG.pdb, sig.wO_plus_SER_N_OG_plus_SER_wOG
+delete sig.wO_plus_SER_N_OG_plus_TYR_OH
+load wO_plus_SER_N_OG_plus_TYR_OH.pdb, sig.wO_plus_SER_N_OG_plus_TYR_OH
+delete sig.wO_plus_SER_N_OG_wOG
+load wO_plus_SER_N_OG_wOG.pdb, sig.wO_plus_SER_N_OG_wOG
+delete sig.wO_plus_SER_N_wOG
+load wO_plus_SER_N_wOG.pdb, sig.wO_plus_SER_N_wOG
+delete sig.wO_plus_SER_N_wO_OG
+load wO_plus_SER_N_wO_OG.pdb, sig.wO_plus_SER_N_wO_OG
+delete sig.wO_plus_SER_OG
+load wO_plus_SER_OG.pdb, sig.wO_plus_SER_OG
+delete sig.wO_plus_SER_OG_plus_ARG_NH2
+load wO_plus_SER_OG_plus_ARG_NH2.pdb, sig.wO_plus_SER_OG_plus_ARG_NH2
+delete sig.wO_plus_SER_OG_plus_ASN_wOD1
+load wO_plus_SER_OG_plus_ASN_wOD1.pdb, sig.wO_plus_SER_OG_plus_ASN_wOD1
+delete sig.wO_plus_SER_OG_plus_ASP_wOD2
+load wO_plus_SER_OG_plus_ASP_wOD2.pdb, sig.wO_plus_SER_OG_plus_ASP_wOD2
+delete sig.wO_plus_SER_OG_plus_GLU_wOE2
+load wO_plus_SER_OG_plus_GLU_wOE2.pdb, sig.wO_plus_SER_OG_plus_GLU_wOE2
+delete sig.wO_plus_SER_OG_plus_LYS_NZ
+load wO_plus_SER_OG_plus_LYS_NZ.pdb, sig.wO_plus_SER_OG_plus_LYS_NZ
+delete sig.wO_plus_SER_OG_plus_N
+load wO_plus_SER_OG_plus_N.pdb, sig.wO_plus_SER_OG_plus_N
+delete sig.wO_plus_SER_OG_plus_N_plus_ASP_wOD1
+load wO_plus_SER_OG_plus_N_plus_ASP_wOD1.pdb, sig.wO_plus_SER_OG_plus_N_plus_ASP_wOD1
+delete sig.wO_plus_SER_OG_plus_N_plus_N
+load wO_plus_SER_OG_plus_N_plus_N.pdb, sig.wO_plus_SER_OG_plus_N_plus_N
+delete sig.wO_plus_SER_OG_plus_SER_wOG
+load wO_plus_SER_OG_plus_SER_wOG.pdb, sig.wO_plus_SER_OG_plus_SER_wOG
+delete sig.wO_plus_SER_OG_plus_THR_N_OG1
+load wO_plus_SER_OG_plus_THR_N_OG1.pdb, sig.wO_plus_SER_OG_plus_THR_N_OG1
+delete sig.wO_plus_SER_OG_plus_THR_wOG1
+load wO_plus_SER_OG_plus_THR_wOG1.pdb, sig.wO_plus_SER_OG_plus_THR_wOG1
+delete sig.wO_plus_SER_OG_plus_wO
+load wO_plus_SER_OG_plus_wO.pdb, sig.wO_plus_SER_OG_plus_wO
+delete sig.wO_plus_SER_OG_wOG
+load wO_plus_SER_OG_wOG.pdb, sig.wO_plus_SER_OG_wOG
+delete sig.wO_plus_SER_OG_wOG_plus_GLN_N_NE2
+load wO_plus_SER_OG_wOG_plus_GLN_N_NE2.pdb, sig.wO_plus_SER_OG_wOG_plus_GLN_N_NE2
+delete sig.wO_plus_SER_wOG
+load wO_plus_SER_wOG.pdb, sig.wO_plus_SER_wOG
+delete sig.wO_plus_SER_wOG_plus_N
+load wO_plus_SER_wOG_plus_N.pdb, sig.wO_plus_SER_wOG_plus_N
+delete sig.wO_plus_SER_wOG_plus_SER_N_OG
+load wO_plus_SER_wOG_plus_SER_N_OG.pdb, sig.wO_plus_SER_wOG_plus_SER_N_OG
+delete sig.wO_plus_SER_wO_OG
+load wO_plus_SER_wO_OG.pdb, sig.wO_plus_SER_wO_OG
+delete sig.wO_plus_SER_wO_wOG
+load wO_plus_SER_wO_wOG.pdb, sig.wO_plus_SER_wO_wOG
+delete sig.wO_plus_THR_N_OG1
+load wO_plus_THR_N_OG1.pdb, sig.wO_plus_THR_N_OG1
+delete sig.wO_plus_THR_N_OG1_plus_ASN_ND2
+load wO_plus_THR_N_OG1_plus_ASN_ND2.pdb, sig.wO_plus_THR_N_OG1_plus_ASN_ND2
+delete sig.wO_plus_THR_N_OG1_plus_N
+load wO_plus_THR_N_OG1_plus_N.pdb, sig.wO_plus_THR_N_OG1_plus_N
+delete sig.wO_plus_THR_N_OG1_plus_N_plus_N
+load wO_plus_THR_N_OG1_plus_N_plus_N.pdb, sig.wO_plus_THR_N_OG1_plus_N_plus_N
+delete sig.wO_plus_THR_N_OG1_wOG1_plus_N
+load wO_plus_THR_N_OG1_wOG1_plus_N.pdb, sig.wO_plus_THR_N_OG1_wOG1_plus_N
+delete sig.wO_plus_THR_N_wOG1
+load wO_plus_THR_N_wOG1.pdb, sig.wO_plus_THR_N_wOG1
+delete sig.wO_plus_THR_N_wO_OG1_wOG1
+load wO_plus_THR_N_wO_OG1_wOG1.pdb, sig.wO_plus_THR_N_wO_OG1_wOG1
+delete sig.wO_plus_THR_OG1
+load wO_plus_THR_OG1.pdb, sig.wO_plus_THR_OG1
+delete sig.wO_plus_THR_OG1_plus_ARG_NE_NH1
+load wO_plus_THR_OG1_plus_ARG_NE_NH1.pdb, sig.wO_plus_THR_OG1_plus_ARG_NE_NH1
+delete sig.wO_plus_THR_OG1_plus_ASN_N_ND2
+load wO_plus_THR_OG1_plus_ASN_N_ND2.pdb, sig.wO_plus_THR_OG1_plus_ASN_N_ND2
+delete sig.wO_plus_THR_OG1_plus_N
+load wO_plus_THR_OG1_plus_N.pdb, sig.wO_plus_THR_OG1_plus_N
+delete sig.wO_plus_THR_OG1_plus_THR_N_OG1
+load wO_plus_THR_OG1_plus_THR_N_OG1.pdb, sig.wO_plus_THR_OG1_plus_THR_N_OG1
+delete sig.wO_plus_THR_OG1_wOG1
+load wO_plus_THR_OG1_wOG1.pdb, sig.wO_plus_THR_OG1_wOG1
+delete sig.wO_plus_THR_wOG1
+load wO_plus_THR_wOG1.pdb, sig.wO_plus_THR_wOG1
+delete sig.wO_plus_THR_wOG1_plus_N
+load wO_plus_THR_wOG1_plus_N.pdb, sig.wO_plus_THR_wOG1_plus_N
+delete sig.wO_plus_THR_wOG1_plus_THR_OG1
+load wO_plus_THR_wOG1_plus_THR_OG1.pdb, sig.wO_plus_THR_wOG1_plus_THR_OG1
+delete sig.wO_plus_THR_wOG1_plus_wO
+load wO_plus_THR_wOG1_plus_wO.pdb, sig.wO_plus_THR_wOG1_plus_wO
+delete sig.wO_plus_THR_wO_OG1
+load wO_plus_THR_wO_OG1.pdb, sig.wO_plus_THR_wO_OG1
+delete sig.wO_plus_TRP_NE1
+load wO_plus_TRP_NE1.pdb, sig.wO_plus_TRP_NE1
+delete sig.wO_plus_TYR_OH
+load wO_plus_TYR_OH.pdb, sig.wO_plus_TYR_OH
+delete sig.wO_plus_TYR_OH_wOH
+load wO_plus_TYR_OH_wOH.pdb, sig.wO_plus_TYR_OH_wOH
+delete sig.wO_plus_TYR_wOH
+load wO_plus_TYR_wOH.pdb, sig.wO_plus_TYR_wOH
+delete sig.wO_plus_wO
+load wO_plus_wO.pdb, sig.wO_plus_wO
+delete sig.wO_plus_wO_plus_ARG_NE
+load wO_plus_wO_plus_ARG_NE.pdb, sig.wO_plus_wO_plus_ARG_NE
+delete sig.wO_plus_wO_plus_ARG_NE_NH2
+load wO_plus_wO_plus_ARG_NE_NH2.pdb, sig.wO_plus_wO_plus_ARG_NE_NH2
+delete sig.wO_plus_wO_plus_ARG_NH1
+load wO_plus_wO_plus_ARG_NH1.pdb, sig.wO_plus_wO_plus_ARG_NH1
+delete sig.wO_plus_wO_plus_ARG_NH1_NH2
+load wO_plus_wO_plus_ARG_NH1_NH2.pdb, sig.wO_plus_wO_plus_ARG_NH1_NH2
+delete sig.wO_plus_wO_plus_ARG_NH2
+load wO_plus_wO_plus_ARG_NH2.pdb, sig.wO_plus_wO_plus_ARG_NH2
+delete sig.wO_plus_wO_plus_ASN_ND2_wOD1
+load wO_plus_wO_plus_ASN_ND2_wOD1.pdb, sig.wO_plus_wO_plus_ASN_ND2_wOD1
+delete sig.wO_plus_wO_plus_ASP_wOD2
+load wO_plus_wO_plus_ASP_wOD2.pdb, sig.wO_plus_wO_plus_ASP_wOD2
+delete sig.wO_plus_wO_plus_HIS_ND1
+load wO_plus_wO_plus_HIS_ND1.pdb, sig.wO_plus_wO_plus_HIS_ND1
+delete sig.wO_plus_wO_plus_HIS_NE2
+load wO_plus_wO_plus_HIS_NE2.pdb, sig.wO_plus_wO_plus_HIS_NE2
+delete sig.wO_plus_wO_plus_LYS_NZ
+load wO_plus_wO_plus_LYS_NZ.pdb, sig.wO_plus_wO_plus_LYS_NZ
+delete sig.wO_plus_wO_plus_N
+load wO_plus_wO_plus_N.pdb, sig.wO_plus_wO_plus_N
+delete sig.wO_plus_wO_plus_SER_N_OG
+load wO_plus_wO_plus_SER_N_OG.pdb, sig.wO_plus_wO_plus_SER_N_OG
+delete sig.wO_plus_wO_plus_SER_wOG
+load wO_plus_wO_plus_SER_wOG.pdb, sig.wO_plus_wO_plus_SER_wOG
+delete sig.wO_plus_wO_plus_THR_OG1
+load wO_plus_wO_plus_THR_OG1.pdb, sig.wO_plus_wO_plus_THR_OG1
+delete sig.wO_plus_wO_plus_THR_OG1_plus_N
+load wO_plus_wO_plus_THR_OG1_plus_N.pdb, sig.wO_plus_wO_plus_THR_OG1_plus_N
+delete sig.wO_plus_wO_plus_TRP_NE1
+load wO_plus_wO_plus_TRP_NE1.pdb, sig.wO_plus_wO_plus_TRP_NE1
+delete sig.wO_plus_wO_plus_TYR_OH
+load wO_plus_wO_plus_TYR_OH.pdb, sig.wO_plus_wO_plus_TYR_OH
+delete sig.wO_plus_wO_plus_wO
+load wO_plus_wO_plus_wO.pdb, sig.wO_plus_wO_plus_wO
+cd ../..
+group F6_ASP_SC, sig.ARG_NE sig.ARG_NE_NH1 sig.ARG_NE_NH1_plus_ARG_NH1_NH2 sig.ARG_NE_NH1_plus_HIS_NE2 sig.ARG_NE_NH1_plus_HIS_wND1 sig.ARG_NE_NH1_plus_N sig.ARG_NE_NH1_plus_N_wO sig.ARG_NE_NH1_plus_SER_N_OG sig.ARG_NE_NH1_plus_TYR_OH sig.ARG_NE_NH1_plus_wO sig.ARG_NE_NH1_plus_wO_plus_ASN_wOD1 sig.ARG_NE_NH1_wO sig.ARG_NE_NH1_wO_plus_ARG_NE_NH2 sig.ARG_NE_NH2 sig.ARG_NE_NH2_plus_ARG_NE_NH2 sig.ARG_NE_NH2_plus_ARG_NH1_NH2 sig.ARG_NE_NH2_plus_ARG_NH1_NH2_plus_HIS_NE2 sig.ARG_NE_NH2_plus_ASN_ND2 sig.ARG_NE_NH2_plus_ASN_ND2_wOD1 sig.ARG_NE_NH2_plus_ASN_wOD1 sig.ARG_NE_NH2_plus_ASP_wOD1 sig.ARG_NE_NH2_plus_ASP_wOD2 sig.ARG_NE_NH2_plus_GLN_NE2 sig.ARG_NE_NH2_plus_GLN_wO_wOE1 sig.ARG_NE_NH2_plus_GLU_wOE1 sig.ARG_NE_NH2_plus_GLU_wOE2 sig.ARG_NE_NH2_plus_HIS_ND1 sig.ARG_NE_NH2_plus_HIS_NE2 sig.ARG_NE_NH2_plus_HIS_wNE2 sig.ARG_NE_NH2_plus_N sig.ARG_NE_NH2_plus_N_plus_SER_wOG sig.ARG_NE_NH2_plus_N_wO sig.ARG_NE_NH2_plus_N_wO_plus_ARG_NH2 sig.ARG_NE_NH2_plus_SER_N_OG sig.ARG_NE_NH2_plus_SER_OG sig.ARG_NE_NH2_plus_SER_wOG sig.ARG_NE_NH2_plus_THR_N_OG1 sig.ARG_NE_NH2_plus_THR_OG1 sig.ARG_NE_NH2_plus_THR_wOG1 sig.ARG_NE_NH2_plus_TRP_NE1 sig.ARG_NE_NH2_plus_TYR_OH sig.ARG_NE_NH2_plus_TYR_wOH sig.ARG_NE_NH2_plus_wO sig.ARG_NE_NH2_plus_wO_plus_GLN_NE2 sig.ARG_NE_NH2_plus_wO_plus_wO sig.ARG_NE_NH2_wO sig.ARG_NE_NH2_wO_plus_ARG_NH1_NH2 sig.ARG_NE_NH2_wO_plus_ARG_NH2 sig.ARG_NE_NH2_wO_plus_ASN_ND2 sig.ARG_NE_NH2_wO_plus_ASP_wOD1 sig.ARG_NE_NH2_wO_plus_SER_wOG sig.ARG_NE_NH2_wO_plus_TRP_NE1 sig.ARG_NE_plus_ASP_wOD1 sig.ARG_NE_plus_HIS_wND1 sig.ARG_NE_plus_N_plus_N sig.ARG_NE_plus_N_plus_wO sig.ARG_NE_plus_N_wO sig.ARG_NE_plus_SER_N_OG sig.ARG_NE_plus_SER_N_wO_OG sig.ARG_NE_plus_THR_wOG1 sig.ARG_NE_wO sig.ARG_NH1 sig.ARG_NH1_NH2 sig.ARG_NH1_NH2_plus_ARG_NE_NH2 sig.ARG_NH1_NH2_plus_ARG_NE_wO sig.ARG_NH1_NH2_plus_ASN_wOD1 sig.ARG_NH1_NH2_plus_ASP_wOD1 sig.ARG_NH1_NH2_plus_ASP_wOD2 sig.ARG_NH1_NH2_plus_GLN_NE2_wOE1 sig.ARG_NH1_NH2_plus_GLU_wOE1 sig.ARG_NH1_NH2_plus_GLU_wOE2 sig.ARG_NH1_NH2_plus_HIS_NE2 sig.ARG_NH1_NH2_plus_HIS_N_ND1 sig.ARG_NH1_NH2_plus_HIS_wNE2 sig.ARG_NH1_NH2_plus_N sig.ARG_NH1_NH2_plus_N_wO sig.ARG_NH1_NH2_plus_SER_N_OG sig.ARG_NH1_NH2_plus_SER_wOG sig.ARG_NH1_NH2_plus_THR_OG1_wOG1 sig.ARG_NH1_NH2_plus_TRP_NE1 sig.ARG_NH1_NH2_plus_TRP_NE1_plus_GLN_wOE1 sig.ARG_NH1_NH2_plus_TYR_wOH sig.ARG_NH1_NH2_plus_wO sig.ARG_NH1_NH2_plus_wO_plus_GLU_wOE1 sig.ARG_NH1_NH2_plus_wO_plus_N sig.ARG_NH1_NH2_wO sig.ARG_NH1_NH2_wO_plus_ARG_NH1 sig.ARG_NH1_plus_ASN_ND2_wOD1 sig.ARG_NH1_plus_HIS_ND1_plus_SER_wO_OG sig.ARG_NH1_plus_N_plus_N sig.ARG_NH1_plus_N_wO sig.ARG_NH1_plus_SER_wOG sig.ARG_NH1_plus_THR_N_OG1_plus_N sig.ARG_NH1_plus_TYR_OH_wOH sig.ARG_NH1_plus_TYR_wOH sig.ARG_NH1_plus_wO sig.ARG_NH1_wO sig.ARG_NH2 sig.ARG_NH2_plus_ASN_ND2_wOD1 sig.ARG_NH2_plus_ASP_wOD1 sig.ARG_NH2_plus_ASP_wOD2 sig.ARG_NH2_plus_GLU_wOE2 sig.ARG_NH2_plus_THR_wOG1 sig.ARG_NH2_plus_wO sig.ARG_NH2_plus_wO_plus_N sig.ARG_NH2_plus_wO_plus_N_plus_N sig.ARG_NH2_plus_wO_plus_wO sig.ARG_NH2_wO sig.ARG_NH2_wO_plus_TYR_OH sig.ARG_N_NE_NH1 sig.ARG_N_NE_NH1_plus_wO sig.ARG_N_NE_NH1_wO sig.ARG_N_NE_NH2 sig.ARG_N_NE_NH2_plus_ARG_NH1_NH2 sig.ARG_N_NE_NH2_plus_ASP_wOD1 sig.ARG_N_NE_NH2_plus_ASP_wOD2 sig.ARG_N_NE_NH2_plus_GLU_wOE1 sig.ARG_N_NE_NH2_plus_GLU_wOE2 sig.ARG_N_NE_NH2_plus_HIS_ND1 sig.ARG_N_NE_NH2_plus_HIS_wND1 sig.ARG_N_NE_NH2_plus_N sig.ARG_N_NE_NH2_plus_SER_wOG sig.ARG_N_NE_NH2_plus_THR_wOG1 sig.ARG_N_NE_NH2_plus_TRP_NE1 sig.ARG_N_NE_NH2_plus_wO sig.ARG_N_NE_NH2_wO sig.ARG_N_NE_plus_wO sig.ARG_N_NE_wO sig.ARG_N_NH1_plus_N sig.ARG_N_NH1_plus_wO_plus_THR_wOG1 sig.ARG_N_NH1_wO sig.ARG_N_NH2_plus_N sig.ARG_N_NH2_wO sig.ASN_ND2 sig.ASN_ND2_plus_ARG_NE_NH1 sig.ASN_ND2_plus_ARG_NE_NH2 sig.ASN_ND2_plus_ARG_NH1_NH2 sig.ASN_ND2_plus_ASN_ND2_wO sig.ASN_ND2_plus_ASN_ND2_wOD1 sig.ASN_ND2_plus_ASN_wOD1 sig.ASN_ND2_plus_ASP_wOD2 sig.ASN_ND2_plus_HIS_ND1_plus_wO sig.ASN_ND2_plus_HIS_N_ND1 sig.ASN_ND2_plus_HIS_wND1_plus_GLN_NE2 sig.ASN_ND2_plus_N sig.ASN_ND2_plus_N_plus_N sig.ASN_ND2_plus_N_wO sig.ASN_ND2_plus_SER_N_OG sig.ASN_ND2_plus_SER_OG_plus_ASN_N_ND2 sig.ASN_ND2_plus_THR_N_OG1 sig.ASN_ND2_plus_THR_N_wOG1 sig.ASN_ND2_plus_THR_wOG1 sig.ASN_ND2_plus_TYR_wOH sig.ASN_ND2_plus_wO sig.ASN_ND2_plus_wO_plus_HIS_ND1 sig.ASN_ND2_plus_wO_plus_N sig.ASN_ND2_wO sig.ASN_ND2_wOD1 sig.ASN_ND2_wOD1_plus_ARG_NE sig.ASN_ND2_wOD1_plus_ARG_NE_NH2 sig.ASN_ND2_wOD1_plus_ARG_NH2 sig.ASN_ND2_wOD1_plus_ASN_ND2 sig.ASN_ND2_wOD1_plus_ASP_wOD2 sig.ASN_ND2_wOD1_plus_GLU_wOE1 sig.ASN_ND2_wOD1_plus_wO sig.ASN_ND2_wO_plus_HIS_ND1 sig.ASN_ND2_wO_plus_HIS_NE2 sig.ASN_ND2_wO_plus_LYS_NZ sig.ASN_ND2_wO_plus_wO sig.ASN_ND2_wO_wOD1 sig.ASN_N_ND2 sig.ASN_N_ND2_plus_ASN_ND2 sig.ASN_N_ND2_plus_ASN_ND2_wOD1 sig.ASN_N_ND2_plus_GLN_NE2 sig.ASN_N_ND2_plus_N sig.ASN_N_ND2_plus_SER_OG sig.ASN_N_ND2_plus_SER_wOG sig.ASN_N_ND2_plus_THR_N_OG1 sig.ASN_N_ND2_plus_THR_wOG1 sig.ASN_N_ND2_plus_wO sig.ASN_N_ND2_wO sig.ASN_N_ND2_wO_plus_ARG_NH1 sig.ASN_N_wOD1 sig.ASN_N_wOD1_plus_ASN_N_ND2 sig.ASN_N_wOD1_plus_HIS_ND1 sig.ASN_N_wOD1_plus_N sig.ASN_N_wOD1_plus_N_plus_N sig.ASN_N_wOD1_plus_N_wO sig.ASN_N_wOD1_plus_THR_N_wOG1_plus_N sig.ASN_N_wOD1_plus_THR_OG1 sig.ASN_N_wOD1_plus_wO sig.ASN_wOD1 sig.ASN_wOD1_plus_ARG_NE_NH2 sig.ASN_wOD1_plus_ARG_NE_NH2_wO sig.ASN_wOD1_plus_ARG_NH1_NH2 sig.ASN_wOD1_plus_ARG_NH1_NH2_plus_SER_N_OG sig.ASN_wOD1_plus_ARG_NH2 sig.ASN_wOD1_plus_ARG_NH2_wO sig.ASN_wOD1_plus_ASN_ND2_plus_ARG_NE_NH2 sig.ASN_wOD1_plus_ASN_ND2_wOD1 sig.ASN_wOD1_plus_GLU_N_wOE2 sig.ASN_wOD1_plus_GLU_wOE1 sig.ASN_wOD1_plus_HIS_NE2_plus_TRP_NE1 sig.ASN_wOD1_plus_N sig.ASN_wOD1_plus_N_plus_ASP_N_wOD2 sig.ASN_wOD1_plus_N_plus_N sig.ASN_wOD1_plus_N_wO sig.ASN_wOD1_plus_SER_N_OG sig.ASN_wOD1_plus_THR_N_OG1 sig.ASN_wOD1_plus_THR_wOG1 sig.ASN_wOD1_plus_TRP_NE1 sig.ASN_wOD1_plus_wO sig.ASN_wOD1_plus_wO_plus_TYR_wOH sig.ASN_wO_wOD1 sig.ASN_wO_wOD1_plus_TRP_NE1 sig.ASP_N_wOD1 sig.ASP_N_wOD1_plus_ASN_ND2 sig.ASP_N_wOD1_plus_ASN_N_ND2 sig.ASP_N_wOD1_plus_N sig.ASP_N_wOD1_wOD2 sig.ASP_N_wOD2 sig.ASP_N_wOD2_plus_ARG_N_NE sig.ASP_N_wOD2_plus_ARG_N_NE_wO sig.ASP_N_wOD2_plus_ASN_ND2 sig.ASP_N_wOD2_plus_ASN_N_ND2 sig.ASP_N_wOD2_plus_ASP_wOD1 sig.ASP_N_wOD2_plus_GLN_NE2 sig.ASP_N_wOD2_plus_GLN_N_NE2 sig.ASP_N_wOD2_plus_GLU_N_wOE1 sig.ASP_N_wOD2_plus_GLU_N_wOE2 sig.ASP_N_wOD2_plus_HIS_NE2 sig.ASP_N_wOD2_plus_LYS_NZ sig.ASP_N_wOD2_plus_N sig.ASP_N_wOD2_plus_N_plus_N sig.ASP_N_wOD2_plus_N_plus_wO sig.ASP_N_wOD2_plus_SER_wOG sig.ASP_N_wOD2_plus_THR_N_OG1 sig.ASP_N_wOD2_plus_THR_N_wOG1 sig.ASP_N_wOD2_plus_THR_OG1 sig.ASP_N_wOD2_plus_TRP_NE1 sig.ASP_N_wOD2_plus_wO sig.ASP_N_wO_wOD2 sig.ASP_wOD1 sig.ASP_wOD1_plus_ARG_NE sig.ASP_wOD1_plus_ARG_NE_NH2 sig.ASP_wOD1_plus_ARG_NH1_NH2 sig.ASP_wOD1_plus_ARG_N_NE_NH2 sig.ASP_wOD1_plus_ASN_ND2 sig.ASP_wOD1_plus_ASN_wOD1 sig.ASP_wOD1_plus_ASP_N_wOD1 sig.ASP_wOD1_plus_ASP_N_wOD2 sig.ASP_wOD1_plus_GLN_NE2_wOE1 sig.ASP_wOD1_plus_GLN_N_NE2 sig.ASP_wOD1_plus_GLU_wOE1 sig.ASP_wOD1_plus_GLU_wOE2 sig.ASP_wOD1_plus_HIS_NE2 sig.ASP_wOD1_plus_HIS_N_ND1 sig.ASP_wOD1_plus_LYS_NZ sig.ASP_wOD1_plus_LYS_N_NZ sig.ASP_wOD1_plus_N sig.ASP_wOD1_plus_N_plus_ARG_NE_NH2 sig.ASP_wOD1_plus_N_plus_ARG_N_NH1 sig.ASP_wOD1_plus_N_plus_ASN_N_ND2 sig.ASP_wOD1_plus_N_plus_ASN_N_wOD1 sig.ASP_wOD1_plus_N_plus_ASN_wOD1 sig.ASP_wOD1_plus_N_plus_GLU_wOE1 sig.ASP_wOD1_plus_N_plus_N sig.ASP_wOD1_plus_N_plus_SER_OG sig.ASP_wOD1_plus_N_plus_wO sig.ASP_wOD1_plus_N_wO sig.ASP_wOD1_plus_SER_N_OG sig.ASP_wOD1_plus_SER_N_wOG_plus_wO sig.ASP_wOD1_plus_SER_wOG sig.ASP_wOD1_plus_THR_N_OG1 sig.ASP_wOD1_plus_wO sig.ASP_wOD1_plus_wO_plus_ARG_NE_NH2 sig.ASP_wOD1_wOD2 sig.ASP_wOD1_wOD2_plus_ARG_NH1_NH2 sig.ASP_wOD1_wOD2_plus_HIS_NE2 sig.ASP_wOD2 sig.ASP_wOD2_plus_ARG_NE sig.ASP_wOD2_plus_ARG_NE_NH1 sig.ASP_wOD2_plus_ARG_NE_NH2 sig.ASP_wOD2_plus_ARG_NH1 sig.ASP_wOD2_plus_ARG_NH1_NH2 sig.ASP_wOD2_plus_ARG_NH2 sig.ASP_wOD2_plus_ASN_ND2 sig.ASP_wOD2_plus_ASN_N_ND2 sig.ASP_wOD2_plus_ASN_wOD1 sig.ASP_wOD2_plus_ASP_N_wOD1 sig.ASP_wOD2_plus_ASP_wOD1 sig.ASP_wOD2_plus_ASP_wOD2 sig.ASP_wOD2_plus_GLN_NE2 sig.ASP_wOD2_plus_GLN_wOE1 sig.ASP_wOD2_plus_GLU_wOE1 sig.ASP_wOD2_plus_GLU_wOE2 sig.ASP_wOD2_plus_HIS_ND1 sig.ASP_wOD2_plus_HIS_ND1_wO sig.ASP_wOD2_plus_HIS_NE2 sig.ASP_wOD2_plus_HIS_wNE2 sig.ASP_wOD2_plus_LYS_NZ sig.ASP_wOD2_plus_N sig.ASP_wOD2_plus_N_plus_N sig.ASP_wOD2_plus_N_plus_wO sig.ASP_wOD2_plus_SER_N_OG sig.ASP_wOD2_plus_SER_N_wOG sig.ASP_wOD2_plus_SER_OG_plus_GLN_NE2_wOE1 sig.ASP_wOD2_plus_SER_OG_plus_N sig.ASP_wOD2_plus_SER_wOG sig.ASP_wOD2_plus_THR_N_OG1 sig.ASP_wOD2_plus_THR_wOG1 sig.ASP_wOD2_plus_TRP_NE1 sig.ASP_wOD2_plus_TYR_OH sig.ASP_wOD2_plus_TYR_wOH sig.ASP_wOD2_plus_wO sig.ASP_wOD2_plus_wO_plus_N sig.ASP_wOD2_plus_wO_plus_wO sig.ASP_wO_wOD1 sig.ASP_wO_wOD1_plus_HIS_NE2 sig.ASP_wO_wOD2 sig.ASP_wO_wOD2_plus_ASN_ND2 sig.ASP_wO_wOD2_plus_ASP_wOD2 sig.ASP_wO_wOD2_plus_wO sig.GLN_NE2 sig.GLN_NE2_plus_ARG_NH1_NH2 sig.GLN_NE2_plus_ARG_NH2 sig.GLN_NE2_plus_ASN_ND2_wOD1 sig.GLN_NE2_plus_ASN_N_ND2 sig.GLN_NE2_plus_ASN_wOD1 sig.GLN_NE2_plus_ASP_wOD1 sig.GLN_NE2_plus_GLN_NE2_wOE1 sig.GLN_NE2_plus_HIS_N_wND1 sig.GLN_NE2_plus_N_plus_N sig.GLN_NE2_plus_SER_N_OG sig.GLN_NE2_plus_SER_N_OG_plus_N sig.GLN_NE2_plus_SER_wOG sig.GLN_NE2_plus_THR_N_OG1 sig.GLN_NE2_plus_THR_N_OG1_plus_THR_N_OG1 sig.GLN_NE2_plus_TYR_wOH sig.GLN_NE2_plus_wO sig.GLN_NE2_plus_wO_plus_ASP_wOD1 sig.GLN_NE2_wO sig.GLN_NE2_wOE1 sig.GLN_NE2_wOE1_plus_HIS_ND1 sig.GLN_NE2_wOE1_plus_SER_wOG sig.GLN_NE2_wOE1_plus_wO sig.GLN_NE2_wO_plus_ASP_wOD1 sig.GLN_NE2_wO_plus_N sig.GLN_NE2_wO_plus_TYR_OH sig.GLN_N_NE2 sig.GLN_N_NE2_plus_THR_OG1 sig.GLN_N_NE2_plus_THR_wOG1 sig.GLN_N_NE2_plus_TYR_wOH sig.GLN_N_NE2_plus_wO sig.GLN_N_NE2_wO sig.GLN_N_wOE1 sig.GLN_N_wOE1_plus_ARG_NE_NH2 sig.GLN_N_wOE1_plus_ASN_ND2 sig.GLN_N_wOE1_plus_ASN_N_ND2 sig.GLN_N_wOE1_plus_HIS_ND1 sig.GLN_N_wOE1_plus_N sig.GLN_N_wOE1_plus_N_plus_wO sig.GLN_N_wOE1_plus_SER_N_OG sig.GLN_N_wOE1_plus_SER_OG sig.GLN_N_wOE1_plus_SER_wOG sig.GLN_N_wOE1_plus_THR_N_OG1 sig.GLN_N_wOE1_plus_THR_OG1 sig.GLN_N_wOE1_plus_THR_OG1_wOG1 sig.GLN_N_wOE1_plus_wO sig.GLN_N_wO_wOE1 sig.GLN_wOE1 sig.GLN_wOE1_plus_ARG_NE_NH2 sig.GLN_wOE1_plus_ARG_NH1_NH2 sig.GLN_wOE1_plus_ARG_NH2 sig.GLN_wOE1_plus_ASN_ND2_wOD1 sig.GLN_wOE1_plus_ASN_N_ND2 sig.GLN_wOE1_plus_ASP_N_wOD1 sig.GLN_wOE1_plus_ASP_wOD2 sig.GLN_wOE1_plus_GLN_N_NE2 sig.GLN_wOE1_plus_HIS_NE2 sig.GLN_wOE1_plus_HIS_N_ND1 sig.GLN_wOE1_plus_N sig.GLN_wOE1_plus_N_plus_wO sig.GLN_wOE1_plus_SER_N_OG sig.GLN_wOE1_plus_SER_N_OG_wOG sig.GLN_wOE1_plus_THR_N_OG1 sig.GLN_wOE1_plus_TYR_wOH sig.GLN_wOE1_plus_wO sig.GLN_wOE1_plus_wO_plus_ARG_NE_NH2 sig.GLN_wOE1_plus_wO_plus_TYR_OH sig.GLN_wO_wOE1 sig.GLN_wO_wOE1_plus_HIS_NE2 sig.GLU_N_wOE1 sig.GLU_N_wOE1_plus_ASN_ND2 sig.GLU_N_wOE1_plus_ASN_ND2_plus_SER_wOG sig.GLU_N_wOE1_plus_ASN_N_ND2 sig.GLU_N_wOE1_plus_HIS_ND1 sig.GLU_N_wOE1_plus_N sig.GLU_N_wOE1_plus_N_plus_N sig.GLU_N_wOE1_plus_N_plus_wO sig.GLU_N_wOE1_plus_N_wO sig.GLU_N_wOE1_plus_THR_OG1 sig.GLU_N_wOE1_plus_THR_wOG1 sig.GLU_N_wOE1_plus_wO sig.GLU_N_wOE1_wOE2 sig.GLU_N_wOE2 sig.GLU_N_wOE2_plus_ASN_N_ND2 sig.GLU_N_wOE2_plus_LYS_NZ sig.GLU_N_wOE2_plus_N sig.GLU_N_wOE2_plus_N_wO sig.GLU_N_wOE2_plus_SER_N_OG sig.GLU_N_wOE2_plus_SER_wOG sig.GLU_N_wOE2_plus_THR_N_OG1 sig.GLU_N_wOE2_plus_wO sig.GLU_N_wO_wOE1 sig.GLU_N_wO_wOE2 sig.GLU_wOE1 sig.GLU_wOE1_plus_ARG_NE_NH1 sig.GLU_wOE1_plus_ARG_NE_NH2 sig.GLU_wOE1_plus_ARG_NH1_NH2 sig.GLU_wOE1_plus_ARG_NH1_NH2_plus_ASP_wOD2 sig.GLU_wOE1_plus_ARG_N_NE sig.GLU_wOE1_plus_ARG_N_NE_NH2 sig.GLU_wOE1_plus_ARG_N_NH1 sig.GLU_wOE1_plus_ASN_ND2 sig.GLU_wOE1_plus_ASN_N_ND2 sig.GLU_wOE1_plus_ASN_wOD1_plus_N sig.GLU_wOE1_plus_ASP_N_wOD1 sig.GLU_wOE1_plus_ASP_wOD1_wOD2 sig.GLU_wOE1_plus_GLN_NE2 sig.GLU_wOE1_plus_GLN_N_NE2 sig.GLU_wOE1_plus_GLU_N_wOE2 sig.GLU_wOE1_plus_GLU_wOE2 sig.GLU_wOE1_plus_HIS_NE2 sig.GLU_wOE1_plus_HIS_N_ND1 sig.GLU_wOE1_plus_N sig.GLU_wOE1_plus_N_plus_ASN_N_ND2 sig.GLU_wOE1_plus_N_plus_GLU_N_wOE1 sig.GLU_wOE1_plus_N_plus_N sig.GLU_wOE1_plus_SER_N_OG sig.GLU_wOE1_plus_SER_N_OG_wOG sig.GLU_wOE1_plus_SER_wOG sig.GLU_wOE1_plus_THR_N_OG1 sig.GLU_wOE1_plus_THR_N_OG1_plus_N sig.GLU_wOE1_plus_wO sig.GLU_wOE1_plus_wO_plus_LYS_NZ sig.GLU_wOE1_wOE2 sig.GLU_wOE1_wOE2_plus_SER_OG sig.GLU_wOE2 sig.GLU_wOE2_plus_ARG_NE_NH1 sig.GLU_wOE2_plus_ARG_NE_NH2 sig.GLU_wOE2_plus_ARG_NH1_NH2 sig.GLU_wOE2_plus_ARG_N_NE_NH2 sig.GLU_wOE2_plus_ARG_N_NH1 sig.GLU_wOE2_plus_ASN_N_ND2 sig.GLU_wOE2_plus_ASN_wOD1 sig.GLU_wOE2_plus_ASP_N_wOD2 sig.GLU_wOE2_plus_ASP_wOD1_plus_ARG_NE_NH2 sig.GLU_wOE2_plus_ASP_wOD2 sig.GLU_wOE2_plus_GLN_N_wOE1 sig.GLU_wOE2_plus_GLN_wOE1 sig.GLU_wOE2_plus_GLU_wOE1 sig.GLU_wOE2_plus_HIS_N_ND1 sig.GLU_wOE2_plus_N sig.GLU_wOE2_plus_N_plus_ASN_N_ND2 sig.GLU_wOE2_plus_N_plus_ASN_N_wOD1 sig.GLU_wOE2_plus_N_plus_N sig.GLU_wOE2_plus_N_plus_N_plus_N_plus_N sig.GLU_wOE2_plus_N_wO sig.GLU_wOE2_plus_SER_N_OG sig.GLU_wOE2_plus_SER_wOG sig.GLU_wOE2_plus_THR_N_OG1 sig.GLU_wOE2_plus_THR_wOG1 sig.GLU_wOE2_plus_wO sig.GLU_wOE2_plus_wO_plus_HIS_ND1 sig.GLU_wO_wOE1 sig.GLU_wO_wOE1_plus_ARG_NH2 sig.GLU_wO_wOE1_plus_HIS_NE2 sig.GLU_wO_wOE2 sig.GLU_wO_wOE2_plus_ARG_NE_NH2 sig.GLU_wO_wOE2_plus_wO sig.HIS_ND1 sig.HIS_ND1_plus_ARG_N_NE_NH2 sig.HIS_ND1_plus_GLN_NE2_wOE1 sig.HIS_ND1_plus_GLU_N_wOE1 sig.HIS_ND1_plus_HIS_N_ND1 sig.HIS_ND1_plus_HIS_N_wND1 sig.HIS_ND1_plus_HIS_wND1 sig.HIS_ND1_plus_N sig.HIS_ND1_plus_N_plus_ASN_wOD1 sig.HIS_ND1_plus_N_plus_N sig.HIS_ND1_plus_N_plus_N_plus_N sig.HIS_ND1_plus_N_plus_SER_N_OG sig.HIS_ND1_plus_N_plus_SER_N_wOG sig.HIS_ND1_plus_N_plus_SER_wOG sig.HIS_ND1_plus_N_wO sig.HIS_ND1_plus_SER_N_OG_plus_N sig.HIS_ND1_plus_SER_N_wOG sig.HIS_ND1_plus_SER_wOG sig.HIS_ND1_plus_THR_N_OG1_plus_wO sig.HIS_ND1_plus_THR_N_wOG1 sig.HIS_ND1_plus_wO sig.HIS_ND1_wO sig.HIS_ND1_wO_plus_TYR_OH sig.HIS_NE2 sig.HIS_NE2_plus_ARG_NE_NH2 sig.HIS_NE2_plus_ARG_NH1 sig.HIS_NE2_plus_ASN_ND2_wOD1 sig.HIS_NE2_plus_ASN_wOD1 sig.HIS_NE2_plus_ASP_wOD1 sig.HIS_NE2_plus_ASP_wOD2 sig.HIS_NE2_plus_GLN_wOE1 sig.HIS_NE2_plus_GLN_wO_wOE1 sig.HIS_NE2_plus_GLU_wOE1_wOE2 sig.HIS_NE2_plus_SER_wOG sig.HIS_NE2_plus_THR_wOG1 sig.HIS_NE2_plus_TYR_wOH sig.HIS_NE2_plus_wO sig.HIS_NE2_plus_wO_plus_ASN_ND2 sig.HIS_NE2_plus_wO_plus_N sig.HIS_NE2_plus_wO_plus_THR_wOG1 sig.HIS_NE2_plus_wO_plus_TYR_OH sig.HIS_NE2_plus_wO_plus_TYR_OH_wOH sig.HIS_NE2_plus_wO_plus_TYR_wOH sig.HIS_NE2_plus_wO_plus_wO sig.HIS_NE2_wO sig.HIS_N_ND1 sig.HIS_N_ND1_plus_ASP_wOD1 sig.HIS_N_ND1_plus_ASP_wOD2 sig.HIS_N_ND1_plus_HIS_ND1 sig.HIS_N_ND1_plus_N sig.HIS_N_ND1_plus_N_plus_ASN_ND2 sig.HIS_N_ND1_plus_wO sig.HIS_N_ND1_wO sig.HIS_N_wND1 sig.HIS_N_wND1_plus_ARG_NE sig.HIS_N_wND1_plus_ARG_N_NE sig.HIS_N_wND1_plus_ARG_N_NE_NH2 sig.HIS_N_wND1_plus_ASP_wOD1 sig.HIS_N_wND1_plus_N sig.HIS_N_wND1_plus_wO sig.HIS_N_wND1_wO sig.HIS_wND1 sig.HIS_wND1_plus_ARG_NE_NH2 sig.HIS_wND1_plus_ARG_NH1_NH2 sig.HIS_wND1_plus_ASP_wOD1 sig.HIS_wND1_plus_ASP_wOD2 sig.HIS_wND1_plus_HIS_NE2 sig.HIS_wND1_plus_HIS_N_ND1 sig.HIS_wND1_plus_LYS_NZ sig.HIS_wND1_plus_N sig.HIS_wND1_plus_N_plus_N sig.HIS_wND1_plus_N_wO sig.HIS_wND1_plus_THR_N_wO_OG1 sig.HIS_wND1_plus_THR_wOG1 sig.HIS_wND1_wO sig.HIS_wND1_wO_plus_GLN_NE2 sig.HIS_wNE2 sig.HIS_wNE2_plus_ARG_NE_NH2_plus_HIS_NE2 sig.HIS_wNE2_plus_ASN_ND2_wOD1 sig.HIS_wNE2_plus_ASN_wOD1 sig.HIS_wNE2_plus_GLU_wOE2 sig.HIS_wNE2_plus_THR_OG1_plus_HIS_NE2 sig.HIS_wNE2_plus_TRP_NE1 sig.HIS_wNE2_plus_wO sig.HIS_wNE2_wO sig.LYS_NZ sig.LYS_NZ_plus_ARG_N_NH1 sig.LYS_NZ_plus_ASN_ND2 sig.LYS_NZ_plus_ASN_wOD1 sig.LYS_NZ_plus_ASP_wOD1 sig.LYS_NZ_plus_ASP_wOD2 sig.LYS_NZ_plus_GLN_NE2_wOE1 sig.LYS_NZ_plus_GLN_wOE1 sig.LYS_NZ_plus_GLU_wOE1_wOE2 sig.LYS_NZ_plus_GLU_wOE2_plus_ASN_wOD1 sig.LYS_NZ_plus_N sig.LYS_NZ_plus_N_plus_N sig.LYS_NZ_plus_N_wO sig.LYS_NZ_plus_SER_OG_plus_N_plus_N sig.LYS_NZ_plus_TYR_OH sig.LYS_NZ_plus_TYR_OH_wOH sig.LYS_NZ_plus_TYR_wOH sig.LYS_NZ_plus_wO sig.LYS_NZ_plus_wO_plus_N sig.LYS_NZ_plus_wO_plus_wO sig.LYS_NZ_plus_wO_plus_wO_plus_N sig.LYS_NZ_wO sig.LYS_NZ_wO_plus_wO sig.LYS_N_NZ_plus_GLU_wOE1 sig.LYS_N_NZ_plus_wO sig.LYS_N_NZ_wO sig.N sig.N_plus_ARG_NE_NH1 sig.N_plus_ARG_NE_NH2 sig.N_plus_ARG_NE_NH2_plus_wO sig.N_plus_ARG_NE_NH2_wO sig.N_plus_ARG_NH1 sig.N_plus_ARG_NH1_NH2 sig.N_plus_ARG_NH1_plus_wO sig.N_plus_ARG_N_NE sig.N_plus_ARG_N_NE_NH1 sig.N_plus_ARG_N_NE_NH2 sig.N_plus_ARG_N_NE_NH2_wO sig.N_plus_ARG_N_NE_wO sig.N_plus_ARG_N_NH1 sig.N_plus_ARG_N_NH2 sig.N_plus_ASN_ND2_wO sig.N_plus_ASN_ND2_wOD1 sig.N_plus_ASN_N_ND2 sig.N_plus_ASN_N_ND2_plus_N sig.N_plus_ASN_N_ND2_plus_SER_OG sig.N_plus_ASN_N_ND2_plus_wO sig.N_plus_ASN_N_ND2_wO sig.N_plus_ASN_N_wOD1 sig.N_plus_ASN_N_wOD1_plus_wO sig.N_plus_ASN_wOD1 sig.N_plus_ASN_wOD1_plus_wO sig.N_plus_ASP_N_wOD1 sig.N_plus_ASP_N_wOD2 sig.N_plus_ASP_N_wOD2_plus_N sig.N_plus_ASP_N_wOD2_plus_wO sig.N_plus_ASP_wOD1 sig.N_plus_ASP_wOD1_plus_THR_wOG1 sig.N_plus_ASP_wOD1_plus_TRP_NE1 sig.N_plus_ASP_wOD1_wOD2 sig.N_plus_ASP_wOD2 sig.N_plus_GLN_NE2_plus_N_plus_N sig.N_plus_GLN_NE2_wOE1 sig.N_plus_GLN_N_NE2 sig.N_plus_GLN_N_NE2_plus_wO sig.N_plus_GLN_N_wOE1 sig.N_plus_GLN_N_wOE1_plus_wO sig.N_plus_GLN_wOE1 sig.N_plus_GLU_N_wOE1 sig.N_plus_GLU_N_wOE1_plus_wO sig.N_plus_GLU_N_wOE2 sig.N_plus_GLU_wOE1 sig.N_plus_GLU_wOE2 sig.N_plus_GLU_wO_wOE1 sig.N_plus_GLU_wO_wOE2 sig.N_plus_HIS_ND1 sig.N_plus_HIS_N_ND1 sig.N_plus_HIS_N_ND1_plus_wO sig.N_plus_HIS_N_wND1 sig.N_plus_HIS_N_wND1_plus_N sig.N_plus_HIS_wND1 sig.N_plus_HIS_wND1_plus_wO sig.N_plus_HIS_wNE2 sig.N_plus_LYS_N_NZ sig.N_plus_N sig.N_plus_N_plus_ARG_NH1 sig.N_plus_N_plus_ARG_NH1_NH2 sig.N_plus_N_plus_ARG_NH2 sig.N_plus_N_plus_ASN_ND2 sig.N_plus_N_plus_ASN_ND2_wO sig.N_plus_N_plus_ASN_N_ND2 sig.N_plus_N_plus_ASP_wOD1 sig.N_plus_N_plus_ASP_wOD2 sig.N_plus_N_plus_GLN_NE2 sig.N_plus_N_plus_GLU_wOE1 sig.N_plus_N_plus_GLU_wOE2 sig.N_plus_N_plus_HIS_NE2 sig.N_plus_N_plus_HIS_N_ND1 sig.N_plus_N_plus_HIS_wND1 sig.N_plus_N_plus_N sig.N_plus_N_plus_N_plus_ASP_N_wOD2 sig.N_plus_N_plus_N_plus_ASP_wOD1 sig.N_plus_N_plus_N_plus_N sig.N_plus_N_plus_N_plus_SER_OG sig.N_plus_N_plus_N_wO sig.N_plus_N_plus_SER_N_OG sig.N_plus_N_plus_SER_N_OG_plus_N sig.N_plus_N_plus_SER_OG sig.N_plus_N_plus_SER_wOG sig.N_plus_N_plus_THR_N_OG1 sig.N_plus_N_plus_THR_OG1 sig.N_plus_N_plus_THR_wOG1 sig.N_plus_N_plus_TRP_NE1 sig.N_plus_N_plus_TYR_wOH sig.N_plus_N_plus_wO sig.N_plus_N_plus_wO_plus_wO sig.N_plus_N_wO sig.N_plus_N_wO_plus_ASN_ND2 sig.N_plus_SER_N_OG sig.N_plus_SER_N_OG_plus_ASP_wOD2 sig.N_plus_SER_N_OG_plus_HIS_wNE2 sig.N_plus_SER_N_OG_plus_N sig.N_plus_SER_N_OG_wOG sig.N_plus_SER_N_wOG sig.N_plus_SER_N_wOG_plus_N sig.N_plus_SER_N_wO_OG sig.N_plus_SER_N_wO_OG_plus_THR_OG1 sig.N_plus_SER_OG sig.N_plus_SER_OG_plus_N sig.N_plus_SER_OG_plus_SER_N_OG sig.N_plus_SER_OG_wOG sig.N_plus_SER_wOG sig.N_plus_THR_N_OG1 sig.N_plus_THR_N_OG1_plus_GLN_wOE1 sig.N_plus_THR_N_OG1_plus_N sig.N_plus_THR_N_OG1_plus_N_plus_wO sig.N_plus_THR_N_OG1_plus_wO sig.N_plus_THR_N_OG1_wOG1 sig.N_plus_THR_N_wOG1 sig.N_plus_THR_N_wO_OG1 sig.N_plus_THR_OG1 sig.N_plus_THR_OG1_wOG1 sig.N_plus_THR_wOG1 sig.N_plus_THR_wOG1_plus_N sig.N_plus_THR_wO_OG1 sig.N_plus_TYR_OH_wOH sig.N_plus_TYR_wOH sig.N_plus_wO sig.N_plus_wO_plus_ARG_NE_NH2 sig.N_plus_wO_plus_ARG_NH1_NH2 sig.N_plus_wO_plus_ARG_NH2 sig.N_plus_wO_plus_HIS_NE2 sig.N_plus_wO_plus_N sig.N_plus_wO_plus_THR_wOG1 sig.N_plus_wO_plus_TYR_wOH sig.N_plus_wO_plus_wO sig.N_wO sig.N_wO_plus_ARG_NE_NH2 sig.N_wO_plus_ARG_NH1 sig.N_wO_plus_ARG_NH1_NH2 sig.N_wO_plus_ARG_NH2 sig.N_wO_plus_ASN_ND2 sig.N_wO_plus_GLN_NE2 sig.N_wO_plus_HIS_NE2 sig.N_wO_plus_LYS_NZ sig.N_wO_plus_N sig.N_wO_plus_SER_wOG sig.N_wO_plus_THR_wOG1 sig.N_wO_plus_TRP_NE1 sig.N_wO_plus_TYR_OH sig.N_wO_plus_TYR_wOH sig.N_wO_plus_wO sig.SER_N_OG sig.SER_N_OG_plus_ARG_N_NE_NH2 sig.SER_N_OG_plus_ARG_N_NH1 sig.SER_N_OG_plus_ASN_ND2 sig.SER_N_OG_plus_ASN_ND2_wOD1 sig.SER_N_OG_plus_ASN_N_ND2 sig.SER_N_OG_plus_ASN_wOD1 sig.SER_N_OG_plus_ASP_N_wOD2 sig.SER_N_OG_plus_ASP_wOD1 sig.SER_N_OG_plus_ASP_wOD2 sig.SER_N_OG_plus_GLN_N_NE2 sig.SER_N_OG_plus_GLN_wOE1 sig.SER_N_OG_plus_GLU_N_wOE1 sig.SER_N_OG_plus_GLU_wOE1 sig.SER_N_OG_plus_GLU_wOE2 sig.SER_N_OG_plus_HIS_ND1 sig.SER_N_OG_plus_HIS_wND1 sig.SER_N_OG_plus_HIS_wNE2 sig.SER_N_OG_plus_N sig.SER_N_OG_plus_N_plus_N sig.SER_N_OG_plus_N_plus_SER_N_OG sig.SER_N_OG_plus_N_plus_wO sig.SER_N_OG_plus_N_wO sig.SER_N_OG_plus_SER_N_OG sig.SER_N_OG_plus_SER_N_wOG sig.SER_N_OG_plus_SER_wOG sig.SER_N_OG_plus_THR_N_OG1 sig.SER_N_OG_plus_THR_OG1 sig.SER_N_OG_plus_THR_OG1_wOG1 sig.SER_N_OG_plus_THR_wOG1 sig.SER_N_OG_plus_TYR_wOH sig.SER_N_OG_plus_wO sig.SER_N_OG_wOG sig.SER_N_OG_wOG_plus_GLU_wOE1 sig.SER_N_OG_wOG_plus_N sig.SER_N_OG_wOG_plus_N_plus_ARG_NH2 sig.SER_N_OG_wOG_plus_N_plus_wO sig.SER_N_OG_wOG_plus_SER_OG sig.SER_N_OG_wOG_plus_THR_OG1 sig.SER_N_OG_wOG_plus_wO sig.SER_N_wOG sig.SER_N_wOG_plus_ASN_N_ND2 sig.SER_N_wOG_plus_ASP_wOD2 sig.SER_N_wOG_plus_LYS_NZ sig.SER_N_wOG_plus_N sig.SER_N_wOG_plus_N_plus_N sig.SER_N_wOG_plus_N_plus_THR_N_OG1 sig.SER_N_wOG_plus_SER_N_OG sig.SER_N_wOG_plus_THR_N_OG1 sig.SER_N_wOG_plus_wO sig.SER_N_wO_OG sig.SER_N_wO_OG_plus_THR_OG1 sig.SER_N_wO_OG_wOG sig.SER_OG sig.SER_OG_plus_ARG_NE_NH2 sig.SER_OG_plus_ARG_NE_NH2_plus_GLN_NE2 sig.SER_OG_plus_ARG_NE_plus_SER_wOG sig.SER_OG_plus_ARG_NH1_NH2 sig.SER_OG_plus_ARG_N_NE_NH2 sig.SER_OG_plus_ASN_ND2_plus_ASP_wOD2 sig.SER_OG_plus_ASN_N_ND2 sig.SER_OG_plus_ASN_N_wOD1 sig.SER_OG_plus_ASN_wOD1 sig.SER_OG_plus_ASP_N_wOD2 sig.SER_OG_plus_GLU_N_wOE1 sig.SER_OG_plus_GLU_wOE2 sig.SER_OG_plus_HIS_N_ND1_plus_SER_wOG sig.SER_OG_plus_N sig.SER_OG_plus_N_plus_ASN_ND2 sig.SER_OG_plus_N_plus_ASP_wOD2 sig.SER_OG_plus_N_plus_GLN_NE2 sig.SER_OG_plus_N_plus_HIS_ND1 sig.SER_OG_plus_N_plus_N sig.SER_OG_plus_N_plus_N_plus_N sig.SER_OG_plus_N_plus_N_wO sig.SER_OG_plus_N_plus_SER_N_OG sig.SER_OG_plus_N_plus_SER_OG sig.SER_OG_plus_N_plus_THR_N_OG1 sig.SER_OG_plus_N_plus_THR_OG1 sig.SER_OG_plus_N_plus_wO sig.SER_OG_plus_N_wO sig.SER_OG_plus_SER_N_OG sig.SER_OG_plus_SER_N_wOG sig.SER_OG_plus_SER_OG_wOG sig.SER_OG_plus_THR_N_OG1 sig.SER_OG_plus_THR_N_OG1_plus_N sig.SER_OG_plus_THR_N_wOG1 sig.SER_OG_plus_THR_OG1 sig.SER_OG_plus_THR_wOG1 sig.SER_OG_plus_wO sig.SER_OG_plus_wO_plus_wO sig.SER_OG_wOG sig.SER_OG_wOG_plus_N sig.SER_OG_wOG_plus_SER_N_OG sig.SER_OG_wOG_plus_TYR_OH sig.SER_OG_wOG_plus_wO sig.SER_wOG sig.SER_wOG_plus_ARG_NE_NH2 sig.SER_wOG_plus_ARG_NH1_NH2 sig.SER_wOG_plus_ARG_N_NE_NH2 sig.SER_wOG_plus_ARG_N_NH1 sig.SER_wOG_plus_ASN_ND2 sig.SER_wOG_plus_ASN_ND2_plus_N sig.SER_wOG_plus_ASN_N_wOD1 sig.SER_wOG_plus_ASN_wOD1 sig.SER_wOG_plus_ASP_wOD2 sig.SER_wOG_plus_ASP_wO_wOD2 sig.SER_wOG_plus_GLN_N_wOE1 sig.SER_wOG_plus_GLU_wOE1 sig.SER_wOG_plus_GLU_wO_wOE2 sig.SER_wOG_plus_HIS_NE2 sig.SER_wOG_plus_HIS_wNE2 sig.SER_wOG_plus_N sig.SER_wOG_plus_N_plus_N sig.SER_wOG_plus_N_plus_wO sig.SER_wOG_plus_SER_N_OG sig.SER_wOG_plus_SER_OG sig.SER_wOG_plus_SER_wOG sig.SER_wOG_plus_SER_wOG_plus_TYR_OH sig.SER_wOG_plus_THR_N_OG1 sig.SER_wOG_plus_THR_N_OG1_plus_N sig.SER_wOG_plus_THR_wOG1 sig.SER_wOG_plus_TYR_OH sig.SER_wOG_plus_TYR_OH_plus_ARG_NH2 sig.SER_wOG_plus_wO sig.SER_wOG_plus_wO_plus_N sig.SER_wOG_plus_wO_plus_SER_OG sig.SER_wO_OG sig.SER_wO_OG_plus_ARG_NE_NH2 sig.SER_wO_OG_plus_wO sig.SER_wO_OG_wOG sig.SER_wO_wOG sig.SER_wO_wOG_plus_ARG_NE_NH2 sig.SER_wO_wOG_plus_ARG_NH2 sig.SER_wO_wOG_plus_wO sig.THR_N_OG1 sig.THR_N_OG1_plus_ARG_N_NE sig.THR_N_OG1_plus_ARG_N_NE_NH2 sig.THR_N_OG1_plus_ASN_ND2_wOD1 sig.THR_N_OG1_plus_ASN_N_ND2 sig.THR_N_OG1_plus_ASN_N_wOD1 sig.THR_N_OG1_plus_ASN_wOD1 sig.THR_N_OG1_plus_ASP_N_wOD1 sig.THR_N_OG1_plus_GLN_NE2 sig.THR_N_OG1_plus_GLU_N_wOE1 sig.THR_N_OG1_plus_GLU_wOE2 sig.THR_N_OG1_plus_HIS_ND1 sig.THR_N_OG1_plus_HIS_NE2 sig.THR_N_OG1_plus_HIS_N_ND1 sig.THR_N_OG1_plus_HIS_N_wND1 sig.THR_N_OG1_plus_HIS_wNE2 sig.THR_N_OG1_plus_N sig.THR_N_OG1_plus_N_plus_N sig.THR_N_OG1_plus_N_plus_SER_N_OG sig.THR_N_OG1_plus_N_plus_TRP_NE1 sig.THR_N_OG1_plus_N_plus_wO sig.THR_N_OG1_plus_N_wO sig.THR_N_OG1_plus_SER_N_OG sig.THR_N_OG1_plus_SER_OG_wOG sig.THR_N_OG1_plus_SER_wOG sig.THR_N_OG1_plus_THR_N_OG1 sig.THR_N_OG1_plus_THR_wOG1 sig.THR_N_OG1_plus_TYR_wOH sig.THR_N_OG1_plus_wO sig.THR_N_OG1_wOG1 sig.THR_N_OG1_wOG1_plus_ARG_NE_NH2 sig.THR_N_OG1_wOG1_plus_HIS_NE2 sig.THR_N_OG1_wOG1_plus_N sig.THR_N_OG1_wOG1_plus_N_plus_wO sig.THR_N_wOG1 sig.THR_N_wOG1_plus_ARG_N_NE sig.THR_N_wOG1_plus_N sig.THR_N_wOG1_plus_N_plus_HIS_NE2 sig.THR_N_wOG1_plus_THR_N_OG1 sig.THR_N_wOG1_plus_wO sig.THR_N_wO_OG1 sig.THR_N_wO_OG1_wOG1 sig.THR_N_wO_wOG1 sig.THR_OG1 sig.THR_OG1_plus_ARG_NE_NH2 sig.THR_OG1_plus_ARG_N_NE_NH2 sig.THR_OG1_plus_ASN_ND2 sig.THR_OG1_plus_ASN_N_ND2 sig.THR_OG1_plus_ASN_N_wOD1 sig.THR_OG1_plus_ASP_wOD1_plus_N sig.THR_OG1_plus_ASP_wOD1_plus_THR_OG1 sig.THR_OG1_plus_ASP_wOD2 sig.THR_OG1_plus_GLU_wOE1_plus_ASP_wOD1 sig.THR_OG1_plus_HIS_N_ND1 sig.THR_OG1_plus_N sig.THR_OG1_plus_N_plus_ASN_wOD1 sig.THR_OG1_plus_N_plus_ASP_N_wOD2 sig.THR_OG1_plus_N_plus_N sig.THR_OG1_plus_N_plus_N_plus_N sig.THR_OG1_plus_N_plus_SER_N_OG sig.THR_OG1_plus_N_plus_THR_N_OG1 sig.THR_OG1_plus_N_plus_wO sig.THR_OG1_plus_N_wO sig.THR_OG1_plus_SER_N_OG sig.THR_OG1_plus_SER_N_OG_wOG sig.THR_OG1_plus_SER_N_wO_OG sig.THR_OG1_plus_SER_wOG sig.THR_OG1_plus_THR_N_OG1 sig.THR_OG1_plus_wO sig.THR_OG1_plus_wO_plus_GLN_NE2 sig.THR_OG1_plus_wO_plus_HIS_NE2 sig.THR_OG1_wOG1 sig.THR_OG1_wOG1_plus_HIS_NE2 sig.THR_OG1_wOG1_plus_N sig.THR_OG1_wOG1_plus_N_plus_N sig.THR_wOG1 sig.THR_wOG1_plus_ARG_NE_NH1 sig.THR_wOG1_plus_ARG_NE_NH2 sig.THR_wOG1_plus_ARG_NH1_NH2 sig.THR_wOG1_plus_ARG_N_NE_NH2 sig.THR_wOG1_plus_ASN_ND2 sig.THR_wOG1_plus_ASP_wOD1 sig.THR_wOG1_plus_ASP_wOD2 sig.THR_wOG1_plus_GLU_wOE1 sig.THR_wOG1_plus_HIS_NE2 sig.THR_wOG1_plus_N sig.THR_wOG1_plus_N_plus_GLU_wOE1 sig.THR_wOG1_plus_N_plus_N sig.THR_wOG1_plus_SER_N_OG sig.THR_wOG1_plus_SER_wOG sig.THR_wOG1_plus_THR_N_OG1 sig.THR_wOG1_plus_THR_wOG1 sig.THR_wOG1_plus_TYR_OH_plus_THR_wOG1 sig.THR_wOG1_plus_wO sig.THR_wO_OG1 sig.THR_wO_OG1_plus_wO sig.THR_wO_wOG1 sig.THR_wO_wOG1_plus_N sig.TRP_NE1 sig.TRP_NE1_plus_ARG_NH1_NH2 sig.TRP_NE1_plus_GLN_wOE1_plus_ARG_NE_NH2 sig.TRP_NE1_plus_N_wO sig.TRP_NE1_plus_SER_OG_wOG sig.TRP_NE1_plus_SER_wOG sig.TRP_NE1_plus_SER_wOG_plus_ASN_wOD1 sig.TRP_NE1_plus_SER_wOG_plus_GLU_wOE1 sig.TRP_NE1_plus_wO sig.TRP_NE1_plus_wO_plus_ASN_ND2 sig.TRP_NE1_plus_wO_plus_N_plus_N sig.TRP_NE1_plus_wO_plus_wO sig.TYR_OH sig.TYR_OH_plus_ARG_NE_NH2 sig.TYR_OH_plus_ARG_NH1_NH2 sig.TYR_OH_plus_ASN_ND2_plus_wO sig.TYR_OH_plus_ASN_ND2_wOD1 sig.TYR_OH_plus_ASP_wOD1 sig.TYR_OH_plus_GLN_NE2_wOE1 sig.TYR_OH_plus_GLN_N_wOE1_plus_wO sig.TYR_OH_plus_GLN_wOE1 sig.TYR_OH_plus_GLU_wOE2 sig.TYR_OH_plus_HIS_NE2 sig.TYR_OH_plus_N_plus_N sig.TYR_OH_plus_N_plus_wO_plus_SER_wOG sig.TYR_OH_plus_SER_N_wOG sig.TYR_OH_plus_THR_wOG1 sig.TYR_OH_plus_wO sig.TYR_OH_plus_wO_plus_N sig.TYR_OH_plus_wO_plus_N_plus_N sig.TYR_OH_plus_wO_plus_THR_OG1 sig.TYR_OH_plus_wO_plus_THR_wOG1 sig.TYR_OH_plus_wO_plus_wO sig.TYR_OH_wOH sig.TYR_OH_wOH_plus_ARG_NE_NH2 sig.TYR_OH_wOH_plus_GLN_NE2 sig.TYR_OH_wOH_plus_GLN_wOE1 sig.TYR_OH_wOH_plus_GLU_wOE1 sig.TYR_OH_wOH_plus_TYR_wOH sig.TYR_OH_wOH_plus_wO sig.TYR_wOH sig.TYR_wOH_plus_ARG_NE_NH1_plus_TRP_NE1 sig.TYR_wOH_plus_ARG_NE_NH2 sig.TYR_wOH_plus_ARG_NE_NH2_plus_TYR_OH sig.TYR_wOH_plus_ARG_NH1_NH2 sig.TYR_wOH_plus_ARG_NH1_plus_TRP_NE1 sig.TYR_wOH_plus_ARG_NH2 sig.TYR_wOH_plus_ASN_ND2 sig.TYR_wOH_plus_ASP_wOD2 sig.TYR_wOH_plus_HIS_NE2 sig.TYR_wOH_plus_LYS_NZ_plus_HIS_NE2 sig.TYR_wOH_plus_N_plus_N sig.TYR_wOH_plus_SER_N_OG sig.TYR_wOH_plus_wO sig.TYR_wOH_plus_wO_plus_N sig.TYR_wO_wOH sig.wO sig.wO_plus_ARG_NE sig.wO_plus_ARG_NE_NH1 sig.wO_plus_ARG_NE_NH2 sig.wO_plus_ARG_NE_NH2_plus_GLN_wOE1 sig.wO_plus_ARG_NE_NH2_plus_GLU_N_wOE2 sig.wO_plus_ARG_NE_NH2_plus_N sig.wO_plus_ARG_NE_NH2_wO sig.wO_plus_ARG_NE_plus_GLU_wOE1 sig.wO_plus_ARG_NE_plus_N sig.wO_plus_ARG_NH1 sig.wO_plus_ARG_NH1_NH2 sig.wO_plus_ARG_NH1_plus_ARG_NE_NH2 sig.wO_plus_ARG_NH1_plus_N sig.wO_plus_ARG_NH1_plus_wO sig.wO_plus_ARG_NH1_wO sig.wO_plus_ARG_NH2 sig.wO_plus_ARG_NH2_plus_HIS_NE2 sig.wO_plus_ARG_N_NE sig.wO_plus_ARG_N_NE_NH2 sig.wO_plus_ARG_N_NE_NH2_plus_wO sig.wO_plus_ARG_N_NH1 sig.wO_plus_ARG_N_NH1_plus_wO sig.wO_plus_ARG_N_NH2 sig.wO_plus_ASN_ND2 sig.wO_plus_ASN_ND2_plus_ARG_NH1 sig.wO_plus_ASN_ND2_plus_ARG_NH1_NH2 sig.wO_plus_ASN_ND2_plus_N sig.wO_plus_ASN_ND2_plus_N_plus_N_plus_SER_wOG sig.wO_plus_ASN_ND2_plus_N_wO sig.wO_plus_ASN_ND2_wO sig.wO_plus_ASN_ND2_wOD1 sig.wO_plus_ASN_ND2_wO_plus_ARG_NH1 sig.wO_plus_ASN_N_ND2 sig.wO_plus_ASN_N_ND2_plus_N sig.wO_plus_ASN_N_ND2_plus_wO sig.wO_plus_ASN_N_ND2_wO sig.wO_plus_ASN_N_wOD1 sig.wO_plus_ASN_wOD1 sig.wO_plus_ASN_wOD1_plus_SER_wOG sig.wO_plus_ASN_wOD1_plus_TRP_NE1 sig.wO_plus_ASN_wO_wOD1 sig.wO_plus_ASP_N_wOD1 sig.wO_plus_ASP_N_wOD2 sig.wO_plus_ASP_wOD1 sig.wO_plus_ASP_wOD1_plus_N sig.wO_plus_ASP_wOD1_plus_THR_N_OG1 sig.wO_plus_ASP_wOD1_wOD2 sig.wO_plus_ASP_wOD2 sig.wO_plus_ASP_wOD2_plus_N sig.wO_plus_GLN_NE2 sig.wO_plus_GLN_NE2_plus_N sig.wO_plus_GLN_NE2_plus_SER_wOG sig.wO_plus_GLN_NE2_plus_THR_wOG1 sig.wO_plus_GLN_NE2_wOE1 sig.wO_plus_GLN_N_NE2 sig.wO_plus_GLN_N_NE2_wO sig.wO_plus_GLN_N_wOE1 sig.wO_plus_GLN_N_wOE1_plus_N sig.wO_plus_GLN_wOE1 sig.wO_plus_GLN_wOE1_plus_ASP_N_wOD2 sig.wO_plus_GLN_wOE1_plus_GLU_N_wOE2 sig.wO_plus_GLN_wOE1_plus_N sig.wO_plus_GLU_N_wOE1 sig.wO_plus_GLU_N_wOE2 sig.wO_plus_GLU_wOE1 sig.wO_plus_GLU_wOE2 sig.wO_plus_GLU_wOE2_plus_N sig.wO_plus_HIS_ND1 sig.wO_plus_HIS_ND1_plus_GLN_NE2 sig.wO_plus_HIS_ND1_plus_HIS_NE2 sig.wO_plus_HIS_ND1_plus_HIS_N_ND1 sig.wO_plus_HIS_ND1_plus_N sig.wO_plus_HIS_ND1_plus_N_plus_N sig.wO_plus_HIS_ND1_plus_N_wO sig.wO_plus_HIS_ND1_plus_SER_wO_OG sig.wO_plus_HIS_ND1_plus_wO sig.wO_plus_HIS_ND1_wO sig.wO_plus_HIS_NE2 sig.wO_plus_HIS_N_ND1 sig.wO_plus_HIS_N_wND1 sig.wO_plus_HIS_wND1 sig.wO_plus_HIS_wND1_plus_N sig.wO_plus_HIS_wNE2 sig.wO_plus_LYS_NZ sig.wO_plus_LYS_NZ_plus_HIS_wNE2 sig.wO_plus_LYS_NZ_plus_N sig.wO_plus_LYS_NZ_plus_N_wO sig.wO_plus_LYS_NZ_plus_wO sig.wO_plus_LYS_NZ_wO sig.wO_plus_LYS_N_NZ sig.wO_plus_LYS_N_NZ_plus_GLU_wOE1 sig.wO_plus_N sig.wO_plus_N_plus_ARG_N_NE sig.wO_plus_N_plus_ASN_ND2 sig.wO_plus_N_plus_ASN_ND2_wOD1 sig.wO_plus_N_plus_ASN_N_ND2 sig.wO_plus_N_plus_ASN_wOD1 sig.wO_plus_N_plus_ASP_wOD1 sig.wO_plus_N_plus_ASP_wOD2 sig.wO_plus_N_plus_GLN_N_wOE1 sig.wO_plus_N_plus_GLU_wOE1 sig.wO_plus_N_plus_HIS_NE2 sig.wO_plus_N_plus_HIS_wND1 sig.wO_plus_N_plus_N sig.wO_plus_N_plus_N_plus_ASP_wOD2 sig.wO_plus_N_plus_N_plus_N sig.wO_plus_N_plus_N_plus_THR_OG1 sig.wO_plus_N_plus_N_plus_TRP_NE1 sig.wO_plus_N_plus_N_plus_wO sig.wO_plus_N_plus_N_wO sig.wO_plus_N_plus_SER_N_OG sig.wO_plus_N_plus_SER_N_OG_wOG sig.wO_plus_N_plus_SER_N_wOG sig.wO_plus_N_plus_SER_OG sig.wO_plus_N_plus_SER_wOG sig.wO_plus_N_plus_THR_N_OG1 sig.wO_plus_N_plus_THR_N_wO_wOG1 sig.wO_plus_N_plus_THR_OG1 sig.wO_plus_N_plus_THR_wOG1 sig.wO_plus_N_plus_TRP_NE1 sig.wO_plus_N_plus_wO sig.wO_plus_N_wO sig.wO_plus_SER_N_OG sig.wO_plus_SER_N_OG_plus_ASP_wOD1 sig.wO_plus_SER_N_OG_plus_N sig.wO_plus_SER_N_OG_plus_SER_N_OG sig.wO_plus_SER_N_OG_plus_SER_wOG sig.wO_plus_SER_N_OG_plus_TYR_OH sig.wO_plus_SER_N_OG_wOG sig.wO_plus_SER_N_wOG sig.wO_plus_SER_N_wO_OG sig.wO_plus_SER_OG sig.wO_plus_SER_OG_plus_ARG_NH2 sig.wO_plus_SER_OG_plus_ASN_wOD1 sig.wO_plus_SER_OG_plus_ASP_wOD2 sig.wO_plus_SER_OG_plus_GLU_wOE2 sig.wO_plus_SER_OG_plus_LYS_NZ sig.wO_plus_SER_OG_plus_N sig.wO_plus_SER_OG_plus_N_plus_ASP_wOD1 sig.wO_plus_SER_OG_plus_N_plus_N sig.wO_plus_SER_OG_plus_SER_wOG sig.wO_plus_SER_OG_plus_THR_N_OG1 sig.wO_plus_SER_OG_plus_THR_wOG1 sig.wO_plus_SER_OG_plus_wO sig.wO_plus_SER_OG_wOG sig.wO_plus_SER_OG_wOG_plus_GLN_N_NE2 sig.wO_plus_SER_wOG sig.wO_plus_SER_wOG_plus_N sig.wO_plus_SER_wOG_plus_SER_N_OG sig.wO_plus_SER_wO_OG sig.wO_plus_SER_wO_wOG sig.wO_plus_THR_N_OG1 sig.wO_plus_THR_N_OG1_plus_ASN_ND2 sig.wO_plus_THR_N_OG1_plus_N sig.wO_plus_THR_N_OG1_plus_N_plus_N sig.wO_plus_THR_N_OG1_wOG1_plus_N sig.wO_plus_THR_N_wOG1 sig.wO_plus_THR_N_wO_OG1_wOG1 sig.wO_plus_THR_OG1 sig.wO_plus_THR_OG1_plus_ARG_NE_NH1 sig.wO_plus_THR_OG1_plus_ASN_N_ND2 sig.wO_plus_THR_OG1_plus_N sig.wO_plus_THR_OG1_plus_THR_N_OG1 sig.wO_plus_THR_OG1_wOG1 sig.wO_plus_THR_wOG1 sig.wO_plus_THR_wOG1_plus_N sig.wO_plus_THR_wOG1_plus_THR_OG1 sig.wO_plus_THR_wOG1_plus_wO sig.wO_plus_THR_wO_OG1 sig.wO_plus_TRP_NE1 sig.wO_plus_TYR_OH sig.wO_plus_TYR_OH_wOH sig.wO_plus_TYR_wOH sig.wO_plus_wO sig.wO_plus_wO_plus_ARG_NE sig.wO_plus_wO_plus_ARG_NE_NH2 sig.wO_plus_wO_plus_ARG_NH1 sig.wO_plus_wO_plus_ARG_NH1_NH2 sig.wO_plus_wO_plus_ARG_NH2 sig.wO_plus_wO_plus_ASN_ND2_wOD1 sig.wO_plus_wO_plus_ASP_wOD2 sig.wO_plus_wO_plus_HIS_ND1 sig.wO_plus_wO_plus_HIS_NE2 sig.wO_plus_wO_plus_LYS_NZ sig.wO_plus_wO_plus_N sig.wO_plus_wO_plus_SER_N_OG sig.wO_plus_wO_plus_SER_wOG sig.wO_plus_wO_plus_THR_OG1 sig.wO_plus_wO_plus_THR_OG1_plus_N sig.wO_plus_wO_plus_TRP_NE1 sig.wO_plus_wO_plus_TYR_OH sig.wO_plus_wO_plus_wO
+show sticks, F6_ASP_SC
+hide cartoon
+show lines
+hide (all and hydro and (elem C extend 1))
+hide sticks, chain F and resi 6 and name N+O+C
+enable F6_ASP_SC
+disable sig.*

@@ -1,0 +1,99 @@
+# Indole fragment for TRP sidechain interactions
+# Atom types matched to canonical amino acid params where possible
+NAME IND
+IO_STRING IND X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Pyrrole ring carbons
+# CG - using CH0/CY from TRP (connects to CB in full residue)
+ATOM  CG  CH0  CY   -0.05
+# CD1 - using aroC/CA from TRP
+ATOM CD1  aroC CA    0.05
+# CD2 - using CH0/CPT from TRP (bridgehead carbon)
+ATOM CD2  CH0  CPT   0.00
+# NE1 - using Ntrp/NY from TRP (pyrrole nitrogen)
+ATOM NE1  Ntrp NY   -0.40
+# CE2 - using CH0/CPT from TRP (bridgehead carbon)
+ATOM CE2  CH0  CPT   0.10
+
+# Benzene ring carbons - using aroC/CA from TRP
+ATOM CE3  aroC CA   -0.10
+ATOM CZ2  aroC CA   -0.10
+ATOM CZ3  aroC CA   -0.10
+ATOM CH2  aroC CA   -0.10
+
+# Ring hydrogens
+# HE1 - proton on NE1, using Hpol/H from TRP
+ATOM HE1  Hpol H     0.35
+# HD1 - hydrogen on CD1, using Haro/HP from TRP
+ATOM HD1  Haro HP    0.10
+# HG - hydrogen on CG (replacing CB connection), using Haro/HP
+ATOM  HG  Haro HP    0.10
+# Benzene ring hydrogens - using Haro/HP from TRP
+ATOM HE3  Haro HP    0.10
+ATOM HZ2  Haro HP    0.10
+ATOM HZ3  Haro HP    0.10
+ATOM HH2  Haro HP   -0.05
+
+# Pyrrole ring bonds
+BOND_TYPE  CG  CD1  ARO
+BOND_TYPE  CG  CD2  ARO
+CUT_BOND  CG  CD2
+BOND_TYPE CD1  NE1  ARO
+BOND_TYPE NE1  CE2  ARO
+BOND_TYPE CE2  CD2  ARO
+CUT_BOND CD2  CE2
+
+# Benzene ring bonds
+BOND_TYPE CD2  CE3  ARO
+BOND_TYPE CE2  CZ2  ARO
+BOND_TYPE CE3  CZ3  ARO
+BOND_TYPE CZ2  CH2  ARO
+BOND_TYPE CZ3  CH2  ARO
+
+# Hydrogen bonds
+BOND NE1  HE1
+BOND CD1  HD1
+BOND  CG   HG
+BOND CE3  HE3
+BOND CZ2  HZ2
+BOND CZ3  HZ3
+BOND CH2  HH2
+
+# Ring definitions
+ADD_RING 1 AROMATIC  CG  CD1  NE1  CE2  CD2
+NU  1  CD2  CG   CD1  NE1
+NU  2  CG   CD1  NE1  CE2
+NU  3  CD1  NE1  CE2  CD2
+NU  4  NE1  CE2  CD2  CG
+NU  5  CE2  CD2  CG   CD1
+ADD_RING 2 AROMATIC  CE2  CD2  CE3  CZ3  CH2  CZ2
+NU  6  CZ2  CE2  CD2  CE3
+NU  7  CE2  CD2  CE3  CZ3
+NU  8  CD2  CE3  CZ3  CH2
+NU  9  CE3  CZ3  CH2  CZ2
+NU 10  CZ3  CH2  CZ2  CE2
+NU 11  CH2  CZ2  CE2  CD2
+
+NBR_ATOM CE2
+NBR_RADIUS 5.4
+
+# Internal coordinates
+ICOOR_INTERNAL   CG     0.000    0.000    0.000   CG   CD1   NE1
+ICOOR_INTERNAL  CD1     0.000  180.000    1.365   CG    CG    CG
+ICOOR_INTERNAL  NE1     0.000  110.000    1.375  CD1    CG    CG
+ICOOR_INTERNAL  CE2     0.000  108.000    1.370  NE1   CD1    CG
+ICOOR_INTERNAL  CD2     0.000  107.000    1.400  CE2   NE1   CD1
+ICOOR_INTERNAL  CZ2   180.000  130.000    1.385  CE2   NE1   CD2
+ICOOR_INTERNAL  CH2   180.000  118.000    1.395  CZ2   CE2   NE1
+ICOOR_INTERNAL  CZ3     0.000  121.000    1.375  CH2   CZ2   CE2
+ICOOR_INTERNAL  CE3     0.000  121.000    1.390  CZ3   CH2   CZ2
+ICOOR_INTERNAL  HE1   180.000  125.000    1.010  NE1   CD1   CE2
+ICOOR_INTERNAL  HD1   180.000  126.000    1.090  CD1    CG   NE1
+ICOOR_INTERNAL   HG   180.000  127.000    1.090   CG   CD1   CD2
+ICOOR_INTERNAL  HE3   180.000  121.000    1.090  CE3   CZ3   CD2
+ICOOR_INTERNAL  HZ3   180.000  120.000    1.090  CZ3   CH2   CE3
+ICOOR_INTERNAL  HH2   180.000  120.000    1.090  CH2   CZ2   CZ3
+ICOOR_INTERNAL  HZ2   180.000  121.000    1.090  CZ2   CE2   CH2

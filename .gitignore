@@ -1,2 +1,8 @@
 /candidates/
 /old/
+__pycache__/
+results_batches/
+merged_results.json
+batches/
+candidates_v2/
+steric_validation.csv

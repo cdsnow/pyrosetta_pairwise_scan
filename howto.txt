@@ -1,0 +1,8 @@
+  To start the scan:
+   1. Clear any old batch results:
+   1     rm -rf results_batches && mkdir -p results_batches
+   2. Run the batches in the background:
+
+   1     ./run_batches.sh &
+   3. Monitor a specific batch:
+   1     tail -f results_batches/log_0.txt

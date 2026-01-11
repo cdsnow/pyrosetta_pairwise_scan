@@ -6,3 +6,16 @@ merged_results.json
 batches/
 candidates_v2/
 steric_validation.csv
+batches_prune/
+batches_prune_v4/
+candidates_v3/
+candidates_v4/
+spot_check_pdbs/
+*.log
+*.pml
+pruned_results*.json
+selected_candidates.json
+steric_validation_heavy*.csv
+CLAUDE.md
+todo.txt
+*.swp

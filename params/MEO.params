@@ -1,0 +1,35 @@
+# Methanol fragment for SER, THR, TYR sidechain hydroxyl interactions
+# Atom types matched to canonical amino acid params where possible
+NAME MEO
+IO_STRING MEO X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Methyl carbon - using CH3/CT3 since the methylene became a methyl
+ATOM  C1  CH3  CT3  -0.05
+# Hydroxyl oxygen - using OH/OH1 from SER/THR/TYR
+ATOM  O1  OH   OH1  -0.66
+# Hydroxyl hydrogen - using Hpol from amino acids
+ATOM  HO  Hpol H     0.43
+# Methyl hydrogens - using Hapo/HA from amino acids
+ATOM  H1  Hapo HA    0.09
+ATOM  H2  Hapo HA    0.09
+ATOM  H3  Hapo HA    0.10
+
+BOND  C1   O1
+BOND  O1   HO
+BOND  C1   H1
+BOND  C1   H2
+BOND  C1   H3
+
+NBR_ATOM O1
+NBR_RADIUS 3.5
+
+# Internal coordinates
+ICOOR_INTERNAL   C1     0.000    0.000    0.000   C1    O1    HO
+ICOOR_INTERNAL   O1     0.000  180.000    1.420   C1    C1    C1
+ICOOR_INTERNAL   HO     0.000  108.500    0.960   O1    C1    C1
+ICOOR_INTERNAL   H1   180.000  109.500    1.090   C1    O1    HO
+ICOOR_INTERNAL   H2   120.000  109.500    1.090   C1    O1    H1
+ICOOR_INTERNAL   H3   120.000  109.500    1.090   C1    O1    H2

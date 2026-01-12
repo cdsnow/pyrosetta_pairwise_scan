@@ -1,0 +1,1 @@
+python pymotifscan/generate_pymol_loaders.py

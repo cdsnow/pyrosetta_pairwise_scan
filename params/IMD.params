@@ -1,0 +1,56 @@
+# Imidazole fragment for HIS sidechain interactions (neutral tautomer with H on NE2)
+# Atom types matched to canonical amino acid params where possible
+NAME IMD
+IO_STRING IMD X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Ring carbons and nitrogens - using types from HIS params
+# CG - using CH0/CPH1 from HIS (connects to CB in full residue)
+ATOM  CG  CH0  CPH1  0.05
+# ND1 - using Nhis/NR2 from HIS (unprotonated nitrogen in this tautomer)
+ATOM ND1  Nhis NR2  -0.55
+# CD2 - using aroC/CPH1 from HIS
+ATOM CD2  aroC CPH1 -0.05
+# CE1 - using aroC/CPH2 from HIS
+ATOM CE1  aroC CPH2  0.20
+# NE2 - using Ntrp/NR1 from HIS (protonated nitrogen in this tautomer)
+ATOM NE2  Ntrp NR1  -0.30
+
+# Ring hydrogens - using types from HIS params
+# HE2 - proton on NE2, using Hpol/H from HIS
+ATOM HE2  Hpol H     0.30
+# HE1 - hydrogen on CE1, using Hapo/HR1 from HIS
+ATOM HE1  Hapo HR1   0.10
+# HD2 - hydrogen on CD2, using Hapo/HR3 from HIS
+ATOM HD2  Hapo HR3   0.10
+# HG - hydrogen on CG (replacing CB connection), using Hapo/HR3
+ATOM  HG  Hapo HR3   0.15
+
+BOND_TYPE  CG  ND1  ARO
+BOND_TYPE  CG  CD2  ARO
+BOND_TYPE ND1  CE1  ARO
+BOND_TYPE CD2  NE2  ARO
+BOND_TYPE CE1  NE2  ARO
+CUT_BOND  CG  CD2
+BOND NE2  HE2
+BOND CE1  HE1
+BOND CD2  HD2
+BOND  CG   HG
+
+ADD_RING 1 AROMATIC  CG  ND1  CE1  NE2  CD2
+
+NBR_ATOM CG
+NBR_RADIUS 3.7
+
+# Internal coordinates for imidazole ring
+ICOOR_INTERNAL   CG     0.000    0.000    0.000   CG   ND1   CE1
+ICOOR_INTERNAL  ND1     0.000  180.000    1.380   CG    CG    CG
+ICOOR_INTERNAL  CE1     0.000  109.000    1.320  ND1    CG    CG
+ICOOR_INTERNAL  NE2     0.000  108.000    1.320  CE1   ND1    CG
+ICOOR_INTERNAL  CD2     0.000  107.000    1.370  NE2   CE1   ND1
+ICOOR_INTERNAL  HE2   180.000  126.000    1.010  NE2   CE1   CD2
+ICOOR_INTERNAL  HE1   180.000  126.000    1.090  CE1   ND1   NE2
+ICOOR_INTERNAL  HD2   180.000  126.000    1.090  CD2   NE2    CG
+ICOOR_INTERNAL   HG   180.000  126.000    1.090   CG   ND1   CD2

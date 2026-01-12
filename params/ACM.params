@@ -1,0 +1,46 @@
+# Acetamide fragment for ASN, GLN sidechain amide interactions
+# Atom types matched to canonical amino acid params where possible
+NAME ACM
+IO_STRING ACM X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Methyl carbon - using CH3/CT3 since the methylene became a methyl
+ATOM  C1  CH3  CT3  -0.10
+# Carbonyl carbon - using CNH2/CC from ASN/GLN
+ATOM  C2  CNH2 CC    0.55
+# Carbonyl oxygen - using ONH2/O from ASN/GLN
+ATOM  O1  ONH2 O    -0.55
+# Amide nitrogen - using NH2O/NH2 from ASN/GLN
+ATOM  N1  NH2O NH2  -0.62
+# Methyl hydrogens - using Hapo/HA from amino acids
+ATOM  H1  Hapo HA    0.09
+ATOM  H2  Hapo HA    0.09
+ATOM  H3  Hapo HA    0.09
+# Amide hydrogens - using Hpol/H from ASN/GLN
+ATOM HN1  Hpol H     0.32
+ATOM HN2  Hpol H     0.13
+
+BOND  C1   C2
+BOND_TYPE  C2   O1  2
+BOND  C2   N1
+BOND  C1   H1
+BOND  C1   H2
+BOND  C1   H3
+BOND  N1  HN1
+BOND  N1  HN2
+
+NBR_ATOM C2
+NBR_RADIUS 3.5
+
+# Internal coordinates
+ICOOR_INTERNAL   C1     0.000    0.000    0.000   C1    C2    O1
+ICOOR_INTERNAL   C2     0.000  180.000    1.510   C1    C1    C1
+ICOOR_INTERNAL   O1     0.000  121.000    1.235   C2    C1    C1
+ICOOR_INTERNAL   N1   180.000  116.500    1.330   C2    C1    O1
+ICOOR_INTERNAL  HN1   180.000  120.000    1.010   N1    C2    C1
+ICOOR_INTERNAL  HN2   180.000  120.000    1.010   N1    C2   HN1
+ICOOR_INTERNAL   H1   180.000  109.500    1.090   C1    C2    O1
+ICOOR_INTERNAL   H2   120.000  109.500    1.090   C1    C2    H1
+ICOOR_INTERNAL   H3   120.000  109.500    1.090   C1    C2    H2

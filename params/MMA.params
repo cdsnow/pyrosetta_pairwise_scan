@@ -1,0 +1,44 @@
+# Methylammonium fragment for LYS sidechain amine interactions
+# Atom types matched to canonical amino acid params where possible
+NAME MMA
+IO_STRING MMA X
+TYPE LIGAND
+AA UNK
+
+# Atom definitions: name  Rosetta_type  MM_type  partial_charge
+# Methyl carbon - using CH3/CT3 since the methylene became a methyl
+ATOM  C1  CH3  CT3   0.13
+# Ammonium nitrogen - using Nlys/NH3 from LYS
+ATOM  N1  Nlys NH3  -0.30
+# Methyl hydrogens - using Hapo/HA from amino acids
+ATOM  H1  Hapo HA    0.09
+ATOM  H2  Hapo HA    0.09
+ATOM  H3  Hapo HA    0.09
+# Ammonium hydrogens - using Hpol/HC from LYS
+ATOM HN1  Hpol HC    0.33
+ATOM HN2  Hpol HC    0.33
+ATOM HN3  Hpol HC    0.24
+
+BOND  C1   N1
+BOND  C1   H1
+BOND  C1   H2
+BOND  C1   H3
+BOND  N1  HN1
+BOND  N1  HN2
+BOND  N1  HN3
+
+NET_FORMAL_CHARGE +1
+CHARGE N1 FORMAL +1
+
+NBR_ATOM N1
+NBR_RADIUS 3.5
+
+# Internal coordinates
+ICOOR_INTERNAL   C1     0.000    0.000    0.000   C1    N1   HN1
+ICOOR_INTERNAL   N1     0.000  180.000    1.490   C1    C1    C1
+ICOOR_INTERNAL  HN1     0.000  109.500    1.010   N1    C1    C1
+ICOOR_INTERNAL  HN2   120.000  109.500    1.010   N1    C1   HN1
+ICOOR_INTERNAL  HN3   120.000  109.500    1.010   N1    C1   HN2
+ICOOR_INTERNAL   H1   180.000  109.500    1.090   C1    N1   HN1
+ICOOR_INTERNAL   H2   120.000  109.500    1.090   C1    N1    H1
+ICOOR_INTERNAL   H3   120.000  109.500    1.090   C1    N1    H2
